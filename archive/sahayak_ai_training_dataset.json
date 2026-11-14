@@ -1,0 +1,1664 @@
+{
+  "dataset": "Sahayak AI multilingual HR benefits FAQ",
+  "version": "1.0",
+  "record_count": 110,
+  "input_language": "English",
+  "response_languages": [
+    "English",
+    "Hindi",
+    "Kannada",
+    "Tamil"
+  ],
+  "records": [
+    {
+      "id": "SAH-001",
+      "category": "PF Basics",
+      "question_en": "What is PF and why do employees have it?",
+      "answers": {
+        "en": "PF is a retirement-savings scheme for eligible employees. Your contributions are recorded in an EPF account under current EPFO rules. Compare your payslip with the official passbook.",
+        "hi": "PF पात्र कर्मचारियों के लिए सेवानिवृत्ति बचत योजना है। आपका योगदान मौजूदा EPFO नियमों के अनुसार EPF खाते में दर्ज होता है। सैलरी स्लिप की आधिकारिक पासबुक से तुलना करें।",
+        "kn": "PF ಅರ್ಹ ಉದ್ಯೋಗಿಗಳ ನಿವೃತ್ತಿ ಉಳಿತಾಯ ಯೋಜನೆ. ನಿಮ್ಮ ಕೊಡುಗೆಗಳು ಪ್ರಸ್ತುತ EPFO ನಿಯಮಗಳಂತೆ EPF ಖಾತೆಯಲ್ಲಿ ದಾಖಲಾಗುತ್ತವೆ. ವೇತನ ಚೀಟಿಯನ್ನು ಅಧಿಕೃತ ಪಾಸ್‌ಬುಕ್‌ನೊಂದಿಗೆ ಹೋಲಿಸಿ.",
+        "ta": "PF என்பது தகுதியுள்ள பணியாளர்களுக்கான ஓய்வுக்கால சேமிப்புத் திட்டம். உங்கள் பங்களிப்பு தற்போதைய EPFO விதிகளின்படி EPF கணக்கில் பதிவாகும். சம்பளச் சீட்டை அதிகாரப்பூர்வ பாஸ்புக்குடன் ஒப்பிடுங்கள்."
+      },
+      "intent": "pf",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "EPFO"
+    },
+    {
+      "id": "SAH-002",
+      "category": "PF Basics",
+      "question_en": "Why is PF deducted from my salary every month?",
+      "answers": {
+        "en": "The PF line usually shows your employee contribution towards retirement savings. The exact amount depends on eligible wages and applicable rules. Ask payroll to explain the payslip calculation.",
+        "hi": "PF की राशि आम तौर पर सेवानिवृत्ति बचत के लिए आपका योगदान दिखाती है। सही राशि पात्र वेतन और लागू नियमों पर निर्भर करती है। पेरोल से गणना समझें।",
+        "kn": "PF ಮೊತ್ತವು ಸಾಮಾನ್ಯವಾಗಿ ನಿವೃತ್ತಿ ಉಳಿತಾಯಕ್ಕೆ ನಿಮ್ಮ ಕೊಡುಗೆಯನ್ನು ತೋರಿಸುತ್ತದೆ. ನಿಖರ ಮೊತ್ತವು ಅರ್ಹ ವೇತನ ಮತ್ತು ಅನ್ವಯಿಸುವ ನಿಯಮಗಳ ಮೇಲೆ ಅವಲಂಬಿತ. ಪೇರೋಲ್‌ನಿಂದ ಲೆಕ್ಕ ಕೇಳಿ.",
+        "ta": "PF தொகை பொதுவாக ஓய்வுக்கால சேமிப்புக்கான உங்கள் பங்களிப்பைக் காட்டும். சரியான தொகை தகுதியான சம்பளத்தையும் பொருந்தும் விதிகளையும் பொறுத்தது. ஊதியக் குழுவிடம் கணக்கைக் கேளுங்கள்."
+      },
+      "intent": "why",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "EPFO"
+    },
+    {
+      "id": "SAH-003",
+      "category": "PF Basics",
+      "question_en": "Does my employer also put money into my PF account?",
+      "answers": {
+        "en": "The employer may also contribute under EPF rules. The employer share may be allocated across applicable components, so it may not appear as a simple matching line on your payslip. Check the passbook and payroll breakdown.",
+        "hi": "EPF नियमों के तहत नियोक्ता भी योगदान कर सकता है। यह लागू घटकों में बाँटा जा सकता है, इसलिए सैलरी स्लिप में बराबर राशि की तरह न दिखे। पासबुक और पेरोल विवरण देखें।",
+        "kn": "EPF ನಿಯಮಗಳ ಪ್ರಕಾರ ಉದ್ಯೋಗದಾತರೂ ಕೊಡುಗೆ ನೀಡಬಹುದು. ಅದು ಅನ್ವಯಿಸುವ ವಿಭಾಗಗಳಿಗೆ ಹಂಚಿಕೆಯಾಗುವುದರಿಂದ ವೇತನ ಚೀಟಿಯಲ್ಲಿ ಸಮಾನ ಮೊತ್ತವಾಗಿ ಕಾಣದೇ ಇರಬಹುದು. ಪಾಸ್‌ಬುಕ್ ಮತ್ತು ಪೇರೋಲ್ ವಿವರ ನೋಡಿ.",
+        "ta": "EPF விதிகளின்படி நிறுவனமும் பங்களிக்கலாம். அது பொருந்தும் கூறுகளுக்கு ஒதுக்கப்படுவதால் சம்பளச் சீட்டில் சமமான வரியாகத் தெரியாமல் இருக்கலாம். பாஸ்புக் மற்றும் ஊதிய விவரங்களைப் பாருங்கள்."
+      },
+      "intent": "employer",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "EPFO"
+    },
+    {
+      "id": "SAH-004",
+      "category": "PF Account",
+      "question_en": "How can I check my PF balance?",
+      "answers": {
+        "en": "Sign in through official EPFO member services with your UAN and password, then open the passbook service. UMANG also lists EPFO passbook services. Never share your OTP or password.",
+        "hi": "अपने UAN और पासवर्ड से आधिकारिक EPFO सदस्य सेवा में लॉग इन करके पासबुक खोलें। UMANG में भी EPFO पासबुक सेवा है। OTP या पासवर्ड किसी से साझा न करें।",
+        "kn": "UAN ಮತ್ತು ಪಾಸ್‌ವರ್ಡ್ ಬಳಸಿ ಅಧಿಕೃತ EPFO ಸದಸ್ಯ ಸೇವೆಗೆ ಲಾಗಿನ್ ಮಾಡಿ ಪಾಸ್‌ಬುಕ್ ತೆರೆಯಿರಿ. UMANGನಲ್ಲಿಯೂ EPFO ಪಾಸ್‌ಬುಕ್ ಸೇವೆಯಿದೆ. OTP ಅಥವಾ ಪಾಸ್‌ವರ್ಡ್ ಹಂಚಬೇಡಿ.",
+        "ta": "UAN மற்றும் கடவுச்சொல்லுடன் அதிகாரப்பூர்வ EPFO உறுப்பினர் சேவையில் உள்நுழைந்து பாஸ்புக்கைத் திறக்கவும். UMANG-லிலும் EPFO பாஸ்புக் சேவை உள்ளது. OTP அல்லது கடவுச்சொல்லைப் பகிர வேண்டாம்."
+      },
+      "intent": "passbook",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "EPFO"
+    },
+    {
+      "id": "SAH-005",
+      "category": "PF Account",
+      "question_en": "What does UAN mean?",
+      "answers": {
+        "en": "UAN means Universal Account Number. It links your EPF member accounts across jobs. Keep it private and use it only through your employer or official EPFO services.",
+        "hi": "UAN का अर्थ Universal Account Number है। यह अलग-अलग नौकरियों के EPF खातों को जोड़ता है। इसे सुरक्षित रखें और केवल नियोक्ता या आधिकारिक EPFO सेवा में उपयोग करें।",
+        "kn": "UAN ಎಂದರೆ Universal Account Number. ಇದು ವಿವಿಧ ಉದ್ಯೋಗಗಳ EPF ಖಾತೆಗಳನ್ನು ಸಂಪರ್ಕಿಸುತ್ತದೆ. ಇದನ್ನು ಸುರಕ್ಷಿತವಾಗಿಟ್ಟು ಉದ್ಯೋಗದಾತರು ಅಥವಾ ಅಧಿಕೃತ EPFO ಸೇವೆಯಲ್ಲಷ್ಟೇ ಬಳಸಿ.",
+        "ta": "UAN என்பது Universal Account Number. இது பல வேலைகளின் EPF கணக்குகளை இணைக்கிறது. இதைப் பாதுகாப்பாக வைத்து நிறுவனம் அல்லது அதிகாரப்பூர்வ EPFO சேவையில் மட்டும் பயன்படுத்துங்கள்."
+      },
+      "intent": "uan",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "EPFO"
+    },
+    {
+      "id": "SAH-006",
+      "category": "PF Account",
+      "question_en": "I forgot my UAN. How can I find it?",
+      "answers": {
+        "en": "Check old payslips, EPF statements or employer messages. You may also use the official EPFO ‘Know Your UAN’ service if available. Do not pay an agent or share OTPs.",
+        "hi": "पुरानी सैलरी स्लिप, EPF स्टेटमेंट या नियोक्ता के संदेश देखें। उपलब्ध होने पर आधिकारिक EPFO ‘Know Your UAN’ सेवा इस्तेमाल करें। एजेंट को पैसे न दें और OTP साझा न करें।",
+        "kn": "ಹಳೆಯ ವೇತನ ಚೀಟಿ, EPF ಸ್ಟೇಟ್‌ಮೆಂಟ್ ಅಥವಾ ಉದ್ಯೋಗದಾತರ ಸಂದೇಶ ನೋಡಿ. ಲಭ್ಯವಿದ್ದರೆ ಅಧಿಕೃತ EPFO ‘Know Your UAN’ ಸೇವೆ ಬಳಸಿ. ಏಜೆಂಟ್‌ಗೆ ಹಣ ಕೊಡಬೇಡಿ; OTP ಹಂಚಬೇಡಿ.",
+        "ta": "பழைய சம்பளச் சீட்டு, EPF அறிக்கை அல்லது நிறுவனச் செய்திகளைப் பாருங்கள். கிடைத்தால் அதிகாரப்பூர்வ EPFO ‘Know Your UAN’ சேவையைப் பயன்படுத்துங்கள். முகவருக்குப் பணம் கொடுக்கவோ OTP பகிரவோ வேண்டாம்."
+      },
+      "intent": "uan_find",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "EPFO"
+    },
+    {
+      "id": "SAH-007",
+      "category": "PF Account",
+      "question_en": "How do I activate my UAN for the first time?",
+      "answers": {
+        "en": "Follow the latest activation instructions on the official EPFO portal or UMANG. The current member portal points members to UMANG’s Aadhaar-based face-authentication flow. Avoid unofficial links.",
+        "hi": "आधिकारिक EPFO पोर्टल या UMANG पर दिए नवीनतम निर्देश अपनाएँ। मौजूदा सदस्य पोर्टल UAN सक्रिय करने के लिए UMANG की आधार-आधारित फेस ऑथेंटिकेशन प्रक्रिया बताता है। अनजान लिंक से बचें।",
+        "kn": "ಅಧಿಕೃತ EPFO ಪೋರ್ಟಲ್ ಅಥವಾ UMANGನ ಇತ್ತೀಚಿನ ಸೂಚನೆ ಅನುಸರಿಸಿ. ಪ್ರಸ್ತುತ ಸದಸ್ಯ ಪೋರ್ಟಲ್ UAN ಸಕ್ರಿಯಗೊಳಿಸಲು UMANGನ ಆಧಾರ್ ಆಧಾರಿತ ಮುಖ ದೃಢೀಕರಣ ವಿಧಾನ ಸೂಚಿಸುತ್ತದೆ. ಅಪರಿಚಿತ ಲಿಂಕ್ ಬೇಡ.",
+        "ta": "அதிகாரப்பூர்வ EPFO தளம் அல்லது UMANG-ல் உள்ள சமீபத்திய வழிமுறைகளைப் பின்பற்றுங்கள். தற்போதைய உறுப்பினர் தளம் UAN செயல்பாட்டிற்கு UMANG ஆதார் முகச் சரிபார்ப்பைச் சுட்டுகிறது. தெரியாத இணைப்புகளைத் தவிர்க்கவும்."
+      },
+      "intent": "activation",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "EPFO"
+    },
+    {
+      "id": "SAH-008",
+      "category": "PF Account",
+      "question_en": "Why is my PF passbook not showing any entries?",
+      "answers": {
+        "en": "A missing entry does not by itself prove money is lost. Check the correct member ID, employer details and posting month. Ask payroll/EPFO to verify the account, especially if a payslip deduction has no matching credit.",
+        "hi": "पासबुक में प्रविष्टि न दिखना अपने-आप पैसा खोने का प्रमाण नहीं है। सही सदस्य ID, नियोक्ता और महीना जाँचें। सैलरी स्लिप में कटौती के बाद जमा न दिखे तो पेरोल/EPFO से पुष्टि कराएँ।",
+        "kn": "ದಾಖಲೆ ಕಾಣದಿರುವುದರಿಂದ ಹಣ ಕಳೆದುಹೋಗಿದೆ ಎಂದರ್ಥವಲ್ಲ. ಸರಿಯಾದ ಸದಸ್ಯ ID, ಉದ್ಯೋಗದಾತ ಮತ್ತು ತಿಂಗಳು ಪರಿಶೀಲಿಸಿ. ವೇತನ ಚೀಟಿಯಲ್ಲಿ ಕಡಿತವಿದ್ದು ಜಮಾ ಕಾಣದಿದ್ದರೆ ಪೇರೋಲ್/EPFO ಮೂಲಕ ದೃಢಪಡಿಸಿ.",
+        "ta": "பதிவு தெரியாதது மட்டும் பணம் இழந்துவிட்டது என்று அர்த்தமல்ல. சரியான உறுப்பினர் ID, நிறுவனம், மாதத்தைச் சரிபார்க்கவும். சம்பளத்தில் பிடித்தம் இருந்தும் வரவு இல்லையெனில் ஊதியக் குழு/EPFO-விடம் உறுதிப்படுத்துங்கள்."
+      },
+      "intent": "missing",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "EPFO"
+    },
+    {
+      "id": "SAH-009",
+      "category": "Payroll",
+      "question_en": "My payslip shows PF deduction but no passbook credit. What should I do?",
+      "answers": {
+        "en": "A missing entry does not by itself prove money is lost. Check the correct member ID, employer details and posting month. Ask payroll/EPFO to verify the account, especially if a payslip deduction has no matching credit.",
+        "hi": "पासबुक में प्रविष्टि न दिखना अपने-आप पैसा खोने का प्रमाण नहीं है। सही सदस्य ID, नियोक्ता और महीना जाँचें। सैलरी स्लिप में कटौती के बाद जमा न दिखे तो पेरोल/EPFO से पुष्टि कराएँ।",
+        "kn": "ದಾಖಲೆ ಕಾಣದಿರುವುದರಿಂದ ಹಣ ಕಳೆದುಹೋಗಿದೆ ಎಂದರ್ಥವಲ್ಲ. ಸರಿಯಾದ ಸದಸ್ಯ ID, ಉದ್ಯೋಗದಾತ ಮತ್ತು ತಿಂಗಳು ಪರಿಶೀಲಿಸಿ. ವೇತನ ಚೀಟಿಯಲ್ಲಿ ಕಡಿತವಿದ್ದು ಜಮಾ ಕಾಣದಿದ್ದರೆ ಪೇರೋಲ್/EPFO ಮೂಲಕ ದೃಢಪಡಿಸಿ.",
+        "ta": "பதிவு தெரியாதது மட்டும் பணம் இழந்துவிட்டது என்று அர்த்தமல்ல. சரியான உறுப்பினர் ID, நிறுவனம், மாதத்தைச் சரிபார்க்கவும். சம்பளத்தில் பிடித்தம் இருந்தும் வரவு இல்லையெனில் ஊதியக் குழு/EPFO-விடம் உறுதிப்படுத்துங்கள்."
+      },
+      "intent": "missing",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "Company HR policy + official scheme guidance"
+    },
+    {
+      "id": "SAH-010",
+      "category": "Payroll",
+      "question_en": "How do I compare my payslip with my PF passbook?",
+      "answers": {
+        "en": "A missing entry does not by itself prove money is lost. Check the correct member ID, employer details and posting month. Ask payroll/EPFO to verify the account, especially if a payslip deduction has no matching credit.",
+        "hi": "पासबुक में प्रविष्टि न दिखना अपने-आप पैसा खोने का प्रमाण नहीं है। सही सदस्य ID, नियोक्ता और महीना जाँचें। सैलरी स्लिप में कटौती के बाद जमा न दिखे तो पेरोल/EPFO से पुष्टि कराएँ।",
+        "kn": "ದಾಖಲೆ ಕಾಣದಿರುವುದರಿಂದ ಹಣ ಕಳೆದುಹೋಗಿದೆ ಎಂದರ್ಥವಲ್ಲ. ಸರಿಯಾದ ಸದಸ್ಯ ID, ಉದ್ಯೋಗದಾತ ಮತ್ತು ತಿಂಗಳು ಪರಿಶೀಲಿಸಿ. ವೇತನ ಚೀಟಿಯಲ್ಲಿ ಕಡಿತವಿದ್ದು ಜಮಾ ಕಾಣದಿದ್ದರೆ ಪೇರೋಲ್/EPFO ಮೂಲಕ ದೃಢಪಡಿಸಿ.",
+        "ta": "பதிவு தெரியாதது மட்டும் பணம் இழந்துவிட்டது என்று அர்த்தமல்ல. சரியான உறுப்பினர் ID, நிறுவனம், மாதத்தைச் சரிபார்க்கவும். சம்பளத்தில் பிடித்தம் இருந்தும் வரவு இல்லையெனில் ஊதியக் குழு/EPFO-விடம் உறுதிப்படுத்துங்கள்."
+      },
+      "intent": "missing",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "Company HR policy + official scheme guidance"
+    },
+    {
+      "id": "SAH-011",
+      "category": "Job Change",
+      "question_en": "I changed jobs. How do I transfer my old PF account?",
+      "answers": {
+        "en": "When changing jobs, give your existing UAN to the new employer and check that the new member ID is linked correctly. Review your service history and follow the current EPFO transfer process.",
+        "hi": "नौकरी बदलने पर मौजूदा UAN नए नियोक्ता को दें और जाँचें कि नया सदस्य ID सही जुड़ा है। सेवा इतिहास देखें और EPFO की वर्तमान ट्रांसफर प्रक्रिया अपनाएँ।",
+        "kn": "ಉದ್ಯೋಗ ಬದಲಿಸಿದಾಗ ಈಗಿನ UAN ಅನ್ನು ಹೊಸ ಉದ್ಯೋಗದಾತರಿಗೆ ನೀಡಿ; ಹೊಸ ಸದಸ್ಯ ID ಸರಿಯಾಗಿ ಲಿಂಕ್ ಆಗಿದೆಯೇ ಪರಿಶೀಲಿಸಿ. ಸೇವಾ ಇತಿಹಾಸ ನೋಡಿ EPFOಯ ಪ್ರಸ್ತುತ ವರ್ಗಾವಣೆ ವಿಧಾನ ಅನುಸರಿಸಿ.",
+        "ta": "வேலை மாறும்போது தற்போதைய UAN-ஐ புதிய நிறுவனத்திடம் கொடுத்து புதிய உறுப்பினர் ID சரியாக இணைந்துள்ளதா பாருங்கள். சேவை வரலாற்றைச் சரிபார்த்து EPFO-வின் தற்போதைய மாற்று முறையைப் பின்பற்றுங்கள்."
+      },
+      "intent": "transfer",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "EPFO"
+    },
+    {
+      "id": "SAH-012",
+      "category": "Job Change",
+      "question_en": "My previous employer has not updated my date of exit. What can I do?",
+      "answers": {
+        "en": "The previous employer’s date of exit may be needed for transfer or claim services. Check your EPFO service history. If it is missing or wrong, ask the previous employer to correct it through the authorised process or contact EPFO.",
+        "hi": "ट्रांसफर या क्लेम के लिए पुराने नियोक्ता की नौकरी छोड़ने की तारीख ज़रूरी हो सकती है। EPFO सेवा इतिहास देखें। तारीख गलत या गायब हो तो अधिकृत प्रक्रिया से सुधार माँगें या EPFO से संपर्क करें।",
+        "kn": "ವರ್ಗಾವಣೆ ಅಥವಾ ಕ್ಲೇಮ್‌ಗೆ ಹಿಂದಿನ ಉದ್ಯೋಗದಾತರ ನಿರ್ಗಮನ ದಿನಾಂಕ ಬೇಕಾಗಬಹುದು. EPFO ಸೇವಾ ಇತಿಹಾಸ ನೋಡಿ. ದಿನಾಂಕ ತಪ್ಪಿದ್ದರೆ ಅಥವಾ ಇಲ್ಲದಿದ್ದರೆ ಅಧಿಕೃತ ವಿಧಾನದಲ್ಲಿ ತಿದ್ದುಪಡಿ ಕೇಳಿ ಅಥವಾ EPFO ಸಂಪರ್ಕಿಸಿ.",
+        "ta": "மாற்று அல்லது கோரிக்கைக்கு முந்தைய நிறுவனத்தின் வெளியேறும் தேதி தேவைப்படலாம். EPFO சேவை வரலாற்றைப் பாருங்கள். தேதி தவறாகவோ இல்லாமலோ இருந்தால் அங்கீகரிக்கப்பட்ட முறையில் திருத்தம் கேளுங்கள் அல்லது EPFO-வை அணுகுங்கள்."
+      },
+      "intent": "dateexit",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "EPFO"
+    },
+    {
+      "id": "SAH-013",
+      "category": "KYC",
+      "question_en": "My name or date of birth is different in EPFO and Aadhaar. How can I fix it?",
+      "answers": {
+        "en": "A mismatch in name, date of birth or KYC details can block online services. Compare your EPFO profile with official identity records and request correction through the authorised workflow. Do not send identity documents in this chat.",
+        "hi": "नाम, जन्मतिथि या KYC विवरण में अंतर से ऑनलाइन सेवाएँ रुक सकती हैं। EPFO प्रोफ़ाइल को आधिकारिक पहचान रिकॉर्ड से मिलाएँ और अधिकृत प्रक्रिया से सुधार माँगें। इस चैट में पहचान दस्तावेज़ न भेजें।",
+        "kn": "ಹೆಸರು, ಜನ್ಮದಿನಾಂಕ ಅಥವಾ KYC ವಿವರಗಳ ವ್ಯತ್ಯಾಸ ಆನ್‌ಲೈನ್ ಸೇವೆ ತಡೆಯಬಹುದು. EPFO ಪ್ರೊಫೈಲ್ ಅನ್ನು ಅಧಿಕೃತ ಗುರುತಿನ ದಾಖಲೆಗಳೊಂದಿಗೆ ಹೋಲಿಸಿ ಅಧಿಕೃತ ವಿಧಾನದಲ್ಲಿ ತಿದ್ದುಪಡಿ ಕೇಳಿ. ಈ ಚಾಟ್‌ಗೆ ದಾಖಲೆ ಕಳುಹಿಸಬೇಡಿ.",
+        "ta": "பெயர், பிறந்த தேதி அல்லது KYC வேறுபாடு ஆன்லைன் சேவைகளைத் தடுக்கலாம். EPFO சுயவிவரத்தை அதிகாரப்பூர்வ அடையாளப் பதிவுகளுடன் ஒப்பிட்டு அங்கீகரிக்கப்பட்ட முறையில் திருத்தம் கேளுங்கள். இந்த அரட்டையில் ஆவணங்களை அனுப்ப வேண்டாம்."
+      },
+      "intent": "kyc",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "EPFO"
+    },
+    {
+      "id": "SAH-014",
+      "category": "KYC",
+      "question_en": "I changed my mobile number and cannot receive EPFO OTPs. What should I do?",
+      "answers": {
+        "en": "A mismatch in name, date of birth or KYC details can block online services. Compare your EPFO profile with official identity records and request correction through the authorised workflow. Do not send identity documents in this chat.",
+        "hi": "नाम, जन्मतिथि या KYC विवरण में अंतर से ऑनलाइन सेवाएँ रुक सकती हैं। EPFO प्रोफ़ाइल को आधिकारिक पहचान रिकॉर्ड से मिलाएँ और अधिकृत प्रक्रिया से सुधार माँगें। इस चैट में पहचान दस्तावेज़ न भेजें।",
+        "kn": "ಹೆಸರು, ಜನ್ಮದಿನಾಂಕ ಅಥವಾ KYC ವಿವರಗಳ ವ್ಯತ್ಯಾಸ ಆನ್‌ಲೈನ್ ಸೇವೆ ತಡೆಯಬಹುದು. EPFO ಪ್ರೊಫೈಲ್ ಅನ್ನು ಅಧಿಕೃತ ಗುರುತಿನ ದಾಖಲೆಗಳೊಂದಿಗೆ ಹೋಲಿಸಿ ಅಧಿಕೃತ ವಿಧಾನದಲ್ಲಿ ತಿದ್ದುಪಡಿ ಕೇಳಿ. ಈ ಚಾಟ್‌ಗೆ ದಾಖಲೆ ಕಳುಹಿಸಬೇಡಿ.",
+        "ta": "பெயர், பிறந்த தேதி அல்லது KYC வேறுபாடு ஆன்லைன் சேவைகளைத் தடுக்கலாம். EPFO சுயவிவரத்தை அதிகாரப்பூர்வ அடையாளப் பதிவுகளுடன் ஒப்பிட்டு அங்கீகரிக்கப்பட்ட முறையில் திருத்தம் கேளுங்கள். இந்த அரட்டையில் ஆவணங்களை அனுப்ப வேண்டாம்."
+      },
+      "intent": "kyc",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "EPFO"
+    },
+    {
+      "id": "SAH-015",
+      "category": "KYC",
+      "question_en": "How do I check if my bank details are linked to UAN?",
+      "answers": {
+        "en": "A mismatch in name, date of birth or KYC details can block online services. Compare your EPFO profile with official identity records and request correction through the authorised workflow. Do not send identity documents in this chat.",
+        "hi": "नाम, जन्मतिथि या KYC विवरण में अंतर से ऑनलाइन सेवाएँ रुक सकती हैं। EPFO प्रोफ़ाइल को आधिकारिक पहचान रिकॉर्ड से मिलाएँ और अधिकृत प्रक्रिया से सुधार माँगें। इस चैट में पहचान दस्तावेज़ न भेजें।",
+        "kn": "ಹೆಸರು, ಜನ್ಮದಿನಾಂಕ ಅಥವಾ KYC ವಿವರಗಳ ವ್ಯತ್ಯಾಸ ಆನ್‌ಲೈನ್ ಸೇವೆ ತಡೆಯಬಹುದು. EPFO ಪ್ರೊಫೈಲ್ ಅನ್ನು ಅಧಿಕೃತ ಗುರುತಿನ ದಾಖಲೆಗಳೊಂದಿಗೆ ಹೋಲಿಸಿ ಅಧಿಕೃತ ವಿಧಾನದಲ್ಲಿ ತಿದ್ದುಪಡಿ ಕೇಳಿ. ಈ ಚಾಟ್‌ಗೆ ದಾಖಲೆ ಕಳುಹಿಸಬೇಡಿ.",
+        "ta": "பெயர், பிறந்த தேதி அல்லது KYC வேறுபாடு ஆன்லைன் சேவைகளைத் தடுக்கலாம். EPFO சுயவிவரத்தை அதிகாரப்பூர்வ அடையாளப் பதிவுகளுடன் ஒப்பிட்டு அங்கீகரிக்கப்பட்ட முறையில் திருத்தம் கேளுங்கள். இந்த அரட்டையில் ஆவணங்களை அனுப்ப வேண்டாம்."
+      },
+      "intent": "kyc",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "EPFO"
+    },
+    {
+      "id": "SAH-016",
+      "category": "KYC",
+      "question_en": "Why is my online PF claim failing because of KYC?",
+      "answers": {
+        "en": "A mismatch in name, date of birth or KYC details can block online services. Compare your EPFO profile with official identity records and request correction through the authorised workflow. Do not send identity documents in this chat.",
+        "hi": "नाम, जन्मतिथि या KYC विवरण में अंतर से ऑनलाइन सेवाएँ रुक सकती हैं। EPFO प्रोफ़ाइल को आधिकारिक पहचान रिकॉर्ड से मिलाएँ और अधिकृत प्रक्रिया से सुधार माँगें। इस चैट में पहचान दस्तावेज़ न भेजें।",
+        "kn": "ಹೆಸರು, ಜನ್ಮದಿನಾಂಕ ಅಥವಾ KYC ವಿವರಗಳ ವ್ಯತ್ಯಾಸ ಆನ್‌ಲೈನ್ ಸೇವೆ ತಡೆಯಬಹುದು. EPFO ಪ್ರೊಫೈಲ್ ಅನ್ನು ಅಧಿಕೃತ ಗುರುತಿನ ದಾಖಲೆಗಳೊಂದಿಗೆ ಹೋಲಿಸಿ ಅಧಿಕೃತ ವಿಧಾನದಲ್ಲಿ ತಿದ್ದುಪಡಿ ಕೇಳಿ. ಈ ಚಾಟ್‌ಗೆ ದಾಖಲೆ ಕಳುಹಿಸಬೇಡಿ.",
+        "ta": "பெயர், பிறந்த தேதி அல்லது KYC வேறுபாடு ஆன்லைன் சேவைகளைத் தடுக்கலாம். EPFO சுயவிவரத்தை அதிகாரப்பூர்வ அடையாளப் பதிவுகளுடன் ஒப்பிட்டு அங்கீகரிக்கப்பட்ட முறையில் திருத்தம் கேளுங்கள். இந்த அரட்டையில் ஆவணங்களை அனுப்ப வேண்டாம்."
+      },
+      "intent": "kyc",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "EPFO"
+    },
+    {
+      "id": "SAH-017",
+      "category": "KYC",
+      "question_en": "What is PF e-nomination?",
+      "answers": {
+        "en": "e-Nomination records the nominee for eligible benefits. Follow the current EPFO instructions, keep details accurate and update them after relevant life changes. Ask HR/EPFO if you are unsure.",
+        "hi": "ई-नॉमिनेशन में पात्र लाभों के लिए नामांकित व्यक्ति का विवरण दर्ज होता है। EPFO के मौजूदा निर्देश अपनाएँ, जानकारी सही रखें और ज़रूरत पर अपडेट करें। संदेह हो तो HR/EPFO से पूछें।",
+        "kn": "ಇ-ನಾಮಿನೇಶನ್‌ನಲ್ಲಿ ಅರ್ಹ ಪ್ರಯೋಜನಗಳ ನಾಮನಿರ್ದೇಶಿತ ವ್ಯಕ್ತಿಯ ವಿವರ ದಾಖಲಾಗುತ್ತದೆ. EPFOಯ ಪ್ರಸ್ತುತ ಸೂಚನೆ ಅನುಸರಿಸಿ, ವಿವರ ಸರಿಯಾಗಿ ಇಟ್ಟುಕೊಂಡು ಅಗತ್ಯವಿದ್ದಾಗ ನವೀಕರಿಸಿ. ಅನುಮಾನವಿದ್ದರೆ HR/EPFO ಕೇಳಿ.",
+        "ta": "மின்-நாமினேஷனில் தகுதியான நலன்களுக்கான நியமன நபர் பதிவு செய்யப்படுவார். EPFO-வின் தற்போதைய வழிமுறைகளைப் பின்பற்றி விவரங்களைச் சரியாக வைத்து தேவையானபோது புதுப்பிக்கவும். சந்தேகம் இருந்தால் HR/EPFO-விடம் கேளுங்கள்."
+      },
+      "intent": "nomination",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "EPFO"
+    },
+    {
+      "id": "SAH-018",
+      "category": "KYC",
+      "question_en": "How can I update my nominee after a family change?",
+      "answers": {
+        "en": "e-Nomination records the nominee for eligible benefits. Follow the current EPFO instructions, keep details accurate and update them after relevant life changes. Ask HR/EPFO if you are unsure.",
+        "hi": "ई-नॉमिनेशन में पात्र लाभों के लिए नामांकित व्यक्ति का विवरण दर्ज होता है। EPFO के मौजूदा निर्देश अपनाएँ, जानकारी सही रखें और ज़रूरत पर अपडेट करें। संदेह हो तो HR/EPFO से पूछें।",
+        "kn": "ಇ-ನಾಮಿನೇಶನ್‌ನಲ್ಲಿ ಅರ್ಹ ಪ್ರಯೋಜನಗಳ ನಾಮನಿರ್ದೇಶಿತ ವ್ಯಕ್ತಿಯ ವಿವರ ದಾಖಲಾಗುತ್ತದೆ. EPFOಯ ಪ್ರಸ್ತುತ ಸೂಚನೆ ಅನುಸರಿಸಿ, ವಿವರ ಸರಿಯಾಗಿ ಇಟ್ಟುಕೊಂಡು ಅಗತ್ಯವಿದ್ದಾಗ ನವೀಕರಿಸಿ. ಅನುಮಾನವಿದ್ದರೆ HR/EPFO ಕೇಳಿ.",
+        "ta": "மின்-நாமினேஷனில் தகுதியான நலன்களுக்கான நியமன நபர் பதிவு செய்யப்படுவார். EPFO-வின் தற்போதைய வழிமுறைகளைப் பின்பற்றி விவரங்களைச் சரியாக வைத்து தேவையானபோது புதுப்பிக்கவும். சந்தேகம் இருந்தால் HR/EPFO-விடம் கேளுங்கள்."
+      },
+      "intent": "nomination",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "EPFO"
+    },
+    {
+      "id": "SAH-019",
+      "category": "PF Account",
+      "question_en": "I have two UAN numbers. Which one should I use?",
+      "answers": {
+        "en": "Do not create another UAN yourself. Keep both numbers private, inform your current employer and contact EPFO through an official channel so the records can be checked and corrected.",
+        "hi": "खुद से दूसरा UAN न बनाएँ। दोनों नंबर सुरक्षित रखें, वर्तमान नियोक्ता को बताएँ और रिकॉर्ड जाँचने व सुधारने के लिए आधिकारिक माध्यम से EPFO से संपर्क करें।",
+        "kn": "ನೀವೇ ಮತ್ತೊಂದು UAN ರಚಿಸಬೇಡಿ. ಎರಡೂ ಸಂಖ್ಯೆಗಳನ್ನು ಗೌಪ್ಯವಾಗಿಡಿ, ಪ್ರಸ್ತುತ ಉದ್ಯೋಗದಾತರಿಗೆ ತಿಳಿಸಿ ಮತ್ತು ದಾಖಲೆ ಪರಿಶೀಲನೆ/ತಿದ್ದುಪಡಿಗೆ ಅಧಿಕೃತ ಮಾರ್ಗದಲ್ಲಿ EPFO ಸಂಪರ್ಕಿಸಿ.",
+        "ta": "நீங்களாகவே இரண்டாவது UAN உருவாக்க வேண்டாம். இரு எண்களையும் பாதுகாப்பாக வைத்து தற்போதைய நிறுவனத்திடம் தெரிவித்து பதிவுகளைச் சரிபார்க்க அதிகாரப்பூர்வ வழியில் EPFO-வை அணுகுங்கள்."
+      },
+      "intent": "duplicate",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "EPFO"
+    },
+    {
+      "id": "SAH-020",
+      "category": "PF Claim",
+      "question_en": "Can I withdraw my full PF amount whenever I want?",
+      "answers": {
+        "en": "PF withdrawal depends on your employment status, reason, service details and current EPFO rules. Check official claim options and conditions before applying. Sahayak cannot decide eligibility, promise an amount or guarantee approval; ask HR for guidance.",
+        "hi": "PF निकासी नौकरी की स्थिति, कारण, सेवा विवरण और मौजूदा EPFO नियमों पर निर्भर करती है। आवेदन से पहले आधिकारिक विकल्प और शर्तें देखें। Sahayak पात्रता, राशि या मंज़ूरी तय नहीं कर सकता; HR से मार्गदर्शन लें।",
+        "kn": "PF ಹಿಂಪಡೆಯುವುದು ಉದ್ಯೋಗ ಸ್ಥಿತಿ, ಕಾರಣ, ಸೇವಾ ವಿವರ ಮತ್ತು ಪ್ರಸ್ತುತ EPFO ನಿಯಮಗಳ ಮೇಲೆ ಅವಲಂಬಿತ. ಅರ್ಜಿ ಮೊದಲು ಅಧಿಕೃತ ಆಯ್ಕೆಗಳು ಮತ್ತು ಷರತ್ತು ನೋಡಿ. Sahayak ಅರ್ಹತೆ, ಮೊತ್ತ ಅಥವಾ ಅನುಮೋದನೆ ಖಚಿತಪಡಿಸಲಾರದು; HR ಕೇಳಿ.",
+        "ta": "PF பணம் பெறுவது வேலை நிலை, காரணம், சேவை விவரம் மற்றும் தற்போதைய EPFO விதிகளைப் பொறுத்தது. விண்ணப்பிக்கும் முன் அதிகாரப்பூர்வ விருப்பங்களையும் நிபந்தனைகளையும் பாருங்கள். தகுதி, தொகை, ஒப்புதலை Sahayak உறுதி செய்யாது; HR-ஐ அணுகுங்கள்."
+      },
+      "intent": "withdraw",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "EPFO"
+    },
+    {
+      "id": "SAH-021",
+      "category": "PF Claim",
+      "question_en": "Can I take a PF advance for an emergency?",
+      "answers": {
+        "en": "An EPF advance is allowed only for specified purposes and subject to conditions. Check the current EPFO rules for your reason. Do not rely on a guessed amount; ask an authorised person to verify your case.",
+        "hi": "EPF एडवांस केवल तय कारणों और शर्तों के तहत मिल सकता है। अपने कारण के लिए मौजूदा EPFO नियम देखें। अनुमानित राशि पर भरोसा न करें; अधिकृत व्यक्ति से मामला जाँचवाएँ।",
+        "kn": "EPF ಮುಂಗಡವು ನಿರ್ದಿಷ್ಟ ಕಾರಣ ಮತ್ತು ಷರತ್ತುಗಳಿಗೆ ಒಳಪಟ್ಟಿದೆ. ನಿಮ್ಮ ಕಾರಣಕ್ಕೆ ಪ್ರಸ್ತುತ EPFO ನಿಯಮ ನೋಡಿ. ಊಹಿಸಿದ ಮೊತ್ತ ನಂಬಬೇಡಿ; ಅಧಿಕೃತ ವ್ಯಕ್ತಿಯಿಂದ ಪ್ರಕರಣ ಪರಿಶೀಲಿಸಿ.",
+        "ta": "EPF முன்பணம் குறிப்பிட்ட காரணங்களுக்கும் நிபந்தனைகளுக்கும் உட்பட்டது. உங்கள் காரணத்திற்கான தற்போதைய EPFO விதிகளைப் பாருங்கள். ஊகத் தொகையை நம்பாமல் அங்கீகரிக்கப்பட்ட நபரிடம் சரிபார்க்கவும்."
+      },
+      "intent": "advance",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "EPFO"
+    },
+    {
+      "id": "SAH-022",
+      "category": "PF Claim",
+      "question_en": "I have left my job. How do I apply for PF settlement?",
+      "answers": {
+        "en": "PF withdrawal depends on your employment status, reason, service details and current EPFO rules. Check official claim options and conditions before applying. Sahayak cannot decide eligibility, promise an amount or guarantee approval; ask HR for guidance.",
+        "hi": "PF निकासी नौकरी की स्थिति, कारण, सेवा विवरण और मौजूदा EPFO नियमों पर निर्भर करती है। आवेदन से पहले आधिकारिक विकल्प और शर्तें देखें। Sahayak पात्रता, राशि या मंज़ूरी तय नहीं कर सकता; HR से मार्गदर्शन लें।",
+        "kn": "PF ಹಿಂಪಡೆಯುವುದು ಉದ್ಯೋಗ ಸ್ಥಿತಿ, ಕಾರಣ, ಸೇವಾ ವಿವರ ಮತ್ತು ಪ್ರಸ್ತುತ EPFO ನಿಯಮಗಳ ಮೇಲೆ ಅವಲಂಬಿತ. ಅರ್ಜಿ ಮೊದಲು ಅಧಿಕೃತ ಆಯ್ಕೆಗಳು ಮತ್ತು ಷರತ್ತು ನೋಡಿ. Sahayak ಅರ್ಹತೆ, ಮೊತ್ತ ಅಥವಾ ಅನುಮೋದನೆ ಖಚಿತಪಡಿಸಲಾರದು; HR ಕೇಳಿ.",
+        "ta": "PF பணம் பெறுவது வேலை நிலை, காரணம், சேவை விவரம் மற்றும் தற்போதைய EPFO விதிகளைப் பொறுத்தது. விண்ணப்பிக்கும் முன் அதிகாரப்பூர்வ விருப்பங்களையும் நிபந்தனைகளையும் பாருங்கள். தகுதி, தொகை, ஒப்புதலை Sahayak உறுதி செய்யாது; HR-ஐ அணுகுங்கள்."
+      },
+      "intent": "withdraw",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "EPFO"
+    },
+    {
+      "id": "SAH-023",
+      "category": "PF Claim",
+      "question_en": "What documents do I need for a PF claim?",
+      "answers": {
+        "en": "Required documents depend on the claim type and records already linked to your account. Check the current official portal checklist. Never upload documents through unofficial links or send them in this chat.",
+        "hi": "दस्तावेज़ क्लेम के प्रकार और खाते से जुड़े रिकॉर्ड पर निर्भर करते हैं। आधिकारिक पोर्टल की वर्तमान सूची देखें। अनजान लिंक पर दस्तावेज़ अपलोड न करें और इस चैट में न भेजें।",
+        "kn": "ದಾಖಲೆಗಳು ಕ್ಲೇಮ್ ಪ್ರಕಾರ ಮತ್ತು ಖಾತೆಗೆ ಜೋಡಿಸಿರುವ ದಾಖಲೆಗಳ ಮೇಲೆ ಅವಲಂಬಿತ. ಅಧಿಕೃತ ಪೋರ್ಟಲ್‌ನ ಪ್ರಸ್ತುತ ಪಟ್ಟಿ ನೋಡಿ. ಅಪರಿಚಿತ ಲಿಂಕ್‌ನಲ್ಲಿ ದಾಖಲೆ ಅಪ್‌ಲೋಡ್ ಮಾಡಬೇಡಿ ಅಥವಾ ಈ ಚಾಟ್‌ಗೆ ಕಳುಹಿಸಬೇಡಿ.",
+        "ta": "ஆவணங்கள் கோரிக்கை வகையையும் கணக்குடன் இணைந்த பதிவுகளையும் பொறுத்தது. அதிகாரப்பூர்வ தளத்தின் தற்போதைய பட்டியலைப் பாருங்கள். தெரியாத இணைப்பில் பதிவேற்றவோ இந்த அரட்டையில் அனுப்பவோ வேண்டாம்."
+      },
+      "intent": "docs",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "EPFO"
+    },
+    {
+      "id": "SAH-024",
+      "category": "PF Claim",
+      "question_en": "How can I check whether my PF claim has been approved?",
+      "answers": {
+        "en": "Use official EPFO member services or UMANG to check claim status. Keep the acknowledgement/reference number. If the status is unclear or unusually delayed, ask HR/EPFO to review it or raise a grievance.",
+        "hi": "क्लेम की स्थिति आधिकारिक EPFO सदस्य सेवा या UMANG में देखें। रसीद/रेफरेंस नंबर रखें। स्थिति अस्पष्ट या असामान्य रूप से लंबित हो तो HR/EPFO से जाँच कराएँ या शिकायत दर्ज करें।",
+        "kn": "ಕ್ಲೇಮ್ ಸ್ಥಿತಿಯನ್ನು ಅಧಿಕೃತ EPFO ಸದಸ್ಯ ಸೇವೆ ಅಥವಾ UMANGನಲ್ಲಿ ನೋಡಿ. ಸ್ವೀಕೃತಿ/ಉಲ್ಲೇಖ ಸಂಖ್ಯೆ ಉಳಿಸಿ. ಸ್ಥಿತಿ ಅಸ್ಪಷ್ಟವಾಗಿದ್ದರೆ ಅಥವಾ ವಿಳಂಬವಾದರೆ HR/EPFO ಪರಿಶೀಲನೆ ಕೇಳಿ ಅಥವಾ ದೂರು ನೀಡಿ.",
+        "ta": "கோரிக்கை நிலையை அதிகாரப்பூர்வ EPFO உறுப்பினர் சேவை அல்லது UMANG-ல் பாருங்கள். ஒப்புதல்/குறிப்பு எண்ணை வைத்திருங்கள். நிலை தெளிவில்லையெனில் அல்லது தாமதமானால் HR/EPFO-விடம் சரிபார்க்கச் சொல்லுங்கள் அல்லது புகார் அளியுங்கள்."
+      },
+      "intent": "claimstatus",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "EPFO"
+    },
+    {
+      "id": "SAH-025",
+      "category": "PF Claim",
+      "question_en": "My PF claim was rejected. What should I do next?",
+      "answers": {
+        "en": "Read the rejection reason shown in the official claim status. It may indicate missing details, a mismatch or a condition that was not met. Ask HR/EPFO to explain the exact reason and approved correction route before applying again.",
+        "hi": "आधिकारिक क्लेम स्थिति में अस्वीकृति का कारण पढ़ें। वजह अधूरी जानकारी, रिकॉर्ड में अंतर या पूरी न हुई शर्त हो सकती है। दोबारा आवेदन से पहले HR/EPFO से सही कारण और सुधार का तरीका पूछें।",
+        "kn": "ಅಧಿಕೃತ ಕ್ಲೇಮ್ ಸ್ಥಿತಿಯ ನಿರಾಕರಣೆಯ ಕಾರಣ ಓದಿ. ತಪ್ಪಿದ ಮಾಹಿತಿ, ದಾಖಲೆ ವ್ಯತ್ಯಾಸ ಅಥವಾ ಪೂರೈಸದ ಷರತ್ತು ಕಾರಣವಾಗಿರಬಹುದು. ಮತ್ತೆ ಅರ್ಜಿ ಮೊದಲು HR/EPFOಯಿಂದ ನಿಖರ ಕಾರಣ ಮತ್ತು ತಿದ್ದುಪಡಿ ವಿಧಾನ ಕೇಳಿ.",
+        "ta": "அதிகாரப்பூர்வ கோரிக்கை நிலையில் உள்ள நிராகரிப்பு காரணத்தைப் படியுங்கள். விடுபட்ட விவரம், பதிவு வேறுபாடு அல்லது பூர்த்தியாகாத நிபந்தனை காரணமாக இருக்கலாம். மீண்டும் விண்ணப்பிப்பதற்கு முன் HR/EPFO-விடம் காரணத்தையும் திருத்த முறையையும் கேளுங்கள்."
+      },
+      "intent": "reject",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "EPFO"
+    },
+    {
+      "id": "SAH-026",
+      "category": "PF Claim",
+      "question_en": "My PF claim is taking longer than expected. What can I do?",
+      "answers": {
+        "en": "Use official EPFO member services or UMANG to check claim status. Keep the acknowledgement/reference number. If the status is unclear or unusually delayed, ask HR/EPFO to review it or raise a grievance.",
+        "hi": "क्लेम की स्थिति आधिकारिक EPFO सदस्य सेवा या UMANG में देखें। रसीद/रेफरेंस नंबर रखें। स्थिति अस्पष्ट या असामान्य रूप से लंबित हो तो HR/EPFO से जाँच कराएँ या शिकायत दर्ज करें।",
+        "kn": "ಕ್ಲೇಮ್ ಸ್ಥಿತಿಯನ್ನು ಅಧಿಕೃತ EPFO ಸದಸ್ಯ ಸೇವೆ ಅಥವಾ UMANGನಲ್ಲಿ ನೋಡಿ. ಸ್ವೀಕೃತಿ/ಉಲ್ಲೇಖ ಸಂಖ್ಯೆ ಉಳಿಸಿ. ಸ್ಥಿತಿ ಅಸ್ಪಷ್ಟವಾಗಿದ್ದರೆ ಅಥವಾ ವಿಳಂಬವಾದರೆ HR/EPFO ಪರಿಶೀಲನೆ ಕೇಳಿ ಅಥವಾ ದೂರು ನೀಡಿ.",
+        "ta": "கோரிக்கை நிலையை அதிகாரப்பூர்வ EPFO உறுப்பினர் சேவை அல்லது UMANG-ல் பாருங்கள். ஒப்புதல்/குறிப்பு எண்ணை வைத்திருங்கள். நிலை தெளிவில்லையெனில் அல்லது தாமதமானால் HR/EPFO-விடம் சரிபார்க்கச் சொல்லுங்கள் அல்லது புகார் அளியுங்கள்."
+      },
+      "intent": "claimstatus",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "EPFO"
+    },
+    {
+      "id": "SAH-027",
+      "category": "PF Claim",
+      "question_en": "Will tax be deducted when I withdraw PF?",
+      "answers": {
+        "en": "PF withdrawal depends on your employment status, reason, service details and current EPFO rules. Check official claim options and conditions before applying. Sahayak cannot decide eligibility, promise an amount or guarantee approval; ask HR for guidance.",
+        "hi": "PF निकासी नौकरी की स्थिति, कारण, सेवा विवरण और मौजूदा EPFO नियमों पर निर्भर करती है। आवेदन से पहले आधिकारिक विकल्प और शर्तें देखें। Sahayak पात्रता, राशि या मंज़ूरी तय नहीं कर सकता; HR से मार्गदर्शन लें।",
+        "kn": "PF ಹಿಂಪಡೆಯುವುದು ಉದ್ಯೋಗ ಸ್ಥಿತಿ, ಕಾರಣ, ಸೇವಾ ವಿವರ ಮತ್ತು ಪ್ರಸ್ತುತ EPFO ನಿಯಮಗಳ ಮೇಲೆ ಅವಲಂಬಿತ. ಅರ್ಜಿ ಮೊದಲು ಅಧಿಕೃತ ಆಯ್ಕೆಗಳು ಮತ್ತು ಷರತ್ತು ನೋಡಿ. Sahayak ಅರ್ಹತೆ, ಮೊತ್ತ ಅಥವಾ ಅನುಮೋದನೆ ಖಚಿತಪಡಿಸಲಾರದು; HR ಕೇಳಿ.",
+        "ta": "PF பணம் பெறுவது வேலை நிலை, காரணம், சேவை விவரம் மற்றும் தற்போதைய EPFO விதிகளைப் பொறுத்தது. விண்ணப்பிக்கும் முன் அதிகாரப்பூர்வ விருப்பங்களையும் நிபந்தனைகளையும் பாருங்கள். தகுதி, தொகை, ஒப்புதலை Sahayak உறுதி செய்யாது; HR-ஐ அணுகுங்கள்."
+      },
+      "intent": "withdraw",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "EPFO"
+    },
+    {
+      "id": "SAH-028",
+      "category": "Pension",
+      "question_en": "What is EPS in my PF account?",
+      "answers": {
+        "en": "PF is a retirement-savings scheme for eligible employees. Your contributions are recorded in an EPF account under current EPFO rules. Compare your payslip with the official passbook.",
+        "hi": "PF पात्र कर्मचारियों के लिए सेवानिवृत्ति बचत योजना है। आपका योगदान मौजूदा EPFO नियमों के अनुसार EPF खाते में दर्ज होता है। सैलरी स्लिप की आधिकारिक पासबुक से तुलना करें।",
+        "kn": "PF ಅರ್ಹ ಉದ್ಯೋಗಿಗಳ ನಿವೃತ್ತಿ ಉಳಿತಾಯ ಯೋಜನೆ. ನಿಮ್ಮ ಕೊಡುಗೆಗಳು ಪ್ರಸ್ತುತ EPFO ನಿಯಮಗಳಂತೆ EPF ಖಾತೆಯಲ್ಲಿ ದಾಖಲಾಗುತ್ತವೆ. ವೇತನ ಚೀಟಿಯನ್ನು ಅಧಿಕೃತ ಪಾಸ್‌ಬುಕ್‌ನೊಂದಿಗೆ ಹೋಲಿಸಿ.",
+        "ta": "PF என்பது தகுதியுள்ள பணியாளர்களுக்கான ஓய்வுக்கால சேமிப்புத் திட்டம். உங்கள் பங்களிப்பு தற்போதைய EPFO விதிகளின்படி EPF கணக்கில் பதிவாகும். சம்பளச் சீட்டை அதிகாரப்பூர்வ பாஸ்புக்குடன் ஒப்பிடுங்கள்."
+      },
+      "intent": "pf",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "EPFO"
+    },
+    {
+      "id": "SAH-029",
+      "category": "Pension",
+      "question_en": "How do I know if I qualify for an EPFO pension?",
+      "answers": {
+        "en": "This needs a human HR professional or the relevant official service. I can help prepare the question, but a person must review sensitive cases, disputes, claim decisions and individual eligibility. Use your company’s secure HR channel.",
+        "hi": "इस मामले में HR के मानव विशेषज्ञ या संबंधित आधिकारिक सेवा की ज़रूरत है। मैं सवाल तैयार करने में मदद कर सकता हूँ, लेकिन संवेदनशील मामलों, विवादों और पात्रता निर्णयों की समीक्षा इंसान करे। सुरक्षित HR माध्यम इस्तेमाल करें।",
+        "kn": "ಇದಕ್ಕೆ ಮಾನವ HR ತಜ್ಞರು ಅಥವಾ ಸಂಬಂಧಿತ ಅಧಿಕೃತ ಸೇವೆ ಅಗತ್ಯ. ಪ್ರಶ್ನೆ ಸಿದ್ಧಪಡಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತೇನೆ; ಸೂಕ್ಷ್ಮ ಪ್ರಕರಣ, ವಿವಾದ ಮತ್ತು ವೈಯಕ್ತಿಕ ಅರ್ಹತೆಯನ್ನು ಮಾನವರೇ ಪರಿಶೀಲಿಸಬೇಕು. ಸುರಕ್ಷಿತ HR ಮಾರ್ಗ ಬಳಸಿ.",
+        "ta": "இதற்கு மனித HR நிபுணர் அல்லது தொடர்புடைய அதிகாரப்பூர்வ சேவை தேவை. கேள்வியைத் தயாரிக்க உதவுவேன்; நுணுக்கமான வழக்குகள், தகராறுகள், தனிப்பட்ட தகுதியை மனிதர் ஆய்வு செய்ய வேண்டும். பாதுகாப்பான HR வழியைப் பயன்படுத்துங்கள்."
+      },
+      "intent": "human",
+      "human_escalation_recommended": true,
+      "authenticated_data_required": false,
+      "source_group": "EPFO"
+    },
+    {
+      "id": "SAH-030",
+      "category": "Pension",
+      "question_en": "What is EDLI?",
+      "answers": {
+        "en": "PF is a retirement-savings scheme for eligible employees. Your contributions are recorded in an EPF account under current EPFO rules. Compare your payslip with the official passbook.",
+        "hi": "PF पात्र कर्मचारियों के लिए सेवानिवृत्ति बचत योजना है। आपका योगदान मौजूदा EPFO नियमों के अनुसार EPF खाते में दर्ज होता है। सैलरी स्लिप की आधिकारिक पासबुक से तुलना करें।",
+        "kn": "PF ಅರ್ಹ ಉದ್ಯೋಗಿಗಳ ನಿವೃತ್ತಿ ಉಳಿತಾಯ ಯೋಜನೆ. ನಿಮ್ಮ ಕೊಡುಗೆಗಳು ಪ್ರಸ್ತುತ EPFO ನಿಯಮಗಳಂತೆ EPF ಖಾತೆಯಲ್ಲಿ ದಾಖಲಾಗುತ್ತವೆ. ವೇತನ ಚೀಟಿಯನ್ನು ಅಧಿಕೃತ ಪಾಸ್‌ಬುಕ್‌ನೊಂದಿಗೆ ಹೋಲಿಸಿ.",
+        "ta": "PF என்பது தகுதியுள்ள பணியாளர்களுக்கான ஓய்வுக்கால சேமிப்புத் திட்டம். உங்கள் பங்களிப்பு தற்போதைய EPFO விதிகளின்படி EPF கணக்கில் பதிவாகும். சம்பளச் சீட்டை அதிகாரப்பூர்வ பாஸ்புக்குடன் ஒப்பிடுங்கள்."
+      },
+      "intent": "pf",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "EPFO"
+    },
+    {
+      "id": "SAH-031",
+      "category": "Pension",
+      "question_en": "What should my family do to claim PF benefits if I die?",
+      "answers": {
+        "en": "This needs a human HR professional or the relevant official service. I can help prepare the question, but a person must review sensitive cases, disputes, claim decisions and individual eligibility. Use your company’s secure HR channel.",
+        "hi": "इस मामले में HR के मानव विशेषज्ञ या संबंधित आधिकारिक सेवा की ज़रूरत है। मैं सवाल तैयार करने में मदद कर सकता हूँ, लेकिन संवेदनशील मामलों, विवादों और पात्रता निर्णयों की समीक्षा इंसान करे। सुरक्षित HR माध्यम इस्तेमाल करें।",
+        "kn": "ಇದಕ್ಕೆ ಮಾನವ HR ತಜ್ಞರು ಅಥವಾ ಸಂಬಂಧಿತ ಅಧಿಕೃತ ಸೇವೆ ಅಗತ್ಯ. ಪ್ರಶ್ನೆ ಸಿದ್ಧಪಡಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತೇನೆ; ಸೂಕ್ಷ್ಮ ಪ್ರಕರಣ, ವಿವಾದ ಮತ್ತು ವೈಯಕ್ತಿಕ ಅರ್ಹತೆಯನ್ನು ಮಾನವರೇ ಪರಿಶೀಲಿಸಬೇಕು. ಸುರಕ್ಷಿತ HR ಮಾರ್ಗ ಬಳಸಿ.",
+        "ta": "இதற்கு மனித HR நிபுணர் அல்லது தொடர்புடைய அதிகாரப்பூர்வ சேவை தேவை. கேள்வியைத் தயாரிக்க உதவுவேன்; நுணுக்கமான வழக்குகள், தகராறுகள், தனிப்பட்ட தகுதியை மனிதர் ஆய்வு செய்ய வேண்டும். பாதுகாப்பான HR வழியைப் பயன்படுத்துங்கள்."
+      },
+      "intent": "human",
+      "human_escalation_recommended": true,
+      "authenticated_data_required": false,
+      "source_group": "EPFO"
+    },
+    {
+      "id": "SAH-032",
+      "category": "Employer Issues",
+      "question_en": "My company deducts PF but may not deposit it. Who can check?",
+      "answers": {
+        "en": "A missing entry does not by itself prove money is lost. Check the correct member ID, employer details and posting month. Ask payroll/EPFO to verify the account, especially if a payslip deduction has no matching credit.",
+        "hi": "पासबुक में प्रविष्टि न दिखना अपने-आप पैसा खोने का प्रमाण नहीं है। सही सदस्य ID, नियोक्ता और महीना जाँचें। सैलरी स्लिप में कटौती के बाद जमा न दिखे तो पेरोल/EPFO से पुष्टि कराएँ।",
+        "kn": "ದಾಖಲೆ ಕಾಣದಿರುವುದರಿಂದ ಹಣ ಕಳೆದುಹೋಗಿದೆ ಎಂದರ್ಥವಲ್ಲ. ಸರಿಯಾದ ಸದಸ್ಯ ID, ಉದ್ಯೋಗದಾತ ಮತ್ತು ತಿಂಗಳು ಪರಿಶೀಲಿಸಿ. ವೇತನ ಚೀಟಿಯಲ್ಲಿ ಕಡಿತವಿದ್ದು ಜಮಾ ಕಾಣದಿದ್ದರೆ ಪೇರೋಲ್/EPFO ಮೂಲಕ ದೃಢಪಡಿಸಿ.",
+        "ta": "பதிவு தெரியாதது மட்டும் பணம் இழந்துவிட்டது என்று அர்த்தமல்ல. சரியான உறுப்பினர் ID, நிறுவனம், மாதத்தைச் சரிபார்க்கவும். சம்பளத்தில் பிடித்தம் இருந்தும் வரவு இல்லையெனில் ஊதியக் குழு/EPFO-விடம் உறுதிப்படுத்துங்கள்."
+      },
+      "intent": "missing",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "EPFO"
+    },
+    {
+      "id": "SAH-033",
+      "category": "Employer Issues",
+      "question_en": "The factory has closed. How can I access my PF records?",
+      "answers": {
+        "en": "This needs a human HR professional or the relevant official service. I can help prepare the question, but a person must review sensitive cases, disputes, claim decisions and individual eligibility. Use your company’s secure HR channel.",
+        "hi": "इस मामले में HR के मानव विशेषज्ञ या संबंधित आधिकारिक सेवा की ज़रूरत है। मैं सवाल तैयार करने में मदद कर सकता हूँ, लेकिन संवेदनशील मामलों, विवादों और पात्रता निर्णयों की समीक्षा इंसान करे। सुरक्षित HR माध्यम इस्तेमाल करें।",
+        "kn": "ಇದಕ್ಕೆ ಮಾನವ HR ತಜ್ಞರು ಅಥವಾ ಸಂಬಂಧಿತ ಅಧಿಕೃತ ಸೇವೆ ಅಗತ್ಯ. ಪ್ರಶ್ನೆ ಸಿದ್ಧಪಡಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತೇನೆ; ಸೂಕ್ಷ್ಮ ಪ್ರಕರಣ, ವಿವಾದ ಮತ್ತು ವೈಯಕ್ತಿಕ ಅರ್ಹತೆಯನ್ನು ಮಾನವರೇ ಪರಿಶೀಲಿಸಬೇಕು. ಸುರಕ್ಷಿತ HR ಮಾರ್ಗ ಬಳಸಿ.",
+        "ta": "இதற்கு மனித HR நிபுணர் அல்லது தொடர்புடைய அதிகாரப்பூர்வ சேவை தேவை. கேள்வியைத் தயாரிக்க உதவுவேன்; நுணுக்கமான வழக்குகள், தகராறுகள், தனிப்பட்ட தகுதியை மனிதர் ஆய்வு செய்ய வேண்டும். பாதுகாப்பான HR வழியைப் பயன்படுத்துங்கள்."
+      },
+      "intent": "human",
+      "human_escalation_recommended": true,
+      "authenticated_data_required": false,
+      "source_group": "EPFO"
+    },
+    {
+      "id": "SAH-034",
+      "category": "Job Change",
+      "question_en": "I resigned and joined another company. Should I withdraw or transfer PF?",
+      "answers": {
+        "en": "When changing jobs, give your existing UAN to the new employer and check that the new member ID is linked correctly. Review your service history and follow the current EPFO transfer process.",
+        "hi": "नौकरी बदलने पर मौजूदा UAN नए नियोक्ता को दें और जाँचें कि नया सदस्य ID सही जुड़ा है। सेवा इतिहास देखें और EPFO की वर्तमान ट्रांसफर प्रक्रिया अपनाएँ।",
+        "kn": "ಉದ್ಯೋಗ ಬದಲಿಸಿದಾಗ ಈಗಿನ UAN ಅನ್ನು ಹೊಸ ಉದ್ಯೋಗದಾತರಿಗೆ ನೀಡಿ; ಹೊಸ ಸದಸ್ಯ ID ಸರಿಯಾಗಿ ಲಿಂಕ್ ಆಗಿದೆಯೇ ಪರಿಶೀಲಿಸಿ. ಸೇವಾ ಇತಿಹಾಸ ನೋಡಿ EPFOಯ ಪ್ರಸ್ತುತ ವರ್ಗಾವಣೆ ವಿಧಾನ ಅನುಸರಿಸಿ.",
+        "ta": "வேலை மாறும்போது தற்போதைய UAN-ஐ புதிய நிறுவனத்திடம் கொடுத்து புதிய உறுப்பினர் ID சரியாக இணைந்துள்ளதா பாருங்கள். சேவை வரலாற்றைச் சரிபார்த்து EPFO-வின் தற்போதைய மாற்று முறையைப் பின்பற்றுங்கள்."
+      },
+      "intent": "transfer",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "EPFO"
+    },
+    {
+      "id": "SAH-035",
+      "category": "PF Claim",
+      "question_en": "I am unemployed now. Can I withdraw my PF?",
+      "answers": {
+        "en": "PF withdrawal depends on your employment status, reason, service details and current EPFO rules. Check official claim options and conditions before applying. Sahayak cannot decide eligibility, promise an amount or guarantee approval; ask HR for guidance.",
+        "hi": "PF निकासी नौकरी की स्थिति, कारण, सेवा विवरण और मौजूदा EPFO नियमों पर निर्भर करती है। आवेदन से पहले आधिकारिक विकल्प और शर्तें देखें। Sahayak पात्रता, राशि या मंज़ूरी तय नहीं कर सकता; HR से मार्गदर्शन लें।",
+        "kn": "PF ಹಿಂಪಡೆಯುವುದು ಉದ್ಯೋಗ ಸ್ಥಿತಿ, ಕಾರಣ, ಸೇವಾ ವಿವರ ಮತ್ತು ಪ್ರಸ್ತುತ EPFO ನಿಯಮಗಳ ಮೇಲೆ ಅವಲಂಬಿತ. ಅರ್ಜಿ ಮೊದಲು ಅಧಿಕೃತ ಆಯ್ಕೆಗಳು ಮತ್ತು ಷರತ್ತು ನೋಡಿ. Sahayak ಅರ್ಹತೆ, ಮೊತ್ತ ಅಥವಾ ಅನುಮೋದನೆ ಖಚಿತಪಡಿಸಲಾರದು; HR ಕೇಳಿ.",
+        "ta": "PF பணம் பெறுவது வேலை நிலை, காரணம், சேவை விவரம் மற்றும் தற்போதைய EPFO விதிகளைப் பொறுத்தது. விண்ணப்பிக்கும் முன் அதிகாரப்பூர்வ விருப்பங்களையும் நிபந்தனைகளையும் பாருங்கள். தகுதி, தொகை, ஒப்புதலை Sahayak உறுதி செய்யாது; HR-ஐ அணுகுங்கள்."
+      },
+      "intent": "withdraw",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "EPFO"
+    },
+    {
+      "id": "SAH-036",
+      "category": "Grievance",
+      "question_en": "How do I complain about a PF issue to EPFO?",
+      "answers": {
+        "en": "You can raise an EPF grievance through the official EPFiGMS portal or EPFO service in UMANG. Choose the correct category, explain the issue clearly and keep the acknowledgement number for follow-up.",
+        "hi": "EPF शिकायत आधिकारिक EPFiGMS पोर्टल या UMANG की EPFO सेवा से दर्ज करें। सही श्रेणी चुनें, समस्या स्पष्ट लिखें और आगे की जाँच के लिए रसीद नंबर रखें।",
+        "kn": "EPF ದೂರನ್ನು ಅಧಿಕೃತ EPFiGMS ಪೋರ್ಟಲ್ ಅಥವಾ UMANGನ EPFO ಸೇವೆಯಲ್ಲಿ ದಾಖಲಿಸಬಹುದು. ಸರಿಯಾದ ವರ್ಗ ಆಯ್ಕೆ ಮಾಡಿ ಸಮಸ್ಯೆ ಸ್ಪಷ್ಟವಾಗಿ ಬರೆದು ಸ್ವೀಕೃತಿ ಸಂಖ್ಯೆಯನ್ನು ಉಳಿಸಿ.",
+        "ta": "EPF புகாரை அதிகாரப்பூர்வ EPFiGMS தளம் அல்லது UMANG EPFO சேவையில் பதிவு செய்யலாம். சரியான வகையைத் தேர்ந்து பிரச்சினையைத் தெளிவாக எழுதி ஒப்புதல் எண்ணை வைத்திருங்கள்."
+      },
+      "intent": "grievance",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "EPFO"
+    },
+    {
+      "id": "SAH-037",
+      "category": "Grievance",
+      "question_en": "How can I track the complaint I raised with EPFO?",
+      "answers": {
+        "en": "Use your grievance registration number on the official EPFiGMS portal to check status. Keep replies and document references. If unresolved, use available reminder options or contact the relevant EPFO office.",
+        "hi": "स्थिति देखने के लिए आधिकारिक EPFiGMS पोर्टल पर शिकायत नंबर डालें। जवाब और दस्तावेज़ संदर्भ रखें। समाधान न मिले तो उपलब्ध रिमाइंडर विकल्प या संबंधित EPFO कार्यालय से संपर्क करें।",
+        "kn": "ಸ್ಥಿತಿ ನೋಡಲು ಅಧಿಕೃತ EPFiGMS ಪೋರ್ಟಲ್‌ನಲ್ಲಿ ದೂರು ನೋಂದಣಿ ಸಂಖ್ಯೆ ಬಳಸಿ. ಉತ್ತರ ಮತ್ತು ದಾಖಲೆ ಉಲ್ಲೇಖ ಉಳಿಸಿ. ಪರಿಹಾರವಾಗದಿದ್ದರೆ ಲಭ್ಯವಿರುವ ನೆನಪಿನ ಆಯ್ಕೆ ಬಳಸಿ ಅಥವಾ EPFO ಕಚೇರಿ ಸಂಪರ್ಕಿಸಿ.",
+        "ta": "நிலையைப் பார்க்க அதிகாரப்பூர்வ EPFiGMS தளத்தில் புகார் பதிவு எண்ணைப் பயன்படுத்துங்கள். பதில்கள், ஆவணக் குறிப்புகளை வைத்திருங்கள். தீர்வில்லையெனில் கிடைக்கும் நினைவூட்டல் விருப்பத்தைப் பயன்படுத்துங்கள் அல்லது EPFO அலுவலகத்தை அணுகுங்கள்."
+      },
+      "intent": "grievance_status",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "EPFO"
+    },
+    {
+      "id": "SAH-038",
+      "category": "Grievance",
+      "question_en": "Is there an EPFO helpdesk number?",
+      "answers": {
+        "en": "You can raise an EPF grievance through the official EPFiGMS portal or EPFO service in UMANG. Choose the correct category, explain the issue clearly and keep the acknowledgement number for follow-up.",
+        "hi": "EPF शिकायत आधिकारिक EPFiGMS पोर्टल या UMANG की EPFO सेवा से दर्ज करें। सही श्रेणी चुनें, समस्या स्पष्ट लिखें और आगे की जाँच के लिए रसीद नंबर रखें।",
+        "kn": "EPF ದೂರನ್ನು ಅಧಿಕೃತ EPFiGMS ಪೋರ್ಟಲ್ ಅಥವಾ UMANGನ EPFO ಸೇವೆಯಲ್ಲಿ ದಾಖಲಿಸಬಹುದು. ಸರಿಯಾದ ವರ್ಗ ಆಯ್ಕೆ ಮಾಡಿ ಸಮಸ್ಯೆ ಸ್ಪಷ್ಟವಾಗಿ ಬರೆದು ಸ್ವೀಕೃತಿ ಸಂಖ್ಯೆಯನ್ನು ಉಳಿಸಿ.",
+        "ta": "EPF புகாரை அதிகாரப்பூர்வ EPFiGMS தளம் அல்லது UMANG EPFO சேவையில் பதிவு செய்யலாம். சரியான வகையைத் தேர்ந்து பிரச்சினையைத் தெளிவாக எழுதி ஒப்புதல் எண்ணை வைத்திருங்கள்."
+      },
+      "intent": "grievance",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "EPFO"
+    },
+    {
+      "id": "SAH-039",
+      "category": "ESIC Basics",
+      "question_en": "What is ESIC and what does it cover?",
+      "answers": {
+        "en": "ESIC is India’s Employees’ State Insurance social-security scheme for eligible employees and their families. Depending on coverage and conditions, it may provide medical care and cash benefits in specified situations.",
+        "hi": "ESIC भारत की कर्मचारी राज्य बीमा सामाजिक सुरक्षा योजना है। कवरेज और शर्तों के अनुसार पात्र कर्मचारियों और परिवार को चिकित्सा सुविधा तथा कुछ स्थितियों में नकद लाभ मिल सकते हैं।",
+        "kn": "ESIC ಅರ್ಹ ಉದ್ಯೋಗಿಗಳು ಮತ್ತು ಅವರ ಕುಟುಂಬಗಳಿಗಾಗಿ ಭಾರತದ ಉದ್ಯೋಗಿಗಳ ರಾಜ್ಯ ವಿಮಾ ಸಾಮಾಜಿಕ ಭದ್ರತಾ ಯೋಜನೆ. ವ್ಯಾಪ್ತಿ ಮತ್ತು ಷರತ್ತುಗಳ ಪ್ರಕಾರ ವೈದ್ಯಕೀಯ ಸೇವೆ ಹಾಗೂ ನಿರ್ದಿಷ್ಟ ಸಂದರ್ಭಗಳಲ್ಲಿ ನಗದು ಪ್ರಯೋಜನ ಸಿಗಬಹುದು.",
+        "ta": "ESIC என்பது தகுதியுள்ள பணியாளர்கள் மற்றும் குடும்பத்திற்கான இந்திய ஊழியர் மாநில காப்பீட்டுச் சமூகப் பாதுகாப்புத் திட்டம். காப்பீட்டு வரம்பு, நிபந்தனைகளுக்கு ஏற்ப மருத்துவ சேவையும் குறிப்பிட்ட சூழலில் பண நலன்களும் கிடைக்கலாம்."
+      },
+      "intent": "esic",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "ESIC"
+    },
+    {
+      "id": "SAH-040",
+      "category": "ESIC Basics",
+      "question_en": "How do I know whether I am eligible for ESIC?",
+      "answers": {
+        "en": "ESIC coverage depends on the establishment, location, employee category and current wage/coverage rules. Ask HR to verify whether the workplace is covered and whether your registration is complete. Do not decide eligibility from a general answer.",
+        "hi": "ESIC कवरेज संस्थान, स्थान, कर्मचारी श्रेणी और मौजूदा वेतन नियमों पर निर्भर करता है। HR से कार्यस्थल कवरेज और अपना पंजीकरण जाँचें। सामान्य जवाब से पात्रता तय न करें।",
+        "kn": "ESIC ವ್ಯಾಪ್ತಿ ಸಂಸ್ಥೆ, ಸ್ಥಳ, ಉದ್ಯೋಗಿ ವರ್ಗ ಮತ್ತು ಪ್ರಸ್ತುತ ವೇತನ ನಿಯಮಗಳ ಮೇಲೆ ಅವಲಂಬಿತ. ಕೆಲಸದ ಸ್ಥಳ ಒಳಗೊಂಡಿದೆಯೇ ಮತ್ತು ನಿಮ್ಮ ನೋಂದಣಿ ಪೂರ್ಣವೇ ಎಂದು HR ಪರಿಶೀಲಿಸಲಿ. ಸಾಮಾನ್ಯ ಉತ್ತರದಿಂದ ಅರ್ಹತೆ ತೀರ್ಮಾನಿಸಬೇಡಿ.",
+        "ta": "ESIC காப்பீடு நிறுவனம், இடம், பணியாளர் வகை மற்றும் தற்போதைய சம்பள விதிகளைப் பொறுத்தது. பணியிடம் உள்ளடக்கப்பட்டுள்ளதா, உங்கள் பதிவு முடிந்ததா என்பதை HR மூலம் சரிபார்க்கவும். பொதுப் பதிலால் தகுதியை முடிவு செய்ய வேண்டாம்."
+      },
+      "intent": "esic_eligibility",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "ESIC"
+    },
+    {
+      "id": "SAH-041",
+      "category": "ESIC Account",
+      "question_en": "Where can I find my ESIC insurance number?",
+      "answers": {
+        "en": "Check official ESIC services or UMANG for the e-Pehchan card. If it is missing, ask HR to verify your insurance record and registration details. Use only official apps and websites.",
+        "hi": "e-Pehchan कार्ड के लिए आधिकारिक ESIC सेवा या UMANG देखें। कार्ड न मिले तो HR से बीमा रिकॉर्ड और पंजीकरण जाँचें। केवल आधिकारिक ऐप और वेबसाइट इस्तेमाल करें।",
+        "kn": "e-Pehchan ಕಾರ್ಡ್‌ಗಾಗಿ ಅಧಿಕೃತ ESIC ಸೇವೆ ಅಥವಾ UMANG ನೋಡಿ. ಕಾರ್ಡ್ ಕಾಣದಿದ್ದರೆ ವಿಮಾ ದಾಖಲೆ ಮತ್ತು ನೋಂದಣಿಯನ್ನು HR ಮೂಲಕ ಪರಿಶೀಲಿಸಿ. ಅಧಿಕೃತ ಆ್ಯಪ್/ವೆಬ್‌ಸೈಟ್ ಮಾತ್ರ ಬಳಸಿ.",
+        "ta": "e-Pehchan அட்டைக்கு அதிகாரப்பூர்வ ESIC சேவை அல்லது UMANG-ஐப் பாருங்கள். அட்டை இல்லையெனில் காப்பீட்டு பதிவு, விவரங்களை HR மூலம் சரிபார்க்கவும். அதிகாரப்பூர்வ செயலி/தளத்தை மட்டும் பயன்படுத்துங்கள்."
+      },
+      "intent": "esic_card",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "ESIC"
+    },
+    {
+      "id": "SAH-042",
+      "category": "ESIC Account",
+      "question_en": "How can I download or view my ESIC e-Pehchan card?",
+      "answers": {
+        "en": "Check official ESIC services or UMANG for the e-Pehchan card. If it is missing, ask HR to verify your insurance record and registration details. Use only official apps and websites.",
+        "hi": "e-Pehchan कार्ड के लिए आधिकारिक ESIC सेवा या UMANG देखें। कार्ड न मिले तो HR से बीमा रिकॉर्ड और पंजीकरण जाँचें। केवल आधिकारिक ऐप और वेबसाइट इस्तेमाल करें।",
+        "kn": "e-Pehchan ಕಾರ್ಡ್‌ಗಾಗಿ ಅಧಿಕೃತ ESIC ಸೇವೆ ಅಥವಾ UMANG ನೋಡಿ. ಕಾರ್ಡ್ ಕಾಣದಿದ್ದರೆ ವಿಮಾ ದಾಖಲೆ ಮತ್ತು ನೋಂದಣಿಯನ್ನು HR ಮೂಲಕ ಪರಿಶೀಲಿಸಿ. ಅಧಿಕೃತ ಆ್ಯಪ್/ವೆಬ್‌ಸೈಟ್ ಮಾತ್ರ ಬಳಸಿ.",
+        "ta": "e-Pehchan அட்டைக்கு அதிகாரப்பூர்வ ESIC சேவை அல்லது UMANG-ஐப் பாருங்கள். அட்டை இல்லையெனில் காப்பீட்டு பதிவு, விவரங்களை HR மூலம் சரிபார்க்கவும். அதிகாரப்பூர்வ செயலி/தளத்தை மட்டும் பயன்படுத்துங்கள்."
+      },
+      "intent": "esic_card",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "ESIC"
+    },
+    {
+      "id": "SAH-043",
+      "category": "ESIC Benefits",
+      "question_en": "Can my spouse and children receive ESIC benefits?",
+      "answers": {
+        "en": "If your ESIC coverage is active, scheme medical services may be available to you and eligible dependants. Check your insurance details and ask the designated ESIC dispensary about the correct process.",
+        "hi": "आपका ESIC कवरेज सक्रिय हो तो आपको और पात्र आश्रितों को योजना के तहत चिकित्सा सेवा मिल सकती है। बीमा विवरण जाँचें और सही प्रक्रिया के लिए निर्धारित ESIC डिस्पेंसरी से पूछें।",
+        "kn": "ESIC ವ್ಯಾಪ್ತಿ ಸಕ್ರಿಯವಾಗಿದ್ದರೆ ನಿಮಗೂ ಅರ್ಹ ಅವಲಂಬಿತರಿಗೂ ವೈದ್ಯಕೀಯ ಸೇವೆ ಲಭ್ಯವಾಗಬಹುದು. ವಿಮಾ ವಿವರ ಪರಿಶೀಲಿಸಿ ಸರಿಯಾದ ಕ್ರಮಕ್ಕಾಗಿ ನಿಗದಿತ ESIC ಔಷಧಾಲಯವನ್ನು ಸಂಪರ್ಕಿಸಿ.",
+        "ta": "ESIC காப்பீடு செயல்பாட்டில் இருந்தால் உங்களுக்கும் தகுதியுள்ள குடும்பத்தினருக்கும் மருத்துவ சேவை கிடைக்கலாம். காப்பீட்டு விவரங்களைச் சரிபார்த்து சரியான முறைக்கு ஒதுக்கப்பட்ட ESIC மருந்தகத்தை அணுகுங்கள்."
+      },
+      "intent": "esic_medical",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "ESIC"
+    },
+    {
+      "id": "SAH-044",
+      "category": "ESIC Account",
+      "question_en": "How do I add a family member to my ESIC record?",
+      "answers": {
+        "en": "Check official ESIC services or UMANG for the e-Pehchan card. If it is missing, ask HR to verify your insurance record and registration details. Use only official apps and websites.",
+        "hi": "e-Pehchan कार्ड के लिए आधिकारिक ESIC सेवा या UMANG देखें। कार्ड न मिले तो HR से बीमा रिकॉर्ड और पंजीकरण जाँचें। केवल आधिकारिक ऐप और वेबसाइट इस्तेमाल करें।",
+        "kn": "e-Pehchan ಕಾರ್ಡ್‌ಗಾಗಿ ಅಧಿಕೃತ ESIC ಸೇವೆ ಅಥವಾ UMANG ನೋಡಿ. ಕಾರ್ಡ್ ಕಾಣದಿದ್ದರೆ ವಿಮಾ ದಾಖಲೆ ಮತ್ತು ನೋಂದಣಿಯನ್ನು HR ಮೂಲಕ ಪರಿಶೀಲಿಸಿ. ಅಧಿಕೃತ ಆ್ಯಪ್/ವೆಬ್‌ಸೈಟ್ ಮಾತ್ರ ಬಳಸಿ.",
+        "ta": "e-Pehchan அட்டைக்கு அதிகாரப்பூர்வ ESIC சேவை அல்லது UMANG-ஐப் பாருங்கள். அட்டை இல்லையெனில் காப்பீட்டு பதிவு, விவரங்களை HR மூலம் சரிபார்க்கவும். அதிகாரப்பூர்வ செயலி/தளத்தை மட்டும் பயன்படுத்துங்கள்."
+      },
+      "intent": "esic_card",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "ESIC"
+    },
+    {
+      "id": "SAH-045",
+      "category": "ESIC Medical",
+      "question_en": "How do I find my ESIC dispensary?",
+      "answers": {
+        "en": "If your ESIC coverage is active, scheme medical services may be available to you and eligible dependants. Check your insurance details and ask the designated ESIC dispensary about the correct process.",
+        "hi": "आपका ESIC कवरेज सक्रिय हो तो आपको और पात्र आश्रितों को योजना के तहत चिकित्सा सेवा मिल सकती है। बीमा विवरण जाँचें और सही प्रक्रिया के लिए निर्धारित ESIC डिस्पेंसरी से पूछें।",
+        "kn": "ESIC ವ್ಯಾಪ್ತಿ ಸಕ್ರಿಯವಾಗಿದ್ದರೆ ನಿಮಗೂ ಅರ್ಹ ಅವಲಂಬಿತರಿಗೂ ವೈದ್ಯಕೀಯ ಸೇವೆ ಲಭ್ಯವಾಗಬಹುದು. ವಿಮಾ ವಿವರ ಪರಿಶೀಲಿಸಿ ಸರಿಯಾದ ಕ್ರಮಕ್ಕಾಗಿ ನಿಗದಿತ ESIC ಔಷಧಾಲಯವನ್ನು ಸಂಪರ್ಕಿಸಿ.",
+        "ta": "ESIC காப்பீடு செயல்பாட்டில் இருந்தால் உங்களுக்கும் தகுதியுள்ள குடும்பத்தினருக்கும் மருத்துவ சேவை கிடைக்கலாம். காப்பீட்டு விவரங்களைச் சரிபார்த்து சரியான முறைக்கு ஒதுக்கப்பட்ட ESIC மருந்தகத்தை அணுகுங்கள்."
+      },
+      "intent": "esic_medical",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "ESIC"
+    },
+    {
+      "id": "SAH-046",
+      "category": "ESIC Medical",
+      "question_en": "Can I visit an ESIC hospital for treatment?",
+      "answers": {
+        "en": "If your ESIC coverage is active, scheme medical services may be available to you and eligible dependants. Check your insurance details and ask the designated ESIC dispensary about the correct process.",
+        "hi": "आपका ESIC कवरेज सक्रिय हो तो आपको और पात्र आश्रितों को योजना के तहत चिकित्सा सेवा मिल सकती है। बीमा विवरण जाँचें और सही प्रक्रिया के लिए निर्धारित ESIC डिस्पेंसरी से पूछें।",
+        "kn": "ESIC ವ್ಯಾಪ್ತಿ ಸಕ್ರಿಯವಾಗಿದ್ದರೆ ನಿಮಗೂ ಅರ್ಹ ಅವಲಂಬಿತರಿಗೂ ವೈದ್ಯಕೀಯ ಸೇವೆ ಲಭ್ಯವಾಗಬಹುದು. ವಿಮಾ ವಿವರ ಪರಿಶೀಲಿಸಿ ಸರಿಯಾದ ಕ್ರಮಕ್ಕಾಗಿ ನಿಗದಿತ ESIC ಔಷಧಾಲಯವನ್ನು ಸಂಪರ್ಕಿಸಿ.",
+        "ta": "ESIC காப்பீடு செயல்பாட்டில் இருந்தால் உங்களுக்கும் தகுதியுள்ள குடும்பத்தினருக்கும் மருத்துவ சேவை கிடைக்கலாம். காப்பீட்டு விவரங்களைச் சரிபார்த்து சரியான முறைக்கு ஒதுக்கப்பட்ட ESIC மருந்தகத்தை அணுகுங்கள்."
+      },
+      "intent": "esic_medical",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "ESIC"
+    },
+    {
+      "id": "SAH-047",
+      "category": "ESIC Medical",
+      "question_en": "What should I do if I need urgent medical treatment?",
+      "answers": {
+        "en": "For a medical emergency, seek urgent care immediately at the nearest suitable facility. Do not wait for a chatbot. Once safe, contact the ESIC facility or HR for scheme guidance.",
+        "hi": "चिकित्सा आपात स्थिति में तुरंत नज़दीकी उपयुक्त केंद्र जाएँ। चैटबॉट का इंतज़ार न करें। सुरक्षित होने के बाद ESIC केंद्र या HR से योजना की प्रक्रिया पूछें।",
+        "kn": "ವೈದ್ಯಕೀಯ ತುರ್ತು ಪರಿಸ್ಥಿತಿಯಲ್ಲಿ ತಕ್ಷಣ ಹತ್ತಿರದ ಸೂಕ್ತ ಚಿಕಿತ್ಸಾ ಕೇಂದ್ರಕ್ಕೆ ಹೋಗಿ. ಚಾಟ್‌ಬಾಟ್‌ಗಾಗಿ ಕಾಯಬೇಡಿ. ಸುರಕ್ಷಿತವಾದ ನಂತರ ESIC ಕೇಂದ್ರ ಅಥವಾ HR ಸಂಪರ್ಕಿಸಿ.",
+        "ta": "மருத்துவ அவசரநிலையில் உடனே அருகிலுள்ள பொருத்தமான சிகிச்சை மையத்தை அணுகுங்கள். chatbot-க்காகக் காத்திருக்க வேண்டாம். பாதுகாப்பான பிறகு ESIC மையம் அல்லது HR-ஐத் தொடர்புகொள்ளுங்கள்."
+      },
+      "intent": "emergency",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "ESIC"
+    },
+    {
+      "id": "SAH-048",
+      "category": "ESIC Medical",
+      "question_en": "Do I need a referral to see a specialist under ESIC?",
+      "answers": {
+        "en": "If your ESIC coverage is active, scheme medical services may be available to you and eligible dependants. Check your insurance details and ask the designated ESIC dispensary about the correct process.",
+        "hi": "आपका ESIC कवरेज सक्रिय हो तो आपको और पात्र आश्रितों को योजना के तहत चिकित्सा सेवा मिल सकती है। बीमा विवरण जाँचें और सही प्रक्रिया के लिए निर्धारित ESIC डिस्पेंसरी से पूछें।",
+        "kn": "ESIC ವ್ಯಾಪ್ತಿ ಸಕ್ರಿಯವಾಗಿದ್ದರೆ ನಿಮಗೂ ಅರ್ಹ ಅವಲಂಬಿತರಿಗೂ ವೈದ್ಯಕೀಯ ಸೇವೆ ಲಭ್ಯವಾಗಬಹುದು. ವಿಮಾ ವಿವರ ಪರಿಶೀಲಿಸಿ ಸರಿಯಾದ ಕ್ರಮಕ್ಕಾಗಿ ನಿಗದಿತ ESIC ಔಷಧಾಲಯವನ್ನು ಸಂಪರ್ಕಿಸಿ.",
+        "ta": "ESIC காப்பீடு செயல்பாட்டில் இருந்தால் உங்களுக்கும் தகுதியுள்ள குடும்பத்தினருக்கும் மருத்துவ சேவை கிடைக்கலாம். காப்பீட்டு விவரங்களைச் சரிபார்த்து சரியான முறைக்கு ஒதுக்கப்பட்ட ESIC மருந்தகத்தை அணுகுங்கள்."
+      },
+      "intent": "esic_medical",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "ESIC"
+    },
+    {
+      "id": "SAH-049",
+      "category": "ESIC Medical",
+      "question_en": "What if a prescribed medicine is unavailable at the ESIC dispensary?",
+      "answers": {
+        "en": "If your ESIC coverage is active, scheme medical services may be available to you and eligible dependants. Check your insurance details and ask the designated ESIC dispensary about the correct process.",
+        "hi": "आपका ESIC कवरेज सक्रिय हो तो आपको और पात्र आश्रितों को योजना के तहत चिकित्सा सेवा मिल सकती है। बीमा विवरण जाँचें और सही प्रक्रिया के लिए निर्धारित ESIC डिस्पेंसरी से पूछें।",
+        "kn": "ESIC ವ್ಯಾಪ್ತಿ ಸಕ್ರಿಯವಾಗಿದ್ದರೆ ನಿಮಗೂ ಅರ್ಹ ಅವಲಂಬಿತರಿಗೂ ವೈದ್ಯಕೀಯ ಸೇವೆ ಲಭ್ಯವಾಗಬಹುದು. ವಿಮಾ ವಿವರ ಪರಿಶೀಲಿಸಿ ಸರಿಯಾದ ಕ್ರಮಕ್ಕಾಗಿ ನಿಗದಿತ ESIC ಔಷಧಾಲಯವನ್ನು ಸಂಪರ್ಕಿಸಿ.",
+        "ta": "ESIC காப்பீடு செயல்பாட்டில் இருந்தால் உங்களுக்கும் தகுதியுள்ள குடும்பத்தினருக்கும் மருத்துவ சேவை கிடைக்கலாம். காப்பீட்டு விவரங்களைச் சரிபார்த்து சரியான முறைக்கு ஒதுக்கப்பட்ட ESIC மருந்தகத்தை அணுகுங்கள்."
+      },
+      "intent": "esic_medical",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "ESIC"
+    },
+    {
+      "id": "SAH-050",
+      "category": "ESIC Payroll",
+      "question_en": "Why is ESIC money deducted from my payslip?",
+      "answers": {
+        "en": "The PF line usually shows your employee contribution towards retirement savings. The exact amount depends on eligible wages and applicable rules. Ask payroll to explain the payslip calculation.",
+        "hi": "PF की राशि आम तौर पर सेवानिवृत्ति बचत के लिए आपका योगदान दिखाती है। सही राशि पात्र वेतन और लागू नियमों पर निर्भर करती है। पेरोल से गणना समझें।",
+        "kn": "PF ಮೊತ್ತವು ಸಾಮಾನ್ಯವಾಗಿ ನಿವೃತ್ತಿ ಉಳಿತಾಯಕ್ಕೆ ನಿಮ್ಮ ಕೊಡುಗೆಯನ್ನು ತೋರಿಸುತ್ತದೆ. ನಿಖರ ಮೊತ್ತವು ಅರ್ಹ ವೇತನ ಮತ್ತು ಅನ್ವಯಿಸುವ ನಿಯಮಗಳ ಮೇಲೆ ಅವಲಂಬಿತ. ಪೇರೋಲ್‌ನಿಂದ ಲೆಕ್ಕ ಕೇಳಿ.",
+        "ta": "PF தொகை பொதுவாக ஓய்வுக்கால சேமிப்புக்கான உங்கள் பங்களிப்பைக் காட்டும். சரியான தொகை தகுதியான சம்பளத்தையும் பொருந்தும் விதிகளையும் பொறுத்தது. ஊதியக் குழுவிடம் கணக்கைக் கேளுங்கள்."
+      },
+      "intent": "why",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "ESIC"
+    },
+    {
+      "id": "SAH-051",
+      "category": "ESIC Payroll",
+      "question_en": "My employer says I am not registered under ESIC. How can I verify?",
+      "answers": {
+        "en": "ESIC coverage depends on the establishment, location, employee category and current wage/coverage rules. Ask HR to verify whether the workplace is covered and whether your registration is complete. Do not decide eligibility from a general answer.",
+        "hi": "ESIC कवरेज संस्थान, स्थान, कर्मचारी श्रेणी और मौजूदा वेतन नियमों पर निर्भर करता है। HR से कार्यस्थल कवरेज और अपना पंजीकरण जाँचें। सामान्य जवाब से पात्रता तय न करें।",
+        "kn": "ESIC ವ್ಯಾಪ್ತಿ ಸಂಸ್ಥೆ, ಸ್ಥಳ, ಉದ್ಯೋಗಿ ವರ್ಗ ಮತ್ತು ಪ್ರಸ್ತುತ ವೇತನ ನಿಯಮಗಳ ಮೇಲೆ ಅವಲಂಬಿತ. ಕೆಲಸದ ಸ್ಥಳ ಒಳಗೊಂಡಿದೆಯೇ ಮತ್ತು ನಿಮ್ಮ ನೋಂದಣಿ ಪೂರ್ಣವೇ ಎಂದು HR ಪರಿಶೀಲಿಸಲಿ. ಸಾಮಾನ್ಯ ಉತ್ತರದಿಂದ ಅರ್ಹತೆ ತೀರ್ಮಾನಿಸಬೇಡಿ.",
+        "ta": "ESIC காப்பீடு நிறுவனம், இடம், பணியாளர் வகை மற்றும் தற்போதைய சம்பள விதிகளைப் பொறுத்தது. பணியிடம் உள்ளடக்கப்பட்டுள்ளதா, உங்கள் பதிவு முடிந்ததா என்பதை HR மூலம் சரிபார்க்கவும். பொதுப் பதிலால் தகுதியை முடிவு செய்ய வேண்டாம்."
+      },
+      "intent": "esic_eligibility",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "ESIC"
+    },
+    {
+      "id": "SAH-052",
+      "category": "Job Change",
+      "question_en": "I changed jobs. Will my ESIC record continue?",
+      "answers": {
+        "en": "ESIC coverage depends on the establishment, location, employee category and current wage/coverage rules. Ask HR to verify whether the workplace is covered and whether your registration is complete. Do not decide eligibility from a general answer.",
+        "hi": "ESIC कवरेज संस्थान, स्थान, कर्मचारी श्रेणी और मौजूदा वेतन नियमों पर निर्भर करता है। HR से कार्यस्थल कवरेज और अपना पंजीकरण जाँचें। सामान्य जवाब से पात्रता तय न करें।",
+        "kn": "ESIC ವ್ಯಾಪ್ತಿ ಸಂಸ್ಥೆ, ಸ್ಥಳ, ಉದ್ಯೋಗಿ ವರ್ಗ ಮತ್ತು ಪ್ರಸ್ತುತ ವೇತನ ನಿಯಮಗಳ ಮೇಲೆ ಅವಲಂಬಿತ. ಕೆಲಸದ ಸ್ಥಳ ಒಳಗೊಂಡಿದೆಯೇ ಮತ್ತು ನಿಮ್ಮ ನೋಂದಣಿ ಪೂರ್ಣವೇ ಎಂದು HR ಪರಿಶೀಲಿಸಲಿ. ಸಾಮಾನ್ಯ ಉತ್ತರದಿಂದ ಅರ್ಹತೆ ತೀರ್ಮಾನಿಸಬೇಡಿ.",
+        "ta": "ESIC காப்பீடு நிறுவனம், இடம், பணியாளர் வகை மற்றும் தற்போதைய சம்பள விதிகளைப் பொறுத்தது. பணியிடம் உள்ளடக்கப்பட்டுள்ளதா, உங்கள் பதிவு முடிந்ததா என்பதை HR மூலம் சரிபார்க்கவும். பொதுப் பதிலால் தகுதியை முடிவு செய்ய வேண்டாம்."
+      },
+      "intent": "esic_eligibility",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "EPFO"
+    },
+    {
+      "id": "SAH-053",
+      "category": "ESIC Benefits",
+      "question_en": "Can I receive ESIC benefit when I am sick and cannot work?",
+      "answers": {
+        "en": "ESIC cash benefits such as sickness, maternity or disablement benefits depend on insured status, contribution conditions, medical certification and current rules. Ask the ESIC branch/HR to verify your case; Sahayak cannot approve or calculate benefits.",
+        "hi": "ESIC बीमारी, मातृत्व या विकलांगता नकद लाभ बीमित स्थिति, योगदान, मेडिकल प्रमाणन और मौजूदा नियमों पर निर्भर हैं। ESIC शाखा/HR से मामला जाँचें; Sahayak लाभ मंज़ूर या गणना नहीं कर सकता।",
+        "kn": "ESIC ಅನಾರೋಗ್ಯ, ಮಾತೃತ್ವ ಅಥವಾ ಅಂಗವೈಕಲ್ಯ ನಗದು ಪ್ರಯೋಜನಗಳು ವಿಮಿತ ಸ್ಥಿತಿ, ಕೊಡುಗೆ, ವೈದ್ಯಕೀಯ ಪ್ರಮಾಣೀಕರಣ ಮತ್ತು ಪ್ರಸ್ತುತ ನಿಯಮಗಳ ಮೇಲೆ ಅವಲಂಬಿತ. ESIC ಶಾಖೆ/HR ಪರಿಶೀಲಿಸಲಿ; Sahayak ಅನುಮೋದನೆ ಅಥವಾ ಲೆಕ್ಕ ಮಾಡಲಾರದು.",
+        "ta": "ESIC நோய், மகப்பேறு அல்லது ஊனமுற்றோர் பண நலன்கள் காப்பீடு நிலை, பங்களிப்பு, மருத்துவச் சான்று மற்றும் தற்போதைய விதிகளைப் பொறுத்தது. ESIC கிளை/HR மூலம் சரிபார்க்கவும்; Sahayak ஒப்புதல் அல்லது கணக்கீடு செய்யாது."
+      },
+      "intent": "esic_benefits",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "ESIC"
+    },
+    {
+      "id": "SAH-054",
+      "category": "ESIC Benefits",
+      "question_en": "What ESIC maternity benefits may be available?",
+      "answers": {
+        "en": "ESIC cash benefits such as sickness, maternity or disablement benefits depend on insured status, contribution conditions, medical certification and current rules. Ask the ESIC branch/HR to verify your case; Sahayak cannot approve or calculate benefits.",
+        "hi": "ESIC बीमारी, मातृत्व या विकलांगता नकद लाभ बीमित स्थिति, योगदान, मेडिकल प्रमाणन और मौजूदा नियमों पर निर्भर हैं। ESIC शाखा/HR से मामला जाँचें; Sahayak लाभ मंज़ूर या गणना नहीं कर सकता।",
+        "kn": "ESIC ಅನಾರೋಗ್ಯ, ಮಾತೃತ್ವ ಅಥವಾ ಅಂಗವೈಕಲ್ಯ ನಗದು ಪ್ರಯೋಜನಗಳು ವಿಮಿತ ಸ್ಥಿತಿ, ಕೊಡುಗೆ, ವೈದ್ಯಕೀಯ ಪ್ರಮಾಣೀಕರಣ ಮತ್ತು ಪ್ರಸ್ತುತ ನಿಯಮಗಳ ಮೇಲೆ ಅವಲಂಬಿತ. ESIC ಶಾಖೆ/HR ಪರಿಶೀಲಿಸಲಿ; Sahayak ಅನುಮೋದನೆ ಅಥವಾ ಲೆಕ್ಕ ಮಾಡಲಾರದು.",
+        "ta": "ESIC நோய், மகப்பேறு அல்லது ஊனமுற்றோர் பண நலன்கள் காப்பீடு நிலை, பங்களிப்பு, மருத்துவச் சான்று மற்றும் தற்போதைய விதிகளைப் பொறுத்தது. ESIC கிளை/HR மூலம் சரிபார்க்கவும்; Sahayak ஒப்புதல் அல்லது கணக்கீடு செய்யாது."
+      },
+      "intent": "esic_benefits",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "ESIC"
+    },
+    {
+      "id": "SAH-055",
+      "category": "ESIC Benefits",
+      "question_en": "I was injured at work. What ESIC support may apply?",
+      "answers": {
+        "en": "Get medical attention immediately and inform your supervisor/HR when safe. Ask that the incident be formally recorded and reported through the required ESIC process. Keep medical and incident records; a human officer should handle the claim.",
+        "hi": "तुरंत इलाज लें और सुरक्षित होते ही सुपरवाइज़र/HR को बताएँ। घटना को औपचारिक रूप से दर्ज कराकर ESIC प्रक्रिया में रिपोर्ट करवाएँ। मेडिकल रिकॉर्ड रखें; क्लेम मानव अधिकारी संभालें।",
+        "kn": "ತಕ್ಷಣ ಚಿಕಿತ್ಸೆ ಪಡೆದು ಸುರಕ್ಷಿತವಾದಾಗ ಮೇಲ್ವಿಚಾರಕ/HRಗೆ ತಿಳಿಸಿ. ಘಟನೆಯನ್ನು ಅಧಿಕೃತವಾಗಿ ದಾಖಲಿಸಿ ESIC ಕ್ರಮದಲ್ಲಿ ವರದಿ ಮಾಡಿಸಿ. ವೈದ್ಯಕೀಯ ದಾಖಲೆ ಉಳಿಸಿ; ಕ್ಲೇಮ್ ಮಾನವ ಅಧಿಕಾರಿ ನೋಡಿಕೊಳ್ಳಲಿ.",
+        "ta": "உடனே சிகிச்சை பெற்று பாதுகாப்பானதும் மேற்பார்வையாளர்/HR-க்கு தெரிவிக்கவும். சம்பவத்தை முறையாகப் பதிவு செய்து ESIC முறையில் அறிக்கையிடச் சொல்லுங்கள். மருத்துவப் பதிவுகளை வைத்திருங்கள்; கோரிக்கையை மனித அதிகாரி கையாள வேண்டும்."
+      },
+      "intent": "workinjury",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "ESIC"
+    },
+    {
+      "id": "SAH-056",
+      "category": "ESIC Benefits",
+      "question_en": "What happens to my family if I die because of a workplace injury?",
+      "answers": {
+        "en": "This needs a human HR professional or the relevant official service. I can help prepare the question, but a person must review sensitive cases, disputes, claim decisions and individual eligibility. Use your company’s secure HR channel.",
+        "hi": "इस मामले में HR के मानव विशेषज्ञ या संबंधित आधिकारिक सेवा की ज़रूरत है। मैं सवाल तैयार करने में मदद कर सकता हूँ, लेकिन संवेदनशील मामलों, विवादों और पात्रता निर्णयों की समीक्षा इंसान करे। सुरक्षित HR माध्यम इस्तेमाल करें।",
+        "kn": "ಇದಕ್ಕೆ ಮಾನವ HR ತಜ್ಞರು ಅಥವಾ ಸಂಬಂಧಿತ ಅಧಿಕೃತ ಸೇವೆ ಅಗತ್ಯ. ಪ್ರಶ್ನೆ ಸಿದ್ಧಪಡಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತೇನೆ; ಸೂಕ್ಷ್ಮ ಪ್ರಕರಣ, ವಿವಾದ ಮತ್ತು ವೈಯಕ್ತಿಕ ಅರ್ಹತೆಯನ್ನು ಮಾನವರೇ ಪರಿಶೀಲಿಸಬೇಕು. ಸುರಕ್ಷಿತ HR ಮಾರ್ಗ ಬಳಸಿ.",
+        "ta": "இதற்கு மனித HR நிபுணர் அல்லது தொடர்புடைய அதிகாரப்பூர்வ சேவை தேவை. கேள்வியைத் தயாரிக்க உதவுவேன்; நுணுக்கமான வழக்குகள், தகராறுகள், தனிப்பட்ட தகுதியை மனிதர் ஆய்வு செய்ய வேண்டும். பாதுகாப்பான HR வழியைப் பயன்படுத்துங்கள்."
+      },
+      "intent": "human",
+      "human_escalation_recommended": true,
+      "authenticated_data_required": false,
+      "source_group": "ESIC"
+    },
+    {
+      "id": "SAH-057",
+      "category": "ESIC Claim",
+      "question_en": "How can I check my ESIC benefit or claim status?",
+      "answers": {
+        "en": "Check claim/benefit status through official ESIC services or UMANG using the required reference details. If the record is missing, ask HR or the ESIC branch to verify your insurance number and claim reference.",
+        "hi": "ज़रूरी रेफरेंस विवरण से आधिकारिक ESIC सेवा या UMANG में स्थिति देखें। रिकॉर्ड न मिले तो HR या ESIC शाखा से बीमा नंबर और क्लेम रेफरेंस जाँचें।",
+        "kn": "ಅಗತ್ಯ ಉಲ್ಲೇಖ ವಿವರಗಳೊಂದಿಗೆ ಅಧಿಕೃತ ESIC ಸೇವೆ ಅಥವಾ UMANGನಲ್ಲಿ ಸ್ಥಿತಿ ಪರಿಶೀಲಿಸಿ. ದಾಖಲೆ ಸಿಗದಿದ್ದರೆ ವಿಮಾ ಸಂಖ್ಯೆ ಮತ್ತು ಕ್ಲೇಮ್ ಉಲ್ಲೇಖವನ್ನು HR/ESIC ಶಾಖೆಯಿಂದ ಪರಿಶೀಲಿಸಿ.",
+        "ta": "தேவையான குறிப்பு விவரங்களுடன் அதிகாரப்பூர்வ ESIC சேவை அல்லது UMANG-ல் நிலையைப் பாருங்கள். பதிவு இல்லையெனில் காப்பீட்டு எண், கோரிக்கை குறிப்பை HR/ESIC கிளையிடம் சரிபார்க்கச் சொல்லுங்கள்."
+      },
+      "intent": "esic_claim",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "ESIC"
+    },
+    {
+      "id": "SAH-058",
+      "category": "Grievance",
+      "question_en": "How do I complain about an ESIC service issue?",
+      "answers": {
+        "en": "Use the official ESIC grievance/contact route shown on the ESIC website or UMANG. Describe the problem and include the relevant reference number, but do not share full identity or bank details in an unsecured message.",
+        "hi": "ESIC वेबसाइट या UMANG का आधिकारिक शिकायत माध्यम अपनाएँ। समस्या और रेफरेंस नंबर दें, लेकिन असुरक्षित संदेश में पूरा पहचान या बैंक विवरण साझा न करें।",
+        "kn": "ESIC ವೆಬ್‌ಸೈಟ್ ಅಥವಾ UMANGನ ಅಧಿಕೃತ ದೂರು ಮಾರ್ಗ ಬಳಸಿ. ಸಮಸ್ಯೆ ಮತ್ತು ಉಲ್ಲೇಖ ಸಂಖ್ಯೆ ನೀಡಿ; ಸುರಕ್ಷಿತವಲ್ಲದ ಸಂದೇಶದಲ್ಲಿ ಪೂರ್ಣ ಗುರುತು ಅಥವಾ ಬ್ಯಾಂಕ್ ವಿವರ ಹಂಚಬೇಡಿ.",
+        "ta": "ESIC இணையதளம் அல்லது UMANG-ன் அதிகாரப்பூர்வ புகார் வழியைப் பயன்படுத்துங்கள். பிரச்சினை, குறிப்பு எண்ணைக் கொடுங்கள்; பாதுகாப்பற்ற செய்தியில் முழு அடையாளம் அல்லது வங்கி விவரங்களைப் பகிர வேண்டாம்."
+      },
+      "intent": "esic_grievance",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "EPFO"
+    },
+    {
+      "id": "SAH-059",
+      "category": "ESIC Account",
+      "question_en": "I lost my ESIC card. How can I get it again?",
+      "answers": {
+        "en": "Check official ESIC services or UMANG for the e-Pehchan card. If it is missing, ask HR to verify your insurance record and registration details. Use only official apps and websites.",
+        "hi": "e-Pehchan कार्ड के लिए आधिकारिक ESIC सेवा या UMANG देखें। कार्ड न मिले तो HR से बीमा रिकॉर्ड और पंजीकरण जाँचें। केवल आधिकारिक ऐप और वेबसाइट इस्तेमाल करें।",
+        "kn": "e-Pehchan ಕಾರ್ಡ್‌ಗಾಗಿ ಅಧಿಕೃತ ESIC ಸೇವೆ ಅಥವಾ UMANG ನೋಡಿ. ಕಾರ್ಡ್ ಕಾಣದಿದ್ದರೆ ವಿಮಾ ದಾಖಲೆ ಮತ್ತು ನೋಂದಣಿಯನ್ನು HR ಮೂಲಕ ಪರಿಶೀಲಿಸಿ. ಅಧಿಕೃತ ಆ್ಯಪ್/ವೆಬ್‌ಸೈಟ್ ಮಾತ್ರ ಬಳಸಿ.",
+        "ta": "e-Pehchan அட்டைக்கு அதிகாரப்பூர்வ ESIC சேவை அல்லது UMANG-ஐப் பாருங்கள். அட்டை இல்லையெனில் காப்பீட்டு பதிவு, விவரங்களை HR மூலம் சரிபார்க்கவும். அதிகாரப்பூர்வ செயலி/தளத்தை மட்டும் பயன்படுத்துங்கள்."
+      },
+      "intent": "esic_card",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "ESIC"
+    },
+    {
+      "id": "SAH-060",
+      "category": "ESIC Account",
+      "question_en": "My name is wrong on my ESIC record. What should I do?",
+      "answers": {
+        "en": "Check official ESIC services or UMANG for the e-Pehchan card. If it is missing, ask HR to verify your insurance record and registration details. Use only official apps and websites.",
+        "hi": "e-Pehchan कार्ड के लिए आधिकारिक ESIC सेवा या UMANG देखें। कार्ड न मिले तो HR से बीमा रिकॉर्ड और पंजीकरण जाँचें। केवल आधिकारिक ऐप और वेबसाइट इस्तेमाल करें।",
+        "kn": "e-Pehchan ಕಾರ್ಡ್‌ಗಾಗಿ ಅಧಿಕೃತ ESIC ಸೇವೆ ಅಥವಾ UMANG ನೋಡಿ. ಕಾರ್ಡ್ ಕಾಣದಿದ್ದರೆ ವಿಮಾ ದಾಖಲೆ ಮತ್ತು ನೋಂದಣಿಯನ್ನು HR ಮೂಲಕ ಪರಿಶೀಲಿಸಿ. ಅಧಿಕೃತ ಆ್ಯಪ್/ವೆಬ್‌ಸೈಟ್ ಮಾತ್ರ ಬಳಸಿ.",
+        "ta": "e-Pehchan அட்டைக்கு அதிகாரப்பூர்வ ESIC சேவை அல்லது UMANG-ஐப் பாருங்கள். அட்டை இல்லையெனில் காப்பீட்டு பதிவு, விவரங்களை HR மூலம் சரிபார்க்கவும். அதிகாரப்பூர்வ செயலி/தளத்தை மட்டும் பயன்படுத்துங்கள்."
+      },
+      "intent": "esic_card",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "ESIC"
+    },
+    {
+      "id": "SAH-061",
+      "category": "ESIC Account",
+      "question_en": "My address has changed. How do I update ESIC details?",
+      "answers": {
+        "en": "Check official ESIC services or UMANG for the e-Pehchan card. If it is missing, ask HR to verify your insurance record and registration details. Use only official apps and websites.",
+        "hi": "e-Pehchan कार्ड के लिए आधिकारिक ESIC सेवा या UMANG देखें। कार्ड न मिले तो HR से बीमा रिकॉर्ड और पंजीकरण जाँचें। केवल आधिकारिक ऐप और वेबसाइट इस्तेमाल करें।",
+        "kn": "e-Pehchan ಕಾರ್ಡ್‌ಗಾಗಿ ಅಧಿಕೃತ ESIC ಸೇವೆ ಅಥವಾ UMANG ನೋಡಿ. ಕಾರ್ಡ್ ಕಾಣದಿದ್ದರೆ ವಿಮಾ ದಾಖಲೆ ಮತ್ತು ನೋಂದಣಿಯನ್ನು HR ಮೂಲಕ ಪರಿಶೀಲಿಸಿ. ಅಧಿಕೃತ ಆ್ಯಪ್/ವೆಬ್‌ಸೈಟ್ ಮಾತ್ರ ಬಳಸಿ.",
+        "ta": "e-Pehchan அட்டைக்கு அதிகாரப்பூர்வ ESIC சேவை அல்லது UMANG-ஐப் பாருங்கள். அட்டை இல்லையெனில் காப்பீட்டு பதிவு, விவரங்களை HR மூலம் சரிபார்க்கவும். அதிகாரப்பூர்வ செயலி/தளத்தை மட்டும் பயன்படுத்துங்கள்."
+      },
+      "intent": "esic_card",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "ESIC"
+    },
+    {
+      "id": "SAH-062",
+      "category": "ESIC Medical",
+      "question_en": "Where can I find an ESIC hospital near work?",
+      "answers": {
+        "en": "If your ESIC coverage is active, scheme medical services may be available to you and eligible dependants. Check your insurance details and ask the designated ESIC dispensary about the correct process.",
+        "hi": "आपका ESIC कवरेज सक्रिय हो तो आपको और पात्र आश्रितों को योजना के तहत चिकित्सा सेवा मिल सकती है। बीमा विवरण जाँचें और सही प्रक्रिया के लिए निर्धारित ESIC डिस्पेंसरी से पूछें।",
+        "kn": "ESIC ವ್ಯಾಪ್ತಿ ಸಕ್ರಿಯವಾಗಿದ್ದರೆ ನಿಮಗೂ ಅರ್ಹ ಅವಲಂಬಿತರಿಗೂ ವೈದ್ಯಕೀಯ ಸೇವೆ ಲಭ್ಯವಾಗಬಹುದು. ವಿಮಾ ವಿವರ ಪರಿಶೀಲಿಸಿ ಸರಿಯಾದ ಕ್ರಮಕ್ಕಾಗಿ ನಿಗದಿತ ESIC ಔಷಧಾಲಯವನ್ನು ಸಂಪರ್ಕಿಸಿ.",
+        "ta": "ESIC காப்பீடு செயல்பாட்டில் இருந்தால் உங்களுக்கும் தகுதியுள்ள குடும்பத்தினருக்கும் மருத்துவ சேவை கிடைக்கலாம். காப்பீட்டு விவரங்களைச் சரிபார்த்து சரியான முறைக்கு ஒதுக்கப்பட்ட ESIC மருந்தகத்தை அணுகுங்கள்."
+      },
+      "intent": "esic_medical",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "ESIC"
+    },
+    {
+      "id": "SAH-063",
+      "category": "ESIC Claim",
+      "question_en": "Can I get money back for treatment I paid for myself?",
+      "answers": {
+        "en": "This needs a human HR professional or the relevant official service. I can help prepare the question, but a person must review sensitive cases, disputes, claim decisions and individual eligibility. Use your company’s secure HR channel.",
+        "hi": "इस मामले में HR के मानव विशेषज्ञ या संबंधित आधिकारिक सेवा की ज़रूरत है। मैं सवाल तैयार करने में मदद कर सकता हूँ, लेकिन संवेदनशील मामलों, विवादों और पात्रता निर्णयों की समीक्षा इंसान करे। सुरक्षित HR माध्यम इस्तेमाल करें।",
+        "kn": "ಇದಕ್ಕೆ ಮಾನವ HR ತಜ್ಞರು ಅಥವಾ ಸಂಬಂಧಿತ ಅಧಿಕೃತ ಸೇವೆ ಅಗತ್ಯ. ಪ್ರಶ್ನೆ ಸಿದ್ಧಪಡಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತೇನೆ; ಸೂಕ್ಷ್ಮ ಪ್ರಕರಣ, ವಿವಾದ ಮತ್ತು ವೈಯಕ್ತಿಕ ಅರ್ಹತೆಯನ್ನು ಮಾನವರೇ ಪರಿಶೀಲಿಸಬೇಕು. ಸುರಕ್ಷಿತ HR ಮಾರ್ಗ ಬಳಸಿ.",
+        "ta": "இதற்கு மனித HR நிபுணர் அல்லது தொடர்புடைய அதிகாரப்பூர்வ சேவை தேவை. கேள்வியைத் தயாரிக்க உதவுவேன்; நுணுக்கமான வழக்குகள், தகராறுகள், தனிப்பட்ட தகுதியை மனிதர் ஆய்வு செய்ய வேண்டும். பாதுகாப்பான HR வழியைப் பயன்படுத்துங்கள்."
+      },
+      "intent": "human",
+      "human_escalation_recommended": true,
+      "authenticated_data_required": false,
+      "source_group": "ESIC"
+    },
+    {
+      "id": "SAH-064",
+      "category": "Workplace",
+      "question_en": "What should I do immediately after an accident at the factory?",
+      "answers": {
+        "en": "Get medical attention immediately and inform your supervisor/HR when safe. Ask that the incident be formally recorded and reported through the required ESIC process. Keep medical and incident records; a human officer should handle the claim.",
+        "hi": "तुरंत इलाज लें और सुरक्षित होते ही सुपरवाइज़र/HR को बताएँ। घटना को औपचारिक रूप से दर्ज कराकर ESIC प्रक्रिया में रिपोर्ट करवाएँ। मेडिकल रिकॉर्ड रखें; क्लेम मानव अधिकारी संभालें।",
+        "kn": "ತಕ್ಷಣ ಚಿಕಿತ್ಸೆ ಪಡೆದು ಸುರಕ್ಷಿತವಾದಾಗ ಮೇಲ್ವಿಚಾರಕ/HRಗೆ ತಿಳಿಸಿ. ಘಟನೆಯನ್ನು ಅಧಿಕೃತವಾಗಿ ದಾಖಲಿಸಿ ESIC ಕ್ರಮದಲ್ಲಿ ವರದಿ ಮಾಡಿಸಿ. ವೈದ್ಯಕೀಯ ದಾಖಲೆ ಉಳಿಸಿ; ಕ್ಲೇಮ್ ಮಾನವ ಅಧಿಕಾರಿ ನೋಡಿಕೊಳ್ಳಲಿ.",
+        "ta": "உடனே சிகிச்சை பெற்று பாதுகாப்பானதும் மேற்பார்வையாளர்/HR-க்கு தெரிவிக்கவும். சம்பவத்தை முறையாகப் பதிவு செய்து ESIC முறையில் அறிக்கையிடச் சொல்லுங்கள். மருத்துவப் பதிவுகளை வைத்திருங்கள்; கோரிக்கையை மனித அதிகாரி கையாள வேண்டும்."
+      },
+      "intent": "workinjury",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "ESIC"
+    },
+    {
+      "id": "SAH-065",
+      "category": "Workplace",
+      "question_en": "Who should report my workplace accident to ESIC?",
+      "answers": {
+        "en": "Get medical attention immediately and inform your supervisor/HR when safe. Ask that the incident be formally recorded and reported through the required ESIC process. Keep medical and incident records; a human officer should handle the claim.",
+        "hi": "तुरंत इलाज लें और सुरक्षित होते ही सुपरवाइज़र/HR को बताएँ। घटना को औपचारिक रूप से दर्ज कराकर ESIC प्रक्रिया में रिपोर्ट करवाएँ। मेडिकल रिकॉर्ड रखें; क्लेम मानव अधिकारी संभालें।",
+        "kn": "ತಕ್ಷಣ ಚಿಕಿತ್ಸೆ ಪಡೆದು ಸುರಕ್ಷಿತವಾದಾಗ ಮೇಲ್ವಿಚಾರಕ/HRಗೆ ತಿಳಿಸಿ. ಘಟನೆಯನ್ನು ಅಧಿಕೃತವಾಗಿ ದಾಖಲಿಸಿ ESIC ಕ್ರಮದಲ್ಲಿ ವರದಿ ಮಾಡಿಸಿ. ವೈದ್ಯಕೀಯ ದಾಖಲೆ ಉಳಿಸಿ; ಕ್ಲೇಮ್ ಮಾನವ ಅಧಿಕಾರಿ ನೋಡಿಕೊಳ್ಳಲಿ.",
+        "ta": "உடனே சிகிச்சை பெற்று பாதுகாப்பானதும் மேற்பார்வையாளர்/HR-க்கு தெரிவிக்கவும். சம்பவத்தை முறையாகப் பதிவு செய்து ESIC முறையில் அறிக்கையிடச் சொல்லுங்கள். மருத்துவப் பதிவுகளை வைத்திருங்கள்; கோரிக்கையை மனித அதிகாரி கையாள வேண்டும்."
+      },
+      "intent": "workinjury",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "ESIC"
+    },
+    {
+      "id": "SAH-066",
+      "category": "Workplace",
+      "question_en": "I think my illness is caused by my working conditions. What now?",
+      "answers": {
+        "en": "This needs a human HR professional or the relevant official service. I can help prepare the question, but a person must review sensitive cases, disputes, claim decisions and individual eligibility. Use your company’s secure HR channel.",
+        "hi": "इस मामले में HR के मानव विशेषज्ञ या संबंधित आधिकारिक सेवा की ज़रूरत है। मैं सवाल तैयार करने में मदद कर सकता हूँ, लेकिन संवेदनशील मामलों, विवादों और पात्रता निर्णयों की समीक्षा इंसान करे। सुरक्षित HR माध्यम इस्तेमाल करें।",
+        "kn": "ಇದಕ್ಕೆ ಮಾನವ HR ತಜ್ಞರು ಅಥವಾ ಸಂಬಂಧಿತ ಅಧಿಕೃತ ಸೇವೆ ಅಗತ್ಯ. ಪ್ರಶ್ನೆ ಸಿದ್ಧಪಡಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತೇನೆ; ಸೂಕ್ಷ್ಮ ಪ್ರಕರಣ, ವಿವಾದ ಮತ್ತು ವೈಯಕ್ತಿಕ ಅರ್ಹತೆಯನ್ನು ಮಾನವರೇ ಪರಿಶೀಲಿಸಬೇಕು. ಸುರಕ್ಷಿತ HR ಮಾರ್ಗ ಬಳಸಿ.",
+        "ta": "இதற்கு மனித HR நிபுணர் அல்லது தொடர்புடைய அதிகாரப்பூர்வ சேவை தேவை. கேள்வியைத் தயாரிக்க உதவுவேன்; நுணுக்கமான வழக்குகள், தகராறுகள், தனிப்பட்ட தகுதியை மனிதர் ஆய்வு செய்ய வேண்டும். பாதுகாப்பான HR வழியைப் பயன்படுத்துங்கள்."
+      },
+      "intent": "human",
+      "human_escalation_recommended": true,
+      "authenticated_data_required": false,
+      "source_group": "ESIC"
+    },
+    {
+      "id": "SAH-067",
+      "category": "ESIC Benefits",
+      "question_en": "Can I claim ESIC sickness benefit during medical leave?",
+      "answers": {
+        "en": "ESIC cash benefits such as sickness, maternity or disablement benefits depend on insured status, contribution conditions, medical certification and current rules. Ask the ESIC branch/HR to verify your case; Sahayak cannot approve or calculate benefits.",
+        "hi": "ESIC बीमारी, मातृत्व या विकलांगता नकद लाभ बीमित स्थिति, योगदान, मेडिकल प्रमाणन और मौजूदा नियमों पर निर्भर हैं। ESIC शाखा/HR से मामला जाँचें; Sahayak लाभ मंज़ूर या गणना नहीं कर सकता।",
+        "kn": "ESIC ಅನಾರೋಗ್ಯ, ಮಾತೃತ್ವ ಅಥವಾ ಅಂಗವೈಕಲ್ಯ ನಗದು ಪ್ರಯೋಜನಗಳು ವಿಮಿತ ಸ್ಥಿತಿ, ಕೊಡುಗೆ, ವೈದ್ಯಕೀಯ ಪ್ರಮಾಣೀಕರಣ ಮತ್ತು ಪ್ರಸ್ತುತ ನಿಯಮಗಳ ಮೇಲೆ ಅವಲಂಬಿತ. ESIC ಶಾಖೆ/HR ಪರಿಶೀಲಿಸಲಿ; Sahayak ಅನುಮೋದನೆ ಅಥವಾ ಲೆಕ್ಕ ಮಾಡಲಾರದು.",
+        "ta": "ESIC நோய், மகப்பேறு அல்லது ஊனமுற்றோர் பண நலன்கள் காப்பீடு நிலை, பங்களிப்பு, மருத்துவச் சான்று மற்றும் தற்போதைய விதிகளைப் பொறுத்தது. ESIC கிளை/HR மூலம் சரிபார்க்கவும்; Sahayak ஒப்புதல் அல்லது கணக்கீடு செய்யாது."
+      },
+      "intent": "esic_benefits",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "ESIC"
+    },
+    {
+      "id": "SAH-068",
+      "category": "ESIC Benefits",
+      "question_en": "What papers may be needed for an ESIC maternity claim?",
+      "answers": {
+        "en": "ESIC cash benefits such as sickness, maternity or disablement benefits depend on insured status, contribution conditions, medical certification and current rules. Ask the ESIC branch/HR to verify your case; Sahayak cannot approve or calculate benefits.",
+        "hi": "ESIC बीमारी, मातृत्व या विकलांगता नकद लाभ बीमित स्थिति, योगदान, मेडिकल प्रमाणन और मौजूदा नियमों पर निर्भर हैं। ESIC शाखा/HR से मामला जाँचें; Sahayak लाभ मंज़ूर या गणना नहीं कर सकता।",
+        "kn": "ESIC ಅನಾರೋಗ್ಯ, ಮಾತೃತ್ವ ಅಥವಾ ಅಂಗವೈಕಲ್ಯ ನಗದು ಪ್ರಯೋಜನಗಳು ವಿಮಿತ ಸ್ಥಿತಿ, ಕೊಡುಗೆ, ವೈದ್ಯಕೀಯ ಪ್ರಮಾಣೀಕರಣ ಮತ್ತು ಪ್ರಸ್ತುತ ನಿಯಮಗಳ ಮೇಲೆ ಅವಲಂಬಿತ. ESIC ಶಾಖೆ/HR ಪರಿಶೀಲಿಸಲಿ; Sahayak ಅನುಮೋದನೆ ಅಥವಾ ಲೆಕ್ಕ ಮಾಡಲಾರದು.",
+        "ta": "ESIC நோய், மகப்பேறு அல்லது ஊனமுற்றோர் பண நலன்கள் காப்பீடு நிலை, பங்களிப்பு, மருத்துவச் சான்று மற்றும் தற்போதைய விதிகளைப் பொறுத்தது. ESIC கிளை/HR மூலம் சரிபார்க்கவும்; Sahayak ஒப்புதல் அல்லது கணக்கீடு செய்யாது."
+      },
+      "intent": "esic_benefits",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "ESIC"
+    },
+    {
+      "id": "SAH-069",
+      "category": "ESIC Benefits",
+      "question_en": "Can I continue ESIC medical care after retirement?",
+      "answers": {
+        "en": "This needs a human HR professional or the relevant official service. I can help prepare the question, but a person must review sensitive cases, disputes, claim decisions and individual eligibility. Use your company’s secure HR channel.",
+        "hi": "इस मामले में HR के मानव विशेषज्ञ या संबंधित आधिकारिक सेवा की ज़रूरत है। मैं सवाल तैयार करने में मदद कर सकता हूँ, लेकिन संवेदनशील मामलों, विवादों और पात्रता निर्णयों की समीक्षा इंसान करे। सुरक्षित HR माध्यम इस्तेमाल करें।",
+        "kn": "ಇದಕ್ಕೆ ಮಾನವ HR ತಜ್ಞರು ಅಥವಾ ಸಂಬಂಧಿತ ಅಧಿಕೃತ ಸೇವೆ ಅಗತ್ಯ. ಪ್ರಶ್ನೆ ಸಿದ್ಧಪಡಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತೇನೆ; ಸೂಕ್ಷ್ಮ ಪ್ರಕರಣ, ವಿವಾದ ಮತ್ತು ವೈಯಕ್ತಿಕ ಅರ್ಹತೆಯನ್ನು ಮಾನವರೇ ಪರಿಶೀಲಿಸಬೇಕು. ಸುರಕ್ಷಿತ HR ಮಾರ್ಗ ಬಳಸಿ.",
+        "ta": "இதற்கு மனித HR நிபுணர் அல்லது தொடர்புடைய அதிகாரப்பூர்வ சேவை தேவை. கேள்வியைத் தயாரிக்க உதவுவேன்; நுணுக்கமான வழக்குகள், தகராறுகள், தனிப்பட்ட தகுதியை மனிதர் ஆய்வு செய்ய வேண்டும். பாதுகாப்பான HR வழியைப் பயன்படுத்துங்கள்."
+      },
+      "intent": "human",
+      "human_escalation_recommended": true,
+      "authenticated_data_required": false,
+      "source_group": "ESIC"
+    },
+    {
+      "id": "SAH-070",
+      "category": "HR Support",
+      "question_en": "My supervisor does not explain PF deductions. What can I do?",
+      "answers": {
+        "en": "You deserve a clear explanation of a salary deduction. Note the payslip month and the line you do not understand, then ask HR through an official channel. You should be treated respectfully for asking about pay or benefits.",
+        "hi": "आपको वेतन कटौती का साफ़ जवाब मिलना चाहिए। सैलरी स्लिप का महीना और जिस मद को नहीं समझते उसे नोट करके आधिकारिक माध्यम से HR से पूछें। वेतन या लाभ पूछने पर सम्मान मिलना चाहिए।",
+        "kn": "ವೇತನ ಕಡಿತದ ಬಗ್ಗೆ ಸ್ಪಷ್ಟ ಉತ್ತರ ಪಡೆಯಲು ನಿಮಗೆ ಹಕ್ಕಿದೆ. ವೇತನ ಚೀಟಿಯ ತಿಂಗಳು ಮತ್ತು ಅರ್ಥವಾಗದ ಸಾಲನ್ನು ಬರೆದು ಅಧಿಕೃತ ಮಾರ್ಗದಲ್ಲಿ HR ಕೇಳಿ. ವೇತನ ಅಥವಾ ಸೌಲಭ್ಯ ಕೇಳಿದ್ದಕ್ಕೆ ಗೌರವದಿಂದ ವರ್ತಿಸಬೇಕು.",
+        "ta": "சம்பளப் பிடித்தம் குறித்து தெளிவான விளக்கம் பெற உங்களுக்கு உரிமை உண்டு. மாதத்தையும் புரியாத வரியையும் குறித்துக் கொண்டு அதிகாரப்பூர்வ வழியில் HR-ஐக் கேளுங்கள். சம்பளம் அல்லது நலன் பற்றி கேட்டதற்காக மரியாதையுடன் நடத்தப்பட வேண்டும்."
+      },
+      "intent": "hr",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "Company HR policy + official scheme guidance"
+    },
+    {
+      "id": "SAH-071",
+      "category": "HR Support",
+      "question_en": "I feel nervous asking HR about my salary. Can you help?",
+      "answers": {
+        "en": "You deserve a clear explanation of a salary deduction. Note the payslip month and the line you do not understand, then ask HR through an official channel. You should be treated respectfully for asking about pay or benefits.",
+        "hi": "आपको वेतन कटौती का साफ़ जवाब मिलना चाहिए। सैलरी स्लिप का महीना और जिस मद को नहीं समझते उसे नोट करके आधिकारिक माध्यम से HR से पूछें। वेतन या लाभ पूछने पर सम्मान मिलना चाहिए।",
+        "kn": "ವೇತನ ಕಡಿತದ ಬಗ್ಗೆ ಸ್ಪಷ್ಟ ಉತ್ತರ ಪಡೆಯಲು ನಿಮಗೆ ಹಕ್ಕಿದೆ. ವೇತನ ಚೀಟಿಯ ತಿಂಗಳು ಮತ್ತು ಅರ್ಥವಾಗದ ಸಾಲನ್ನು ಬರೆದು ಅಧಿಕೃತ ಮಾರ್ಗದಲ್ಲಿ HR ಕೇಳಿ. ವೇತನ ಅಥವಾ ಸೌಲಭ್ಯ ಕೇಳಿದ್ದಕ್ಕೆ ಗೌರವದಿಂದ ವರ್ತಿಸಬೇಕು.",
+        "ta": "சம்பளப் பிடித்தம் குறித்து தெளிவான விளக்கம் பெற உங்களுக்கு உரிமை உண்டு. மாதத்தையும் புரியாத வரியையும் குறித்துக் கொண்டு அதிகாரப்பூர்வ வழியில் HR-ஐக் கேளுங்கள். சம்பளம் அல்லது நலன் பற்றி கேட்டதற்காக மரியாதையுடன் நடத்தப்பட வேண்டும்."
+      },
+      "intent": "hr",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "Company HR policy + official scheme guidance"
+    },
+    {
+      "id": "SAH-072",
+      "category": "Privacy",
+      "question_en": "Can I ask a question without sharing personal details?",
+      "answers": {
+        "en": "You can ask general questions without sharing personal identifiers. For account-specific checks, use an authenticated company/official channel. Do not enter full UAN, Aadhaar, PAN, bank details, passwords or OTPs in this demo.",
+        "hi": "आप निजी पहचान बताए बिना सामान्य सवाल पूछ सकते हैं। खाते की जाँच के लिए प्रमाणित कंपनी/आधिकारिक माध्यम इस्तेमाल करें। इस डेमो में पूरा UAN, आधार, PAN, बैंक विवरण, पासवर्ड या OTP न लिखें।",
+        "kn": "ವೈಯಕ್ತಿಕ ಗುರುತು ಹಂಚದೆ ಸಾಮಾನ್ಯ ಪ್ರಶ್ನೆ ಕೇಳಬಹುದು. ಖಾತೆ ಪರಿಶೀಲನೆಗೆ ದೃಢೀಕೃತ ಕಂಪನಿ/ಅಧಿಕೃತ ಮಾರ್ಗ ಬಳಸಿ. ಈ ಡೆಮೋದಲ್ಲಿ ಪೂರ್ಣ UAN, ಆಧಾರ್, PAN, ಬ್ಯಾಂಕ್ ವಿವರ, ಪಾಸ್‌ವರ್ಡ್ ಅಥವಾ OTP ನಮೂದಿಸಬೇಡಿ.",
+        "ta": "தனிப்பட்ட அடையாளத்தைப் பகிராமல் பொதுக் கேள்விகளைக் கேட்கலாம். கணக்கு சார்ந்த சரிபார்ப்புக்கு அங்கீகரிக்கப்பட்ட நிறுவனம்/அதிகாரப்பூர்வ வழியைப் பயன்படுத்துங்கள். இந்த டெமோவில் முழு UAN, ஆதார், PAN, வங்கி விவரம், கடவுச்சொல் அல்லது OTP இட வேண்டாம்."
+      },
+      "intent": "privacy",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "Company HR policy + official scheme guidance"
+    },
+    {
+      "id": "SAH-073",
+      "category": "Personal Account",
+      "question_en": "Can you check my actual PF balance for me?",
+      "answers": {
+        "en": "This demo cannot see your personal payroll or insurance record. For an individual check, use the company’s authenticated service and give consent for the specific record to be accessed. Do not paste private account details here.",
+        "hi": "यह डेमो आपका निजी पेरोल या बीमा रिकॉर्ड नहीं देख सकता। व्यक्तिगत जाँच के लिए कंपनी की प्रमाणित सेवा इस्तेमाल करें और संबंधित रिकॉर्ड देखने की सहमति दें। निजी खाता विवरण यहाँ न लिखें।",
+        "kn": "ಈ ಡೆಮೋ ನಿಮ್ಮ ವೈಯಕ್ತಿಕ ಪೇರೋಲ್ ಅಥವಾ ವಿಮಾ ದಾಖಲೆಯನ್ನು ನೋಡಲಾರದು. ವೈಯಕ್ತಿಕ ಪರಿಶೀಲನೆಗೆ ಕಂಪನಿಯ ದೃಢೀಕೃತ ಸೇವೆ ಬಳಸಿ ಮತ್ತು ನಿರ್ದಿಷ್ಟ ದಾಖಲೆ ನೋಡಲು ಒಪ್ಪಿಗೆ ನೀಡಿ. ಖಾಸಗಿ ವಿವರ ಇಲ್ಲಿ ಹಾಕಬೇಡಿ.",
+        "ta": "இந்த டெமோ உங்கள் தனிப்பட்ட ஊதிய அல்லது காப்பீட்டுப் பதிவைப் பார்க்க முடியாது. தனிப்பட்ட சரிபார்ப்புக்கு நிறுவனத்தின் அங்கீகரிக்கப்பட்ட சேவையைப் பயன்படுத்தி குறிப்பிட்ட பதிவைப் பார்க்க ஒப்புதல் அளிக்கவும். தனிப்பட்ட விவரங்களை இங்கு இட வேண்டாம்."
+      },
+      "intent": "personal_data",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": true,
+      "source_group": "Company HR policy + official scheme guidance"
+    },
+    {
+      "id": "SAH-074",
+      "category": "Personal Account",
+      "question_en": "Can you tell me the exact PF amount I will receive?",
+      "answers": {
+        "en": "This demo cannot see your personal payroll or insurance record. For an individual check, use the company’s authenticated service and give consent for the specific record to be accessed. Do not paste private account details here.",
+        "hi": "यह डेमो आपका निजी पेरोल या बीमा रिकॉर्ड नहीं देख सकता। व्यक्तिगत जाँच के लिए कंपनी की प्रमाणित सेवा इस्तेमाल करें और संबंधित रिकॉर्ड देखने की सहमति दें। निजी खाता विवरण यहाँ न लिखें।",
+        "kn": "ಈ ಡೆಮೋ ನಿಮ್ಮ ವೈಯಕ್ತಿಕ ಪೇರೋಲ್ ಅಥವಾ ವಿಮಾ ದಾಖಲೆಯನ್ನು ನೋಡಲಾರದು. ವೈಯಕ್ತಿಕ ಪರಿಶೀಲನೆಗೆ ಕಂಪನಿಯ ದೃಢೀಕೃತ ಸೇವೆ ಬಳಸಿ ಮತ್ತು ನಿರ್ದಿಷ್ಟ ದಾಖಲೆ ನೋಡಲು ಒಪ್ಪಿಗೆ ನೀಡಿ. ಖಾಸಗಿ ವಿವರ ಇಲ್ಲಿ ಹಾಕಬೇಡಿ.",
+        "ta": "இந்த டெமோ உங்கள் தனிப்பட்ட ஊதிய அல்லது காப்பீட்டுப் பதிவைப் பார்க்க முடியாது. தனிப்பட்ட சரிபார்ப்புக்கு நிறுவனத்தின் அங்கீகரிக்கப்பட்ட சேவையைப் பயன்படுத்தி குறிப்பிட்ட பதிவைப் பார்க்க ஒப்புதல் அளிக்கவும். தனிப்பட்ட விவரங்களை இங்கு இட வேண்டாம்."
+      },
+      "intent": "personal_data",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": true,
+      "source_group": "Company HR policy + official scheme guidance"
+    },
+    {
+      "id": "SAH-075",
+      "category": "Responsible AI",
+      "question_en": "Can you decide whether my PF withdrawal will be approved?",
+      "answers": {
+        "en": "Sahayak can explain verified information and help route a request, but it cannot make financial decisions, decide personal eligibility or approve a PF/ESIC claim. Those decisions belong to authorised officials and human HR staff.",
+        "hi": "Sahayak सत्यापित जानकारी समझा सकता है और अनुरोध भेज सकता है, लेकिन वित्तीय निर्णय, व्यक्तिगत पात्रता या PF/ESIC क्लेम की मंज़ूरी नहीं दे सकता। ये निर्णय अधिकृत अधिकारी और HR कर्मचारी लेते हैं।",
+        "kn": "Sahayak ದೃಢೀಕೃತ ಮಾಹಿತಿಯನ್ನು ವಿವರಿಸಿ ವಿನಂತಿ ಕಳುಹಿಸಬಹುದು; ಆದರೆ ಹಣಕಾಸು ನಿರ್ಧಾರ, ವೈಯಕ್ತಿಕ ಅರ್ಹತೆ ಅಥವಾ PF/ESIC ಕ್ಲೇಮ್ ಅನುಮೋದನೆ ಮಾಡಲಾರದು. ಅವುಗಳನ್ನು ಅಧಿಕೃತ ಅಧಿಕಾರಿಗಳು ಮತ್ತು HR ಸಿಬ್ಬಂದಿ ನಿರ್ಧರಿಸುತ್ತಾರೆ.",
+        "ta": "Sahayak சரிபார்க்கப்பட்ட தகவலை விளக்கி கோரிக்கையை அனுப்ப உதவும்; ஆனால் நிதி முடிவு, தனிப்பட்ட தகுதி அல்லது PF/ESIC கோரிக்கையை ஒப்புதல் அளிக்க முடியாது. அவற்றை அங்கீகரிக்கப்பட்ட அதிகாரிகளும் HR பணியாளர்களும் முடிவு செய்கிறார்கள்."
+      },
+      "intent": "no_decision",
+      "human_escalation_recommended": true,
+      "authenticated_data_required": false,
+      "source_group": "Company HR policy + official scheme guidance"
+    },
+    {
+      "id": "SAH-076",
+      "category": "Human Escalation",
+      "question_en": "Can you change my bank account in EPFO for me?",
+      "answers": {
+        "en": "This needs a human HR professional or the relevant official service. I can help prepare the question, but a person must review sensitive cases, disputes, claim decisions and individual eligibility. Use your company’s secure HR channel.",
+        "hi": "इस मामले में HR के मानव विशेषज्ञ या संबंधित आधिकारिक सेवा की ज़रूरत है। मैं सवाल तैयार करने में मदद कर सकता हूँ, लेकिन संवेदनशील मामलों, विवादों और पात्रता निर्णयों की समीक्षा इंसान करे। सुरक्षित HR माध्यम इस्तेमाल करें।",
+        "kn": "ಇದಕ್ಕೆ ಮಾನವ HR ತಜ್ಞರು ಅಥವಾ ಸಂಬಂಧಿತ ಅಧಿಕೃತ ಸೇವೆ ಅಗತ್ಯ. ಪ್ರಶ್ನೆ ಸಿದ್ಧಪಡಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತೇನೆ; ಸೂಕ್ಷ್ಮ ಪ್ರಕರಣ, ವಿವಾದ ಮತ್ತು ವೈಯಕ್ತಿಕ ಅರ್ಹತೆಯನ್ನು ಮಾನವರೇ ಪರಿಶೀಲಿಸಬೇಕು. ಸುರಕ್ಷಿತ HR ಮಾರ್ಗ ಬಳಸಿ.",
+        "ta": "இதற்கு மனித HR நிபுணர் அல்லது தொடர்புடைய அதிகாரப்பூர்வ சேவை தேவை. கேள்வியைத் தயாரிக்க உதவுவேன்; நுணுக்கமான வழக்குகள், தகராறுகள், தனிப்பட்ட தகுதியை மனிதர் ஆய்வு செய்ய வேண்டும். பாதுகாப்பான HR வழியைப் பயன்படுத்துங்கள்."
+      },
+      "intent": "human",
+      "human_escalation_recommended": true,
+      "authenticated_data_required": false,
+      "source_group": "Company HR policy + official scheme guidance"
+    },
+    {
+      "id": "SAH-077",
+      "category": "Human Escalation",
+      "question_en": "Can you submit an ESIC claim on my behalf?",
+      "answers": {
+        "en": "This needs a human HR professional or the relevant official service. I can help prepare the question, but a person must review sensitive cases, disputes, claim decisions and individual eligibility. Use your company’s secure HR channel.",
+        "hi": "इस मामले में HR के मानव विशेषज्ञ या संबंधित आधिकारिक सेवा की ज़रूरत है। मैं सवाल तैयार करने में मदद कर सकता हूँ, लेकिन संवेदनशील मामलों, विवादों और पात्रता निर्णयों की समीक्षा इंसान करे। सुरक्षित HR माध्यम इस्तेमाल करें।",
+        "kn": "ಇದಕ್ಕೆ ಮಾನವ HR ತಜ್ಞರು ಅಥವಾ ಸಂಬಂಧಿತ ಅಧಿಕೃತ ಸೇವೆ ಅಗತ್ಯ. ಪ್ರಶ್ನೆ ಸಿದ್ಧಪಡಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತೇನೆ; ಸೂಕ್ಷ್ಮ ಪ್ರಕರಣ, ವಿವಾದ ಮತ್ತು ವೈಯಕ್ತಿಕ ಅರ್ಹತೆಯನ್ನು ಮಾನವರೇ ಪರಿಶೀಲಿಸಬೇಕು. ಸುರಕ್ಷಿತ HR ಮಾರ್ಗ ಬಳಸಿ.",
+        "ta": "இதற்கு மனித HR நிபுணர் அல்லது தொடர்புடைய அதிகாரப்பூர்வ சேவை தேவை. கேள்வியைத் தயாரிக்க உதவுவேன்; நுணுக்கமான வழக்குகள், தகராறுகள், தனிப்பட்ட தகுதியை மனிதர் ஆய்வு செய்ய வேண்டும். பாதுகாப்பான HR வழியைப் பயன்படுத்துங்கள்."
+      },
+      "intent": "human",
+      "human_escalation_recommended": true,
+      "authenticated_data_required": false,
+      "source_group": "Company HR policy + official scheme guidance"
+    },
+    {
+      "id": "SAH-078",
+      "category": "Human Escalation",
+      "question_en": "I have a complicated issue involving payroll and EPFO. Who can help?",
+      "answers": {
+        "en": "This needs a human HR professional or the relevant official service. I can help prepare the question, but a person must review sensitive cases, disputes, claim decisions and individual eligibility. Use your company’s secure HR channel.",
+        "hi": "इस मामले में HR के मानव विशेषज्ञ या संबंधित आधिकारिक सेवा की ज़रूरत है। मैं सवाल तैयार करने में मदद कर सकता हूँ, लेकिन संवेदनशील मामलों, विवादों और पात्रता निर्णयों की समीक्षा इंसान करे। सुरक्षित HR माध्यम इस्तेमाल करें।",
+        "kn": "ಇದಕ್ಕೆ ಮಾನವ HR ತಜ್ಞರು ಅಥವಾ ಸಂಬಂಧಿತ ಅಧಿಕೃತ ಸೇವೆ ಅಗತ್ಯ. ಪ್ರಶ್ನೆ ಸಿದ್ಧಪಡಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತೇನೆ; ಸೂಕ್ಷ್ಮ ಪ್ರಕರಣ, ವಿವಾದ ಮತ್ತು ವೈಯಕ್ತಿಕ ಅರ್ಹತೆಯನ್ನು ಮಾನವರೇ ಪರಿಶೀಲಿಸಬೇಕು. ಸುರಕ್ಷಿತ HR ಮಾರ್ಗ ಬಳಸಿ.",
+        "ta": "இதற்கு மனித HR நிபுணர் அல்லது தொடர்புடைய அதிகாரப்பூர்வ சேவை தேவை. கேள்வியைத் தயாரிக்க உதவுவேன்; நுணுக்கமான வழக்குகள், தகராறுகள், தனிப்பட்ட தகுதியை மனிதர் ஆய்வு செய்ய வேண்டும். பாதுகாப்பான HR வழியைப் பயன்படுத்துங்கள்."
+      },
+      "intent": "human",
+      "human_escalation_recommended": true,
+      "authenticated_data_required": false,
+      "source_group": "Company HR policy + official scheme guidance"
+    },
+    {
+      "id": "SAH-079",
+      "category": "Responsible AI",
+      "question_en": "What if you do not know the answer to my question?",
+      "answers": {
+        "en": "I do not have enough verified information to answer safely. I will not guess about your money, coverage or eligibility. I can route the question to HR or the relevant official service for confirmation.",
+        "hi": "सुरक्षित जवाब देने के लिए मेरे पास पर्याप्त सत्यापित जानकारी नहीं है। मैं पैसे, कवरेज या पात्रता का अनुमान नहीं लगाऊँगा। पुष्टि के लिए सवाल HR या संबंधित आधिकारिक सेवा तक भेज सकता हूँ।",
+        "kn": "ಸುರಕ್ಷಿತ ಉತ್ತರಕ್ಕೆ ಸಾಕಷ್ಟು ದೃಢೀಕೃತ ಮಾಹಿತಿ ಇಲ್ಲ. ಹಣ, ವ್ಯಾಪ್ತಿ ಅಥವಾ ಅರ್ಹತೆ ಬಗ್ಗೆ ಊಹಿಸುವುದಿಲ್ಲ. ದೃಢೀಕರಣಕ್ಕಾಗಿ ಪ್ರಶ್ನೆಯನ್ನು HR ಅಥವಾ ಅಧಿಕೃತ ಸೇವೆಗೆ ಕಳುಹಿಸಬಹುದು.",
+        "ta": "பாதுகாப்பாகப் பதிலளிக்க போதுமான சரிபார்க்கப்பட்ட தகவல் இல்லை. பணம், காப்பீடு அல்லது தகுதி குறித்து ஊகிக்கமாட்டேன். உறுதிப்படுத்த கேள்வியை HR அல்லது அதிகாரப்பூர்வ சேவைக்கு அனுப்பலாம்."
+      },
+      "intent": "unknown",
+      "human_escalation_recommended": true,
+      "authenticated_data_required": false,
+      "source_group": "Company HR policy + official scheme guidance"
+    },
+    {
+      "id": "SAH-080",
+      "category": "Accessibility",
+      "question_en": "Can I speak to Sahayak in Kannada, Hindi or Tamil?",
+      "answers": {
+        "en": "You can ask in Kannada, Hindi, Tamil or English. Use everyday words and explain the issue in your own way. If voice recognition gets a word wrong, repeat slowly or type the question.",
+        "hi": "आप कन्नड़, हिंदी, तमिल या अंग्रेज़ी में पूछ सकते हैं। रोज़मर्रा के शब्दों में अपनी समस्या बताएँ। आवाज़ पहचानने में गलती हो तो धीरे दोहराएँ या सवाल टाइप करें।",
+        "kn": "ನೀವು ಕನ್ನಡ, ಹಿಂದಿ, ತಮಿಳು ಅಥವಾ ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಕೇಳಬಹುದು. ಸರಳ ದೈನಂದಿನ ಪದಗಳಲ್ಲಿ ವಿವರಿಸಿ. ಧ್ವನಿ ಗುರುತಿಸುವಿಕೆ ತಪ್ಪಿದರೆ ನಿಧಾನವಾಗಿ ಮತ್ತೆ ಹೇಳಿ ಅಥವಾ ಪ್ರಶ್ನೆ ಟೈಪ್ ಮಾಡಿ.",
+        "ta": "நீங்கள் கன்னடம், இந்தி, தமிழ் அல்லது ஆங்கிலத்தில் கேட்கலாம். எளிய வழக்குச் சொற்களில் விளக்குங்கள். குரல் அறிதல் தவறினால் மெதுவாக மீண்டும் சொல்லுங்கள் அல்லது கேள்வியைத் தட்டச்சு செய்யுங்கள்."
+      },
+      "intent": "language",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "Company HR policy + official scheme guidance"
+    },
+    {
+      "id": "SAH-081",
+      "category": "Accessibility",
+      "question_en": "Can I see the English meaning of your Kannada or Hindi answer?",
+      "answers": {
+        "en": "Use the English translation button to read the meaning alongside the regional-language answer. If a legal or payroll term remains unclear, ask HR to explain the original policy wording before acting.",
+        "hi": "क्षेत्रीय भाषा के जवाब के साथ अर्थ पढ़ने के लिए English translation बटन दबाएँ। कोई कानूनी या पेरोल शब्द स्पष्ट न हो तो कदम उठाने से पहले HR से मूल नीति समझें।",
+        "kn": "ಪ್ರಾದೇಶಿಕ ಭಾಷೆಯ ಉತ್ತರದ ಅರ್ಥ ಓದಲು English translation ಬಟನ್ ಒತ್ತಿ. ಕಾನೂನು ಅಥವಾ ಪೇರೋಲ್ ಪದ ಸ್ಪಷ್ಟವಿಲ್ಲದಿದ್ದರೆ ಕ್ರಮಕ್ಕೂ ಮೊದಲು HRರಿಂದ ಮೂಲ ನೀತಿ ತಿಳಿಯಿರಿ.",
+        "ta": "வட்டார மொழிப் பதிலின் பொருளைப் படிக்க English translation பொத்தானைப் பயன்படுத்துங்கள். சட்ட அல்லது ஊதியச் சொல் தெளிவில்லையெனில் செயல்படுவதற்கு முன் HR-ிடம் அசல் கொள்கையை விளக்கச் சொல்லுங்கள்."
+      },
+      "intent": "english_toggle",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "Company HR policy + official scheme guidance"
+    },
+    {
+      "id": "SAH-082",
+      "category": "Accessibility",
+      "question_en": "The phone assistant is not understanding my accent. What should I do?",
+      "answers": {
+        "en": "You can ask in Kannada, Hindi, Tamil or English. Use everyday words and explain the issue in your own way. If voice recognition gets a word wrong, repeat slowly or type the question.",
+        "hi": "आप कन्नड़, हिंदी, तमिल या अंग्रेज़ी में पूछ सकते हैं। रोज़मर्रा के शब्दों में अपनी समस्या बताएँ। आवाज़ पहचानने में गलती हो तो धीरे दोहराएँ या सवाल टाइप करें।",
+        "kn": "ನೀವು ಕನ್ನಡ, ಹಿಂದಿ, ತಮಿಳು ಅಥವಾ ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಕೇಳಬಹುದು. ಸರಳ ದೈನಂದಿನ ಪದಗಳಲ್ಲಿ ವಿವರಿಸಿ. ಧ್ವನಿ ಗುರುತಿಸುವಿಕೆ ತಪ್ಪಿದರೆ ನಿಧಾನವಾಗಿ ಮತ್ತೆ ಹೇಳಿ ಅಥವಾ ಪ್ರಶ್ನೆ ಟೈಪ್ ಮಾಡಿ.",
+        "ta": "நீங்கள் கன்னடம், இந்தி, தமிழ் அல்லது ஆங்கிலத்தில் கேட்கலாம். எளிய வழக்குச் சொற்களில் விளக்குங்கள். குரல் அறிதல் தவறினால் மெதுவாக மீண்டும் சொல்லுங்கள் அல்லது கேள்வியைத் தட்டச்சு செய்யுங்கள்."
+      },
+      "intent": "language",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "Company HR policy + official scheme guidance"
+    },
+    {
+      "id": "SAH-083",
+      "category": "HR Workflow",
+      "question_en": "Can you create an HR ticket because my PF deduction looks wrong?",
+      "answers": {
+        "en": "A live system can create an HR request after confirming your identity, consent and the correct destination. Only the necessary authorised record should be attached. This dataset/demo does not create a real ticket.",
+        "hi": "वास्तविक सिस्टम पहचान, सहमति और सही HR टीम की पुष्टि के बाद अनुरोध बना सकता है। केवल ज़रूरी अधिकृत रिकॉर्ड जोड़ा जाना चाहिए। यह डेमो असली टिकट नहीं बनाता।",
+        "kn": "ನೈಜ ವ್ಯವಸ್ಥೆಯಲ್ಲಿ ಗುರುತು, ಒಪ್ಪಿಗೆ ಮತ್ತು ಸರಿಯಾದ HR ಗಮ್ಯಸ್ಥಾನ ದೃಢಪಡಿಸಿದ ನಂತರ ವಿನಂತಿ ರಚಿಸಬಹುದು. ಅಗತ್ಯವಿರುವ ಅಧಿಕೃತ ದಾಖಲೆಯನ್ನಷ್ಟೇ ಸೇರಿಸಬೇಕು. ಈ ಡೆಮೋ ನಿಜವಾದ ಟಿಕೆಟ್ ರಚಿಸುವುದಿಲ್ಲ.",
+        "ta": "உண்மையான அமைப்பு அடையாளம், ஒப்புதல், சரியான HR பிரிவு ஆகியவற்றை உறுதிசெய்த பிறகு கோரிக்கையை உருவாக்கலாம். தேவையான அங்கீகரிக்கப்பட்ட பதிவு மட்டும் இணைக்கப்பட வேண்டும். இந்த டெமோ உண்மையான டிக்கெட்டை உருவாக்காது."
+      },
+      "intent": "ticket",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": true,
+      "source_group": "Company HR policy + official scheme guidance"
+    },
+    {
+      "id": "SAH-084",
+      "category": "HR Workflow",
+      "question_en": "How do I follow up on an HR ticket?",
+      "answers": {
+        "en": "Keep the HR ticket/reference number and use the company’s secure HR channel to check progress. If pay or benefits are affected, describe the month and issue without posting full identity or bank details here.",
+        "hi": "HR टिकट/रेफरेंस नंबर रखें और कंपनी के सुरक्षित HR माध्यम से स्थिति देखें। वेतन या लाभ प्रभावित हों तो महीना और समस्या बताएँ, लेकिन पूरा पहचान या बैंक विवरण यहाँ न दें।",
+        "kn": "HR ಟಿಕೆಟ್/ಉಲ್ಲೇಖ ಸಂಖ್ಯೆ ಉಳಿಸಿ ಕಂಪನಿಯ ಸುರಕ್ಷಿತ HR ಮಾರ್ಗದಲ್ಲಿ ಪ್ರಗತಿ ನೋಡಿ. ವೇತನ ಅಥವಾ ಸೌಲಭ್ಯಕ್ಕೆ ಪರಿಣಾಮವಿದ್ದರೆ ತಿಂಗಳು ಮತ್ತು ಸಮಸ್ಯೆ ತಿಳಿಸಿ; ಪೂರ್ಣ ಗುರುತು ಅಥವಾ ಬ್ಯಾಂಕ್ ವಿವರ ಇಲ್ಲಿ ನೀಡಬೇಡಿ.",
+        "ta": "HR டிக்கெட்/குறிப்பு எண்ணை வைத்திருந்து நிறுவனத்தின் பாதுகாப்பான வழியில் நிலையைப் பாருங்கள். சம்பளம் அல்லது நலன் பாதித்தால் மாதம், பிரச்சினையைச் சொல்லுங்கள்; முழு அடையாளம் அல்லது வங்கி விவரத்தை இங்கு இட வேண்டாம்."
+      },
+      "intent": "followup",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "Company HR policy + official scheme guidance"
+    },
+    {
+      "id": "SAH-085",
+      "category": "Privacy",
+      "question_en": "Will my manager see every question I ask Sahayak?",
+      "answers": {
+        "en": "You can ask general questions without sharing personal identifiers. For account-specific checks, use an authenticated company/official channel. Do not enter full UAN, Aadhaar, PAN, bank details, passwords or OTPs in this demo.",
+        "hi": "आप निजी पहचान बताए बिना सामान्य सवाल पूछ सकते हैं। खाते की जाँच के लिए प्रमाणित कंपनी/आधिकारिक माध्यम इस्तेमाल करें। इस डेमो में पूरा UAN, आधार, PAN, बैंक विवरण, पासवर्ड या OTP न लिखें।",
+        "kn": "ವೈಯಕ್ತಿಕ ಗುರುತು ಹಂಚದೆ ಸಾಮಾನ್ಯ ಪ್ರಶ್ನೆ ಕೇಳಬಹುದು. ಖಾತೆ ಪರಿಶೀಲನೆಗೆ ದೃಢೀಕೃತ ಕಂಪನಿ/ಅಧಿಕೃತ ಮಾರ್ಗ ಬಳಸಿ. ಈ ಡೆಮೋದಲ್ಲಿ ಪೂರ್ಣ UAN, ಆಧಾರ್, PAN, ಬ್ಯಾಂಕ್ ವಿವರ, ಪಾಸ್‌ವರ್ಡ್ ಅಥವಾ OTP ನಮೂದಿಸಬೇಡಿ.",
+        "ta": "தனிப்பட்ட அடையாளத்தைப் பகிராமல் பொதுக் கேள்விகளைக் கேட்கலாம். கணக்கு சார்ந்த சரிபார்ப்புக்கு அங்கீகரிக்கப்பட்ட நிறுவனம்/அதிகாரப்பூர்வ வழியைப் பயன்படுத்துங்கள். இந்த டெமோவில் முழு UAN, ஆதார், PAN, வங்கி விவரம், கடவுச்சொல் அல்லது OTP இட வேண்டாம்."
+      },
+      "intent": "privacy",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "Company HR policy + official scheme guidance"
+    },
+    {
+      "id": "SAH-086",
+      "category": "Security",
+      "question_en": "Is it safe to share Aadhaar or OTP with this assistant?",
+      "answers": {
+        "en": "Never share OTPs, passwords, UAN login details or bank PINs with anyone. EPFO warns about fake calls and credential theft. End suspicious calls and report them through official channels.",
+        "hi": "OTP, पासवर्ड, UAN लॉगिन या बैंक PIN किसी को न बताएँ। EPFO नकली कॉल और खाते की जानकारी चोरी होने से सावधान करता है। संदिग्ध कॉल काटें और आधिकारिक माध्यम से रिपोर्ट करें।",
+        "kn": "OTP, ಪಾಸ್‌ವರ್ಡ್, UAN ಲಾಗಿನ್ ಅಥವಾ ಬ್ಯಾಂಕ್ PIN ಯಾರಿಗೂ ಹೇಳಬೇಡಿ. ನಕಲಿ ಕರೆ ಮತ್ತು ಮಾಹಿತಿ ಕಳವು ಬಗ್ಗೆ EPFO ಎಚ್ಚರಿಸುತ್ತದೆ. ಅನುಮಾನಾಸ್ಪದ ಕರೆ ಕಡಿತಗೊಳಿಸಿ ಅಧಿಕೃತ ಮಾರ್ಗದಲ್ಲಿ ವರದಿ ಮಾಡಿ.",
+        "ta": "OTP, கடவுச்சொல், UAN உள்நுழைவு அல்லது வங்கி PIN-ஐ யாரிடமும் பகிர வேண்டாம். போலி அழைப்புகள், விவரத் திருட்டு குறித்து EPFO எச்சரிக்கிறது. சந்தேக அழைப்பைத் துண்டித்து அதிகாரப்பூர்வ வழியில் புகாரளிக்கவும்."
+      },
+      "intent": "security",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "Company HR policy + official scheme guidance"
+    },
+    {
+      "id": "SAH-087",
+      "category": "Security",
+      "question_en": "Someone called asking for my UAN password to release PF. Is that genuine?",
+      "answers": {
+        "en": "Never share OTPs, passwords, UAN login details or bank PINs with anyone. EPFO warns about fake calls and credential theft. End suspicious calls and report them through official channels.",
+        "hi": "OTP, पासवर्ड, UAN लॉगिन या बैंक PIN किसी को न बताएँ। EPFO नकली कॉल और खाते की जानकारी चोरी होने से सावधान करता है। संदिग्ध कॉल काटें और आधिकारिक माध्यम से रिपोर्ट करें।",
+        "kn": "OTP, ಪಾಸ್‌ವರ್ಡ್, UAN ಲಾಗಿನ್ ಅಥವಾ ಬ್ಯಾಂಕ್ PIN ಯಾರಿಗೂ ಹೇಳಬೇಡಿ. ನಕಲಿ ಕರೆ ಮತ್ತು ಮಾಹಿತಿ ಕಳವು ಬಗ್ಗೆ EPFO ಎಚ್ಚರಿಸುತ್ತದೆ. ಅನುಮಾನಾಸ್ಪದ ಕರೆ ಕಡಿತಗೊಳಿಸಿ ಅಧಿಕೃತ ಮಾರ್ಗದಲ್ಲಿ ವರದಿ ಮಾಡಿ.",
+        "ta": "OTP, கடவுச்சொல், UAN உள்நுழைவு அல்லது வங்கி PIN-ஐ யாரிடமும் பகிர வேண்டாம். போலி அழைப்புகள், விவரத் திருட்டு குறித்து EPFO எச்சரிக்கிறது. சந்தேக அழைப்பைத் துண்டித்து அதிகாரப்பூர்வ வழியில் புகாரளிக்கவும்."
+      },
+      "intent": "security",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "Company HR policy + official scheme guidance"
+    },
+    {
+      "id": "SAH-088",
+      "category": "Responsible AI",
+      "question_en": "Can Sahayak make a financial decision or approve my PF claim?",
+      "answers": {
+        "en": "Sahayak can explain verified information and help route a request, but it cannot make financial decisions, decide personal eligibility or approve a PF/ESIC claim. Those decisions belong to authorised officials and human HR staff.",
+        "hi": "Sahayak सत्यापित जानकारी समझा सकता है और अनुरोध भेज सकता है, लेकिन वित्तीय निर्णय, व्यक्तिगत पात्रता या PF/ESIC क्लेम की मंज़ूरी नहीं दे सकता। ये निर्णय अधिकृत अधिकारी और HR कर्मचारी लेते हैं।",
+        "kn": "Sahayak ದೃಢೀಕೃತ ಮಾಹಿತಿಯನ್ನು ವಿವರಿಸಿ ವಿನಂತಿ ಕಳುಹಿಸಬಹುದು; ಆದರೆ ಹಣಕಾಸು ನಿರ್ಧಾರ, ವೈಯಕ್ತಿಕ ಅರ್ಹತೆ ಅಥವಾ PF/ESIC ಕ್ಲೇಮ್ ಅನುಮೋದನೆ ಮಾಡಲಾರದು. ಅವುಗಳನ್ನು ಅಧಿಕೃತ ಅಧಿಕಾರಿಗಳು ಮತ್ತು HR ಸಿಬ್ಬಂದಿ ನಿರ್ಧರಿಸುತ್ತಾರೆ.",
+        "ta": "Sahayak சரிபார்க்கப்பட்ட தகவலை விளக்கி கோரிக்கையை அனுப்ப உதவும்; ஆனால் நிதி முடிவு, தனிப்பட்ட தகுதி அல்லது PF/ESIC கோரிக்கையை ஒப்புதல் அளிக்க முடியாது. அவற்றை அங்கீகரிக்கப்பட்ட அதிகாரிகளும் HR பணியாளர்களும் முடிவு செய்கிறார்கள்."
+      },
+      "intent": "no_decision",
+      "human_escalation_recommended": true,
+      "authenticated_data_required": false,
+      "source_group": "Company HR policy + official scheme guidance"
+    },
+    {
+      "id": "SAH-089",
+      "category": "Payroll Dispute",
+      "question_en": "My PF amount is different from what I expected. Can you fix it?",
+      "answers": {
+        "en": "I cannot confirm or edit a personal payroll record in this chat. With your consent, authorised payroll staff should compare the payslip, payroll ledger and official EPFO/ESIC record, then correct it through the approved workflow.",
+        "hi": "मैं इस चैट में निजी पेरोल रिकॉर्ड की पुष्टि या बदलाव नहीं कर सकता। आपकी सहमति से अधिकृत पेरोल कर्मचारी सैलरी स्लिप, पेरोल रिकॉर्ड और EPFO/ESIC विवरण मिलाकर स्वीकृत प्रक्रिया से सुधार करे।",
+        "kn": "ಈ ಚಾಟ್‌ನಲ್ಲಿ ವೈಯಕ್ತಿಕ ಪೇರೋಲ್ ದಾಖಲೆಯನ್ನು ದೃಢೀಕರಿಸಲು ಅಥವಾ ಬದಲಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ. ನಿಮ್ಮ ಒಪ್ಪಿಗೆಯೊಂದಿಗೆ ಅಧಿಕೃತ ಪೇರೋಲ್ ಸಿಬ್ಬಂದಿ ವೇತನ ಚೀಟಿ, ಲೆಡ್ಜರ್ ಮತ್ತು EPFO/ESIC ದಾಖಲೆ ಹೋಲಿಸಿ ಅನುಮೋದಿತ ವಿಧಾನದಲ್ಲಿ ತಿದ್ದುಪಡಿ ಮಾಡಬೇಕು.",
+        "ta": "இந்த அரட்டையில் தனிப்பட்ட ஊதியப் பதிவை உறுதிப்படுத்தவோ மாற்றவோ முடியாது. உங்கள் ஒப்புதலுடன் அங்கீகரிக்கப்பட்ட ஊதியப் பணியாளர் சம்பளச் சீட்டு, பதிவேடு, EPFO/ESIC பதிவை ஒப்பிட்டு அனுமதிக்கப்பட்ட முறையில் திருத்த வேண்டும்."
+      },
+      "intent": "wrongpay",
+      "human_escalation_recommended": true,
+      "authenticated_data_required": true,
+      "source_group": "Company HR policy + official scheme guidance"
+    },
+    {
+      "id": "SAH-090",
+      "category": "Payroll Dispute",
+      "question_en": "There is an unknown deduction on my payslip. Can you investigate?",
+      "answers": {
+        "en": "I cannot confirm or edit a personal payroll record in this chat. With your consent, authorised payroll staff should compare the payslip, payroll ledger and official EPFO/ESIC record, then correct it through the approved workflow.",
+        "hi": "मैं इस चैट में निजी पेरोल रिकॉर्ड की पुष्टि या बदलाव नहीं कर सकता। आपकी सहमति से अधिकृत पेरोल कर्मचारी सैलरी स्लिप, पेरोल रिकॉर्ड और EPFO/ESIC विवरण मिलाकर स्वीकृत प्रक्रिया से सुधार करे।",
+        "kn": "ಈ ಚಾಟ್‌ನಲ್ಲಿ ವೈಯಕ್ತಿಕ ಪೇರೋಲ್ ದಾಖಲೆಯನ್ನು ದೃಢೀಕರಿಸಲು ಅಥವಾ ಬದಲಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ. ನಿಮ್ಮ ಒಪ್ಪಿಗೆಯೊಂದಿಗೆ ಅಧಿಕೃತ ಪೇರೋಲ್ ಸಿಬ್ಬಂದಿ ವೇತನ ಚೀಟಿ, ಲೆಡ್ಜರ್ ಮತ್ತು EPFO/ESIC ದಾಖಲೆ ಹೋಲಿಸಿ ಅನುಮೋದಿತ ವಿಧಾನದಲ್ಲಿ ತಿದ್ದುಪಡಿ ಮಾಡಬೇಕು.",
+        "ta": "இந்த அரட்டையில் தனிப்பட்ட ஊதியப் பதிவை உறுதிப்படுத்தவோ மாற்றவோ முடியாது. உங்கள் ஒப்புதலுடன் அங்கீகரிக்கப்பட்ட ஊதியப் பணியாளர் சம்பளச் சீட்டு, பதிவேடு, EPFO/ESIC பதிவை ஒப்பிட்டு அனுமதிக்கப்பட்ட முறையில் திருத்த வேண்டும்."
+      },
+      "intent": "wrongpay",
+      "human_escalation_recommended": true,
+      "authenticated_data_required": true,
+      "source_group": "Company HR policy + official scheme guidance"
+    },
+    {
+      "id": "SAH-091",
+      "category": "Data Access",
+      "question_en": "Can Sahayak read my salary slip if I give permission?",
+      "answers": {
+        "en": "This demo cannot see your personal payroll or insurance record. For an individual check, use the company’s authenticated service and give consent for the specific record to be accessed. Do not paste private account details here.",
+        "hi": "यह डेमो आपका निजी पेरोल या बीमा रिकॉर्ड नहीं देख सकता। व्यक्तिगत जाँच के लिए कंपनी की प्रमाणित सेवा इस्तेमाल करें और संबंधित रिकॉर्ड देखने की सहमति दें। निजी खाता विवरण यहाँ न लिखें।",
+        "kn": "ಈ ಡೆಮೋ ನಿಮ್ಮ ವೈಯಕ್ತಿಕ ಪೇರೋಲ್ ಅಥವಾ ವಿಮಾ ದಾಖಲೆಯನ್ನು ನೋಡಲಾರದು. ವೈಯಕ್ತಿಕ ಪರಿಶೀಲನೆಗೆ ಕಂಪನಿಯ ದೃಢೀಕೃತ ಸೇವೆ ಬಳಸಿ ಮತ್ತು ನಿರ್ದಿಷ್ಟ ದಾಖಲೆ ನೋಡಲು ಒಪ್ಪಿಗೆ ನೀಡಿ. ಖಾಸಗಿ ವಿವರ ಇಲ್ಲಿ ಹಾಕಬೇಡಿ.",
+        "ta": "இந்த டெமோ உங்கள் தனிப்பட்ட ஊதிய அல்லது காப்பீட்டுப் பதிவைப் பார்க்க முடியாது. தனிப்பட்ட சரிபார்ப்புக்கு நிறுவனத்தின் அங்கீகரிக்கப்பட்ட சேவையைப் பயன்படுத்தி குறிப்பிட்ட பதிவைப் பார்க்க ஒப்புதல் அளிக்கவும். தனிப்பட்ட விவரங்களை இங்கு இட வேண்டாம்."
+      },
+      "intent": "personal_data",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": true,
+      "source_group": "Company HR policy + official scheme guidance"
+    },
+    {
+      "id": "SAH-092",
+      "category": "Data Access",
+      "question_en": "What happens before Sahayak accesses my payroll record?",
+      "answers": {
+        "en": "A live system can create an HR request after confirming your identity, consent and the correct destination. Only the necessary authorised record should be attached. This dataset/demo does not create a real ticket.",
+        "hi": "वास्तविक सिस्टम पहचान, सहमति और सही HR टीम की पुष्टि के बाद अनुरोध बना सकता है। केवल ज़रूरी अधिकृत रिकॉर्ड जोड़ा जाना चाहिए। यह डेमो असली टिकट नहीं बनाता।",
+        "kn": "ನೈಜ ವ್ಯವಸ್ಥೆಯಲ್ಲಿ ಗುರುತು, ಒಪ್ಪಿಗೆ ಮತ್ತು ಸರಿಯಾದ HR ಗಮ್ಯಸ್ಥಾನ ದೃಢಪಡಿಸಿದ ನಂತರ ವಿನಂತಿ ರಚಿಸಬಹುದು. ಅಗತ್ಯವಿರುವ ಅಧಿಕೃತ ದಾಖಲೆಯನ್ನಷ್ಟೇ ಸೇರಿಸಬೇಕು. ಈ ಡೆಮೋ ನಿಜವಾದ ಟಿಕೆಟ್ ರಚಿಸುವುದಿಲ್ಲ.",
+        "ta": "உண்மையான அமைப்பு அடையாளம், ஒப்புதல், சரியான HR பிரிவு ஆகியவற்றை உறுதிசெய்த பிறகு கோரிக்கையை உருவாக்கலாம். தேவையான அங்கீகரிக்கப்பட்ட பதிவு மட்டும் இணைக்கப்பட வேண்டும். இந்த டெமோ உண்மையான டிக்கெட்டை உருவாக்காது."
+      },
+      "intent": "ticket",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": true,
+      "source_group": "Company HR policy + official scheme guidance"
+    },
+    {
+      "id": "SAH-093",
+      "category": "Privacy",
+      "question_en": "I do not want my personal information stored. What can I do?",
+      "answers": {
+        "en": "You can ask general questions without sharing personal identifiers. For account-specific checks, use an authenticated company/official channel. Do not enter full UAN, Aadhaar, PAN, bank details, passwords or OTPs in this demo.",
+        "hi": "आप निजी पहचान बताए बिना सामान्य सवाल पूछ सकते हैं। खाते की जाँच के लिए प्रमाणित कंपनी/आधिकारिक माध्यम इस्तेमाल करें। इस डेमो में पूरा UAN, आधार, PAN, बैंक विवरण, पासवर्ड या OTP न लिखें।",
+        "kn": "ವೈಯಕ್ತಿಕ ಗುರುತು ಹಂಚದೆ ಸಾಮಾನ್ಯ ಪ್ರಶ್ನೆ ಕೇಳಬಹುದು. ಖಾತೆ ಪರಿಶೀಲನೆಗೆ ದೃಢೀಕೃತ ಕಂಪನಿ/ಅಧಿಕೃತ ಮಾರ್ಗ ಬಳಸಿ. ಈ ಡೆಮೋದಲ್ಲಿ ಪೂರ್ಣ UAN, ಆಧಾರ್, PAN, ಬ್ಯಾಂಕ್ ವಿವರ, ಪಾಸ್‌ವರ್ಡ್ ಅಥವಾ OTP ನಮೂದಿಸಬೇಡಿ.",
+        "ta": "தனிப்பட்ட அடையாளத்தைப் பகிராமல் பொதுக் கேள்விகளைக் கேட்கலாம். கணக்கு சார்ந்த சரிபார்ப்புக்கு அங்கீகரிக்கப்பட்ட நிறுவனம்/அதிகாரப்பூர்வ வழியைப் பயன்படுத்துங்கள். இந்த டெமோவில் முழு UAN, ஆதார், PAN, வங்கி விவரம், கடவுச்சொல் அல்லது OTP இட வேண்டாம்."
+      },
+      "intent": "privacy",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "Company HR policy + official scheme guidance"
+    },
+    {
+      "id": "SAH-094",
+      "category": "Grievance",
+      "question_en": "Can I complain if my employer is not following PF rules?",
+      "answers": {
+        "en": "You can raise an EPF grievance through the official EPFiGMS portal or EPFO service in UMANG. Choose the correct category, explain the issue clearly and keep the acknowledgement number for follow-up.",
+        "hi": "EPF शिकायत आधिकारिक EPFiGMS पोर्टल या UMANG की EPFO सेवा से दर्ज करें। सही श्रेणी चुनें, समस्या स्पष्ट लिखें और आगे की जाँच के लिए रसीद नंबर रखें।",
+        "kn": "EPF ದೂರನ್ನು ಅಧಿಕೃತ EPFiGMS ಪೋರ್ಟಲ್ ಅಥವಾ UMANGನ EPFO ಸೇವೆಯಲ್ಲಿ ದಾಖಲಿಸಬಹುದು. ಸರಿಯಾದ ವರ್ಗ ಆಯ್ಕೆ ಮಾಡಿ ಸಮಸ್ಯೆ ಸ್ಪಷ್ಟವಾಗಿ ಬರೆದು ಸ್ವೀಕೃತಿ ಸಂಖ್ಯೆಯನ್ನು ಉಳಿಸಿ.",
+        "ta": "EPF புகாரை அதிகாரப்பூர்வ EPFiGMS தளம் அல்லது UMANG EPFO சேவையில் பதிவு செய்யலாம். சரியான வகையைத் தேர்ந்து பிரச்சினையைத் தெளிவாக எழுதி ஒப்புதல் எண்ணை வைத்திருங்கள்."
+      },
+      "intent": "grievance",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "EPFO"
+    },
+    {
+      "id": "SAH-095",
+      "category": "Accessibility",
+      "question_en": "Can I ask the same question in simple words?",
+      "answers": {
+        "en": "You can ask in Kannada, Hindi, Tamil or English. Use everyday words and explain the issue in your own way. If voice recognition gets a word wrong, repeat slowly or type the question.",
+        "hi": "आप कन्नड़, हिंदी, तमिल या अंग्रेज़ी में पूछ सकते हैं। रोज़मर्रा के शब्दों में अपनी समस्या बताएँ। आवाज़ पहचानने में गलती हो तो धीरे दोहराएँ या सवाल टाइप करें।",
+        "kn": "ನೀವು ಕನ್ನಡ, ಹಿಂದಿ, ತಮಿಳು ಅಥವಾ ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಕೇಳಬಹುದು. ಸರಳ ದೈನಂದಿನ ಪದಗಳಲ್ಲಿ ವಿವರಿಸಿ. ಧ್ವನಿ ಗುರುತಿಸುವಿಕೆ ತಪ್ಪಿದರೆ ನಿಧಾನವಾಗಿ ಮತ್ತೆ ಹೇಳಿ ಅಥವಾ ಪ್ರಶ್ನೆ ಟೈಪ್ ಮಾಡಿ.",
+        "ta": "நீங்கள் கன்னடம், இந்தி, தமிழ் அல்லது ஆங்கிலத்தில் கேட்கலாம். எளிய வழக்குச் சொற்களில் விளக்குங்கள். குரல் அறிதல் தவறினால் மெதுவாக மீண்டும் சொல்லுங்கள் அல்லது கேள்வியைத் தட்டச்சு செய்யுங்கள்."
+      },
+      "intent": "language",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "Company HR policy + official scheme guidance"
+    },
+    {
+      "id": "SAH-096",
+      "category": "PF Account",
+      "question_en": "My PF passbook and payslip show different months. What should I do?",
+      "answers": {
+        "en": "A missing entry does not by itself prove money is lost. Check the correct member ID, employer details and posting month. Ask payroll/EPFO to verify the account, especially if a payslip deduction has no matching credit.",
+        "hi": "पासबुक में प्रविष्टि न दिखना अपने-आप पैसा खोने का प्रमाण नहीं है। सही सदस्य ID, नियोक्ता और महीना जाँचें। सैलरी स्लिप में कटौती के बाद जमा न दिखे तो पेरोल/EPFO से पुष्टि कराएँ।",
+        "kn": "ದಾಖಲೆ ಕಾಣದಿರುವುದರಿಂದ ಹಣ ಕಳೆದುಹೋಗಿದೆ ಎಂದರ್ಥವಲ್ಲ. ಸರಿಯಾದ ಸದಸ್ಯ ID, ಉದ್ಯೋಗದಾತ ಮತ್ತು ತಿಂಗಳು ಪರಿಶೀಲಿಸಿ. ವೇತನ ಚೀಟಿಯಲ್ಲಿ ಕಡಿತವಿದ್ದು ಜಮಾ ಕಾಣದಿದ್ದರೆ ಪೇರೋಲ್/EPFO ಮೂಲಕ ದೃಢಪಡಿಸಿ.",
+        "ta": "பதிவு தெரியாதது மட்டும் பணம் இழந்துவிட்டது என்று அர்த்தமல்ல. சரியான உறுப்பினர் ID, நிறுவனம், மாதத்தைச் சரிபார்க்கவும். சம்பளத்தில் பிடித்தம் இருந்தும் வரவு இல்லையெனில் ஊதியக் குழு/EPFO-விடம் உறுதிப்படுத்துங்கள்."
+      },
+      "intent": "missing",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "EPFO"
+    },
+    {
+      "id": "SAH-097",
+      "category": "Job Change",
+      "question_en": "My previous employer has disappeared. What next?",
+      "answers": {
+        "en": "This needs a human HR professional or the relevant official service. I can help prepare the question, but a person must review sensitive cases, disputes, claim decisions and individual eligibility. Use your company’s secure HR channel.",
+        "hi": "इस मामले में HR के मानव विशेषज्ञ या संबंधित आधिकारिक सेवा की ज़रूरत है। मैं सवाल तैयार करने में मदद कर सकता हूँ, लेकिन संवेदनशील मामलों, विवादों और पात्रता निर्णयों की समीक्षा इंसान करे। सुरक्षित HR माध्यम इस्तेमाल करें।",
+        "kn": "ಇದಕ್ಕೆ ಮಾನವ HR ತಜ್ಞರು ಅಥವಾ ಸಂಬಂಧಿತ ಅಧಿಕೃತ ಸೇವೆ ಅಗತ್ಯ. ಪ್ರಶ್ನೆ ಸಿದ್ಧಪಡಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತೇನೆ; ಸೂಕ್ಷ್ಮ ಪ್ರಕರಣ, ವಿವಾದ ಮತ್ತು ವೈಯಕ್ತಿಕ ಅರ್ಹತೆಯನ್ನು ಮಾನವರೇ ಪರಿಶೀಲಿಸಬೇಕು. ಸುರಕ್ಷಿತ HR ಮಾರ್ಗ ಬಳಸಿ.",
+        "ta": "இதற்கு மனித HR நிபுணர் அல்லது தொடர்புடைய அதிகாரப்பூர்வ சேவை தேவை. கேள்வியைத் தயாரிக்க உதவுவேன்; நுணுக்கமான வழக்குகள், தகராறுகள், தனிப்பட்ட தகுதியை மனிதர் ஆய்வு செய்ய வேண்டும். பாதுகாப்பான HR வழியைப் பயன்படுத்துங்கள்."
+      },
+      "intent": "human",
+      "human_escalation_recommended": true,
+      "authenticated_data_required": false,
+      "source_group": "EPFO"
+    },
+    {
+      "id": "SAH-098",
+      "category": "Job Change",
+      "question_en": "My PF transfer request is not showing my previous company. Why?",
+      "answers": {
+        "en": "When changing jobs, give your existing UAN to the new employer and check that the new member ID is linked correctly. Review your service history and follow the current EPFO transfer process.",
+        "hi": "नौकरी बदलने पर मौजूदा UAN नए नियोक्ता को दें और जाँचें कि नया सदस्य ID सही जुड़ा है। सेवा इतिहास देखें और EPFO की वर्तमान ट्रांसफर प्रक्रिया अपनाएँ।",
+        "kn": "ಉದ್ಯೋಗ ಬದಲಿಸಿದಾಗ ಈಗಿನ UAN ಅನ್ನು ಹೊಸ ಉದ್ಯೋಗದಾತರಿಗೆ ನೀಡಿ; ಹೊಸ ಸದಸ್ಯ ID ಸರಿಯಾಗಿ ಲಿಂಕ್ ಆಗಿದೆಯೇ ಪರಿಶೀಲಿಸಿ. ಸೇವಾ ಇತಿಹಾಸ ನೋಡಿ EPFOಯ ಪ್ರಸ್ತುತ ವರ್ಗಾವಣೆ ವಿಧಾನ ಅನುಸರಿಸಿ.",
+        "ta": "வேலை மாறும்போது தற்போதைய UAN-ஐ புதிய நிறுவனத்திடம் கொடுத்து புதிய உறுப்பினர் ID சரியாக இணைந்துள்ளதா பாருங்கள். சேவை வரலாற்றைச் சரிபார்த்து EPFO-வின் தற்போதைய மாற்று முறையைப் பின்பற்றுங்கள்."
+      },
+      "intent": "transfer",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "EPFO"
+    },
+    {
+      "id": "SAH-099",
+      "category": "ESIC Account",
+      "question_en": "My ESIC contribution appears on my payslip but my card is missing. What next?",
+      "answers": {
+        "en": "Check official ESIC services or UMANG for the e-Pehchan card. If it is missing, ask HR to verify your insurance record and registration details. Use only official apps and websites.",
+        "hi": "e-Pehchan कार्ड के लिए आधिकारिक ESIC सेवा या UMANG देखें। कार्ड न मिले तो HR से बीमा रिकॉर्ड और पंजीकरण जाँचें। केवल आधिकारिक ऐप और वेबसाइट इस्तेमाल करें।",
+        "kn": "e-Pehchan ಕಾರ್ಡ್‌ಗಾಗಿ ಅಧಿಕೃತ ESIC ಸೇವೆ ಅಥವಾ UMANG ನೋಡಿ. ಕಾರ್ಡ್ ಕಾಣದಿದ್ದರೆ ವಿಮಾ ದಾಖಲೆ ಮತ್ತು ನೋಂದಣಿಯನ್ನು HR ಮೂಲಕ ಪರಿಶೀಲಿಸಿ. ಅಧಿಕೃತ ಆ್ಯಪ್/ವೆಬ್‌ಸೈಟ್ ಮಾತ್ರ ಬಳಸಿ.",
+        "ta": "e-Pehchan அட்டைக்கு அதிகாரப்பூர்வ ESIC சேவை அல்லது UMANG-ஐப் பாருங்கள். அட்டை இல்லையெனில் காப்பீட்டு பதிவு, விவரங்களை HR மூலம் சரிபார்க்கவும். அதிகாரப்பூர்வ செயலி/தளத்தை மட்டும் பயன்படுத்துங்கள்."
+      },
+      "intent": "esic_card",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "ESIC"
+    },
+    {
+      "id": "SAH-100",
+      "category": "ESIC Benefits",
+      "question_en": "Can my parents be added as ESIC dependants?",
+      "answers": {
+        "en": "ESIC coverage depends on the establishment, location, employee category and current wage/coverage rules. Ask HR to verify whether the workplace is covered and whether your registration is complete. Do not decide eligibility from a general answer.",
+        "hi": "ESIC कवरेज संस्थान, स्थान, कर्मचारी श्रेणी और मौजूदा वेतन नियमों पर निर्भर करता है। HR से कार्यस्थल कवरेज और अपना पंजीकरण जाँचें। सामान्य जवाब से पात्रता तय न करें।",
+        "kn": "ESIC ವ್ಯಾಪ್ತಿ ಸಂಸ್ಥೆ, ಸ್ಥಳ, ಉದ್ಯೋಗಿ ವರ್ಗ ಮತ್ತು ಪ್ರಸ್ತುತ ವೇತನ ನಿಯಮಗಳ ಮೇಲೆ ಅವಲಂಬಿತ. ಕೆಲಸದ ಸ್ಥಳ ಒಳಗೊಂಡಿದೆಯೇ ಮತ್ತು ನಿಮ್ಮ ನೋಂದಣಿ ಪೂರ್ಣವೇ ಎಂದು HR ಪರಿಶೀಲಿಸಲಿ. ಸಾಮಾನ್ಯ ಉತ್ತರದಿಂದ ಅರ್ಹತೆ ತೀರ್ಮಾನಿಸಬೇಡಿ.",
+        "ta": "ESIC காப்பீடு நிறுவனம், இடம், பணியாளர் வகை மற்றும் தற்போதைய சம்பள விதிகளைப் பொறுத்தது. பணியிடம் உள்ளடக்கப்பட்டுள்ளதா, உங்கள் பதிவு முடிந்ததா என்பதை HR மூலம் சரிபார்க்கவும். பொதுப் பதிலால் தகுதியை முடிவு செய்ய வேண்டாம்."
+      },
+      "intent": "esic_eligibility",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "ESIC"
+    },
+    {
+      "id": "SAH-101",
+      "category": "ESIC Medical",
+      "question_en": "I need specialist treatment but do not know where to go. What should I do?",
+      "answers": {
+        "en": "If your ESIC coverage is active, scheme medical services may be available to you and eligible dependants. Check your insurance details and ask the designated ESIC dispensary about the correct process.",
+        "hi": "आपका ESIC कवरेज सक्रिय हो तो आपको और पात्र आश्रितों को योजना के तहत चिकित्सा सेवा मिल सकती है। बीमा विवरण जाँचें और सही प्रक्रिया के लिए निर्धारित ESIC डिस्पेंसरी से पूछें।",
+        "kn": "ESIC ವ್ಯಾಪ್ತಿ ಸಕ್ರಿಯವಾಗಿದ್ದರೆ ನಿಮಗೂ ಅರ್ಹ ಅವಲಂಬಿತರಿಗೂ ವೈದ್ಯಕೀಯ ಸೇವೆ ಲಭ್ಯವಾಗಬಹುದು. ವಿಮಾ ವಿವರ ಪರಿಶೀಲಿಸಿ ಸರಿಯಾದ ಕ್ರಮಕ್ಕಾಗಿ ನಿಗದಿತ ESIC ಔಷಧಾಲಯವನ್ನು ಸಂಪರ್ಕಿಸಿ.",
+        "ta": "ESIC காப்பீடு செயல்பாட்டில் இருந்தால் உங்களுக்கும் தகுதியுள்ள குடும்பத்தினருக்கும் மருத்துவ சேவை கிடைக்கலாம். காப்பீட்டு விவரங்களைச் சரிபார்த்து சரியான முறைக்கு ஒதுக்கப்பட்ட ESIC மருந்தகத்தை அணுகுங்கள்."
+      },
+      "intent": "esic_medical",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "ESIC"
+    },
+    {
+      "id": "SAH-102",
+      "category": "ESIC Claim",
+      "question_en": "My ESIC claim is pending. How can I follow it up?",
+      "answers": {
+        "en": "Check claim/benefit status through official ESIC services or UMANG using the required reference details. If the record is missing, ask HR or the ESIC branch to verify your insurance number and claim reference.",
+        "hi": "ज़रूरी रेफरेंस विवरण से आधिकारिक ESIC सेवा या UMANG में स्थिति देखें। रिकॉर्ड न मिले तो HR या ESIC शाखा से बीमा नंबर और क्लेम रेफरेंस जाँचें।",
+        "kn": "ಅಗತ್ಯ ಉಲ್ಲೇಖ ವಿವರಗಳೊಂದಿಗೆ ಅಧಿಕೃತ ESIC ಸೇವೆ ಅಥವಾ UMANGನಲ್ಲಿ ಸ್ಥಿತಿ ಪರಿಶೀಲಿಸಿ. ದಾಖಲೆ ಸಿಗದಿದ್ದರೆ ವಿಮಾ ಸಂಖ್ಯೆ ಮತ್ತು ಕ್ಲೇಮ್ ಉಲ್ಲೇಖವನ್ನು HR/ESIC ಶಾಖೆಯಿಂದ ಪರಿಶೀಲಿಸಿ.",
+        "ta": "தேவையான குறிப்பு விவரங்களுடன் அதிகாரப்பூர்வ ESIC சேவை அல்லது UMANG-ல் நிலையைப் பாருங்கள். பதிவு இல்லையெனில் காப்பீட்டு எண், கோரிக்கை குறிப்பை HR/ESIC கிளையிடம் சரிபார்க்கச் சொல்லுங்கள்."
+      },
+      "intent": "esic_claim",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "ESIC"
+    },
+    {
+      "id": "SAH-103",
+      "category": "Responsible AI",
+      "question_en": "Can Sahayak guarantee that my PF or ESIC claim will be approved?",
+      "answers": {
+        "en": "Sahayak can explain verified information and help route a request, but it cannot make financial decisions, decide personal eligibility or approve a PF/ESIC claim. Those decisions belong to authorised officials and human HR staff.",
+        "hi": "Sahayak सत्यापित जानकारी समझा सकता है और अनुरोध भेज सकता है, लेकिन वित्तीय निर्णय, व्यक्तिगत पात्रता या PF/ESIC क्लेम की मंज़ूरी नहीं दे सकता। ये निर्णय अधिकृत अधिकारी और HR कर्मचारी लेते हैं।",
+        "kn": "Sahayak ದೃಢೀಕೃತ ಮಾಹಿತಿಯನ್ನು ವಿವರಿಸಿ ವಿನಂತಿ ಕಳುಹಿಸಬಹುದು; ಆದರೆ ಹಣಕಾಸು ನಿರ್ಧಾರ, ವೈಯಕ್ತಿಕ ಅರ್ಹತೆ ಅಥವಾ PF/ESIC ಕ್ಲೇಮ್ ಅನುಮೋದನೆ ಮಾಡಲಾರದು. ಅವುಗಳನ್ನು ಅಧಿಕೃತ ಅಧಿಕಾರಿಗಳು ಮತ್ತು HR ಸಿಬ್ಬಂದಿ ನಿರ್ಧರಿಸುತ್ತಾರೆ.",
+        "ta": "Sahayak சரிபார்க்கப்பட்ட தகவலை விளக்கி கோரிக்கையை அனுப்ப உதவும்; ஆனால் நிதி முடிவு, தனிப்பட்ட தகுதி அல்லது PF/ESIC கோரிக்கையை ஒப்புதல் அளிக்க முடியாது. அவற்றை அங்கீகரிக்கப்பட்ட அதிகாரிகளும் HR பணியாளர்களும் முடிவு செய்கிறார்கள்."
+      },
+      "intent": "no_decision",
+      "human_escalation_recommended": true,
+      "authenticated_data_required": false,
+      "source_group": "Company HR policy + official scheme guidance"
+    },
+    {
+      "id": "SAH-104",
+      "category": "Human Escalation",
+      "question_en": "I want a human HR person to call me about a sensitive issue. Can you arrange that?",
+      "answers": {
+        "en": "This needs a human HR professional or the relevant official service. I can help prepare the question, but a person must review sensitive cases, disputes, claim decisions and individual eligibility. Use your company’s secure HR channel.",
+        "hi": "इस मामले में HR के मानव विशेषज्ञ या संबंधित आधिकारिक सेवा की ज़रूरत है। मैं सवाल तैयार करने में मदद कर सकता हूँ, लेकिन संवेदनशील मामलों, विवादों और पात्रता निर्णयों की समीक्षा इंसान करे। सुरक्षित HR माध्यम इस्तेमाल करें।",
+        "kn": "ಇದಕ್ಕೆ ಮಾನವ HR ತಜ್ಞರು ಅಥವಾ ಸಂಬಂಧಿತ ಅಧಿಕೃತ ಸೇವೆ ಅಗತ್ಯ. ಪ್ರಶ್ನೆ ಸಿದ್ಧಪಡಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತೇನೆ; ಸೂಕ್ಷ್ಮ ಪ್ರಕರಣ, ವಿವಾದ ಮತ್ತು ವೈಯಕ್ತಿಕ ಅರ್ಹತೆಯನ್ನು ಮಾನವರೇ ಪರಿಶೀಲಿಸಬೇಕು. ಸುರಕ್ಷಿತ HR ಮಾರ್ಗ ಬಳಸಿ.",
+        "ta": "இதற்கு மனித HR நிபுணர் அல்லது தொடர்புடைய அதிகாரப்பூர்வ சேவை தேவை. கேள்வியைத் தயாரிக்க உதவுவேன்; நுணுக்கமான வழக்குகள், தகராறுகள், தனிப்பட்ட தகுதியை மனிதர் ஆய்வு செய்ய வேண்டும். பாதுகாப்பான HR வழியைப் பயன்படுத்துங்கள்."
+      },
+      "intent": "human",
+      "human_escalation_recommended": true,
+      "authenticated_data_required": false,
+      "source_group": "Company HR policy + official scheme guidance"
+    },
+    {
+      "id": "SAH-105",
+      "category": "HR Support",
+      "question_en": "My employer is not answering questions about deductions. Can I raise a concern?",
+      "answers": {
+        "en": "You deserve a clear explanation of a salary deduction. Note the payslip month and the line you do not understand, then ask HR through an official channel. You should be treated respectfully for asking about pay or benefits.",
+        "hi": "आपको वेतन कटौती का साफ़ जवाब मिलना चाहिए। सैलरी स्लिप का महीना और जिस मद को नहीं समझते उसे नोट करके आधिकारिक माध्यम से HR से पूछें। वेतन या लाभ पूछने पर सम्मान मिलना चाहिए।",
+        "kn": "ವೇತನ ಕಡಿತದ ಬಗ್ಗೆ ಸ್ಪಷ್ಟ ಉತ್ತರ ಪಡೆಯಲು ನಿಮಗೆ ಹಕ್ಕಿದೆ. ವೇತನ ಚೀಟಿಯ ತಿಂಗಳು ಮತ್ತು ಅರ್ಥವಾಗದ ಸಾಲನ್ನು ಬರೆದು ಅಧಿಕೃತ ಮಾರ್ಗದಲ್ಲಿ HR ಕೇಳಿ. ವೇತನ ಅಥವಾ ಸೌಲಭ್ಯ ಕೇಳಿದ್ದಕ್ಕೆ ಗೌರವದಿಂದ ವರ್ತಿಸಬೇಕು.",
+        "ta": "சம்பளப் பிடித்தம் குறித்து தெளிவான விளக்கம் பெற உங்களுக்கு உரிமை உண்டு. மாதத்தையும் புரியாத வரியையும் குறித்துக் கொண்டு அதிகாரப்பூர்வ வழியில் HR-ஐக் கேளுங்கள். சம்பளம் அல்லது நலன் பற்றி கேட்டதற்காக மரியாதையுடன் நடத்தப்பட வேண்டும்."
+      },
+      "intent": "hr",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "Company HR policy + official scheme guidance"
+    },
+    {
+      "id": "SAH-106",
+      "category": "PF Claim",
+      "question_en": "What information should I keep ready before contacting EPFO?",
+      "answers": {
+        "en": "Required documents depend on the claim type and records already linked to your account. Check the current official portal checklist. Never upload documents through unofficial links or send them in this chat.",
+        "hi": "दस्तावेज़ क्लेम के प्रकार और खाते से जुड़े रिकॉर्ड पर निर्भर करते हैं। आधिकारिक पोर्टल की वर्तमान सूची देखें। अनजान लिंक पर दस्तावेज़ अपलोड न करें और इस चैट में न भेजें।",
+        "kn": "ದಾಖಲೆಗಳು ಕ್ಲೇಮ್ ಪ್ರಕಾರ ಮತ್ತು ಖಾತೆಗೆ ಜೋಡಿಸಿರುವ ದಾಖಲೆಗಳ ಮೇಲೆ ಅವಲಂಬಿತ. ಅಧಿಕೃತ ಪೋರ್ಟಲ್‌ನ ಪ್ರಸ್ತುತ ಪಟ್ಟಿ ನೋಡಿ. ಅಪರಿಚಿತ ಲಿಂಕ್‌ನಲ್ಲಿ ದಾಖಲೆ ಅಪ್‌ಲೋಡ್ ಮಾಡಬೇಡಿ ಅಥವಾ ಈ ಚಾಟ್‌ಗೆ ಕಳುಹಿಸಬೇಡಿ.",
+        "ta": "ஆவணங்கள் கோரிக்கை வகையையும் கணக்குடன் இணைந்த பதிவுகளையும் பொறுத்தது. அதிகாரப்பூர்வ தளத்தின் தற்போதைய பட்டியலைப் பாருங்கள். தெரியாத இணைப்பில் பதிவேற்றவோ இந்த அரட்டையில் அனுப்பவோ வேண்டாம்."
+      },
+      "intent": "docs",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "EPFO"
+    },
+    {
+      "id": "SAH-107",
+      "category": "ESIC Claim",
+      "question_en": "What information should I keep ready before contacting ESIC?",
+      "answers": {
+        "en": "Check claim/benefit status through official ESIC services or UMANG using the required reference details. If the record is missing, ask HR or the ESIC branch to verify your insurance number and claim reference.",
+        "hi": "ज़रूरी रेफरेंस विवरण से आधिकारिक ESIC सेवा या UMANG में स्थिति देखें। रिकॉर्ड न मिले तो HR या ESIC शाखा से बीमा नंबर और क्लेम रेफरेंस जाँचें।",
+        "kn": "ಅಗತ್ಯ ಉಲ್ಲೇಖ ವಿವರಗಳೊಂದಿಗೆ ಅಧಿಕೃತ ESIC ಸೇವೆ ಅಥವಾ UMANGನಲ್ಲಿ ಸ್ಥಿತಿ ಪರಿಶೀಲಿಸಿ. ದಾಖಲೆ ಸಿಗದಿದ್ದರೆ ವಿಮಾ ಸಂಖ್ಯೆ ಮತ್ತು ಕ್ಲೇಮ್ ಉಲ್ಲೇಖವನ್ನು HR/ESIC ಶಾಖೆಯಿಂದ ಪರಿಶೀಲಿಸಿ.",
+        "ta": "தேவையான குறிப்பு விவரங்களுடன் அதிகாரப்பூர்வ ESIC சேவை அல்லது UMANG-ல் நிலையைப் பாருங்கள். பதிவு இல்லையெனில் காப்பீட்டு எண், கோரிக்கை குறிப்பை HR/ESIC கிளையிடம் சரிபார்க்கச் சொல்லுங்கள்."
+      },
+      "intent": "esic_claim",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "ESIC"
+    },
+    {
+      "id": "SAH-108",
+      "category": "Privacy",
+      "question_en": "Can I share my bank account number here so you can check my claim?",
+      "answers": {
+        "en": "You can ask general questions without sharing personal identifiers. For account-specific checks, use an authenticated company/official channel. Do not enter full UAN, Aadhaar, PAN, bank details, passwords or OTPs in this demo.",
+        "hi": "आप निजी पहचान बताए बिना सामान्य सवाल पूछ सकते हैं। खाते की जाँच के लिए प्रमाणित कंपनी/आधिकारिक माध्यम इस्तेमाल करें। इस डेमो में पूरा UAN, आधार, PAN, बैंक विवरण, पासवर्ड या OTP न लिखें।",
+        "kn": "ವೈಯಕ್ತಿಕ ಗುರುತು ಹಂಚದೆ ಸಾಮಾನ್ಯ ಪ್ರಶ್ನೆ ಕೇಳಬಹುದು. ಖಾತೆ ಪರಿಶೀಲನೆಗೆ ದೃಢೀಕೃತ ಕಂಪನಿ/ಅಧಿಕೃತ ಮಾರ್ಗ ಬಳಸಿ. ಈ ಡೆಮೋದಲ್ಲಿ ಪೂರ್ಣ UAN, ಆಧಾರ್, PAN, ಬ್ಯಾಂಕ್ ವಿವರ, ಪಾಸ್‌ವರ್ಡ್ ಅಥವಾ OTP ನಮೂದಿಸಬೇಡಿ.",
+        "ta": "தனிப்பட்ட அடையாளத்தைப் பகிராமல் பொதுக் கேள்விகளைக் கேட்கலாம். கணக்கு சார்ந்த சரிபார்ப்புக்கு அங்கீகரிக்கப்பட்ட நிறுவனம்/அதிகாரப்பூர்வ வழியைப் பயன்படுத்துங்கள். இந்த டெமோவில் முழு UAN, ஆதார், PAN, வங்கி விவரம், கடவுச்சொல் அல்லது OTP இட வேண்டாம்."
+      },
+      "intent": "privacy",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "Company HR policy + official scheme guidance"
+    },
+    {
+      "id": "SAH-109",
+      "category": "Security",
+      "question_en": "I received a link asking me to pay a fee to release PF. What should I do?",
+      "answers": {
+        "en": "Never share OTPs, passwords, UAN login details or bank PINs with anyone. EPFO warns about fake calls and credential theft. End suspicious calls and report them through official channels.",
+        "hi": "OTP, पासवर्ड, UAN लॉगिन या बैंक PIN किसी को न बताएँ। EPFO नकली कॉल और खाते की जानकारी चोरी होने से सावधान करता है। संदिग्ध कॉल काटें और आधिकारिक माध्यम से रिपोर्ट करें।",
+        "kn": "OTP, ಪಾಸ್‌ವರ್ಡ್, UAN ಲಾಗಿನ್ ಅಥವಾ ಬ್ಯಾಂಕ್ PIN ಯಾರಿಗೂ ಹೇಳಬೇಡಿ. ನಕಲಿ ಕರೆ ಮತ್ತು ಮಾಹಿತಿ ಕಳವು ಬಗ್ಗೆ EPFO ಎಚ್ಚರಿಸುತ್ತದೆ. ಅನುಮಾನಾಸ್ಪದ ಕರೆ ಕಡಿತಗೊಳಿಸಿ ಅಧಿಕೃತ ಮಾರ್ಗದಲ್ಲಿ ವರದಿ ಮಾಡಿ.",
+        "ta": "OTP, கடவுச்சொல், UAN உள்நுழைவு அல்லது வங்கி PIN-ஐ யாரிடமும் பகிர வேண்டாம். போலி அழைப்புகள், விவரத் திருட்டு குறித்து EPFO எச்சரிக்கிறது. சந்தேக அழைப்பைத் துண்டித்து அதிகாரப்பூர்வ வழியில் புகாரளிக்கவும்."
+      },
+      "intent": "security",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": false,
+      "source_group": "Company HR policy + official scheme guidance"
+    },
+    {
+      "id": "SAH-110",
+      "category": "HR Workflow",
+      "question_en": "Can you raise an HR ticket and tell me its reference number?",
+      "answers": {
+        "en": "A live system can create an HR request after confirming your identity, consent and the correct destination. Only the necessary authorised record should be attached. This dataset/demo does not create a real ticket.",
+        "hi": "वास्तविक सिस्टम पहचान, सहमति और सही HR टीम की पुष्टि के बाद अनुरोध बना सकता है। केवल ज़रूरी अधिकृत रिकॉर्ड जोड़ा जाना चाहिए। यह डेमो असली टिकट नहीं बनाता।",
+        "kn": "ನೈಜ ವ್ಯವಸ್ಥೆಯಲ್ಲಿ ಗುರುತು, ಒಪ್ಪಿಗೆ ಮತ್ತು ಸರಿಯಾದ HR ಗಮ್ಯಸ್ಥಾನ ದೃಢಪಡಿಸಿದ ನಂತರ ವಿನಂತಿ ರಚಿಸಬಹುದು. ಅಗತ್ಯವಿರುವ ಅಧಿಕೃತ ದಾಖಲೆಯನ್ನಷ್ಟೇ ಸೇರಿಸಬೇಕು. ಈ ಡೆಮೋ ನಿಜವಾದ ಟಿಕೆಟ್ ರಚಿಸುವುದಿಲ್ಲ.",
+        "ta": "உண்மையான அமைப்பு அடையாளம், ஒப்புதல், சரியான HR பிரிவு ஆகியவற்றை உறுதிசெய்த பிறகு கோரிக்கையை உருவாக்கலாம். தேவையான அங்கீகரிக்கப்பட்ட பதிவு மட்டும் இணைக்கப்பட வேண்டும். இந்த டெமோ உண்மையான டிக்கெட்டை உருவாக்காது."
+      },
+      "intent": "ticket",
+      "human_escalation_recommended": false,
+      "authenticated_data_required": true,
+      "source_group": "Company HR policy + official scheme guidance"
+    }
+  ]
+}
