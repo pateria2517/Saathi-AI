@@ -1,0 +1,1400 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" href="data:,">
+<meta name="theme-color" content="#0b0b12"><title>Saathi AI — Multilingual Workplace Benefits Helpline</title>
+<style>
+:root{--bg:#0b0b12;--panel:#15151d;--panel2:#191923;--line:#32323e;--text:#f4f2fc;--muted:#a8a6b9;--lav:#aaa5ff;--blue:#59b8ff;--pink:#d39dff;--gold:#ffd16e;--grad:linear-gradient(115deg,#4baeff 0%,#a88bff 57%,#ffd16e 100%);--ok:#75e1b1;--bad:#ff8d83}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.55 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}button,select,textarea,input{font:inherit}button{cursor:pointer}.shell{max-width:1200px;width:calc(100% - 56px);margin:0 auto}
+.topbar{display:flex;align-items:center;justify-content:space-between;padding:20px 0;border-bottom:1px solid #242431}
+.brand{display:flex;align-items:center;gap:12px;font-weight:850;letter-spacing:.03em}
+.logo{width:42px;height:42px;border-radius:12px;object-fit:cover;background:#242438;display:flex;align-items:center;justify-content:center;font-size:20px}
+.brand-name{font-size:20px}.brand-name span{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.topright{display:flex;align-items:center;gap:10px;color:var(--muted);font-size:13px}
+.live-dot{width:8px;height:8px;border-radius:50%;background:var(--ok);box-shadow:0 0 12px #75e1b188}
+.badge-mock{background:#ffd16e18;color:#ffd16e;border:1px solid #ffd16e44;padding:3px 9px;border-radius:6px;font-size:11px;font-weight:800;letter-spacing:.06em;text-transform:uppercase}
+.hero{padding:28px 0 16px}.eyebrow{color:var(--lav);text-transform:uppercase;letter-spacing:.16em;font-size:11px;font-weight:800}
+.hero h1{font-size:clamp(28px,3.8vw,44px);line-height:1.15;letter-spacing:-.04em;margin:9px 0}
+.hero h1 span{background:var(--grad);background-clip:text;-webkit-background-clip:text;color:transparent}
+.hero p{margin:0;color:var(--muted);max-width:820px}
+
+/* Call Simulator Banner */
+.call-banner{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;margin:22px 0 24px;padding:20px 24px;background:linear-gradient(135deg,#161726,#12121c);border:1px solid #3c3a58;border-radius:18px;box-shadow:0 10px 32px #00000050}
+.call-banner-info{flex:1;min-width:280px}
+.call-badge{font-size:11px;font-weight:800;color:var(--lav);letter-spacing:.14em;margin-bottom:4px;display:flex;align-items:center;gap:7px}
+.call-badge i{width:7px;height:7px;border-radius:50%;background:#38bdf8;box-shadow:0 0 10px #38bdf8}
+.call-title{font-size:19px;font-weight:750;color:#fff}
+.call-desc{font-size:13px;color:var(--muted);max-width:620px;margin-top:5px;line-height:1.45}
+.call-banner-actions{display:flex;gap:10px;flex-wrap:wrap}
+.call-btn-primary{background:linear-gradient(115deg,#38bdf8,#818cf8);color:#0f172a;font-weight:800;border:0;border-radius:12px;padding:12px 20px;font-size:14px;box-shadow:0 6px 20px #38bdf833;transition:.15s ease}
+.call-btn-primary:hover{filter:brightness(1.1);transform:translateY(-1px)}
+.call-btn-scenario{background:#222234;color:#f0eeff;border:1px solid #484766;border-radius:12px;padding:12px 18px;font-size:14px;font-weight:650;transition:.15s ease}
+.call-btn-scenario:hover{background:#2a2a40;border-color:#7f77ff}
+
+.toolbar{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;margin:10px 0 24px;padding:15px 18px;border:1px solid var(--line);border-radius:16px;background:#11111a}
+.toolbar-left{display:flex;gap:12px;align-items:center;flex-wrap:wrap}.toolbar label{font-size:13px;color:var(--muted)}
+select{background:#191923;color:var(--text);border:1px solid #3a3a49;border-radius:10px;padding:9px 13px;min-width:155px;outline:none}
+.check{display:flex;align-items:center;gap:7px;color:var(--muted);font-size:13px;cursor:pointer}.check input{accent-color:#9e95ff;width:16px;height:16px}
+.voice-status{font-size:12px;color:var(--muted);max-width:320px;text-align:right}.voice-status strong{color:var(--lav)}
+.section-head{display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin:8px 0 13px}
+.section-head h2{font-size:17px;margin:0;color:var(--lav);font-weight:750}.section-head small{color:var(--muted);font-size:12px}
+.question-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.question-card{border:1px solid var(--line);border-radius:16px;background:var(--panel);color:var(--text);text-align:left;padding:18px 19px;min-height:91px;display:flex;align-items:center;justify-content:flex-start;font-size:15px;line-height:1.35;font-weight:620;transition:.18s ease}
+.question-card:hover{border-color:#928aff;transform:translateY(-2px);box-shadow:0 12px 30px #05050c80}
+.question-card.active{background:var(--grad);border-color:transparent;color:#10101a;box-shadow:0 8px 30px #9f8cff22}
+.divider{display:flex;align-items:center;gap:18px;margin:32px 0 24px;color:#8580b6;font-size:14px}
+.divider:before,.divider:after{content:"";height:1px;background:#2b2b37;flex:1}
+.ask-label{display:block;color:var(--lav);font-size:14px;font-weight:700;margin-bottom:8px}
+.ask-row{display:grid;grid-template-columns:1fr auto;gap:13px;align-items:stretch}
+.ask-row textarea{width:100%;min-height:79px;resize:vertical;background:var(--panel);color:var(--text);border:1px solid #393946;border-radius:15px;padding:17px 19px;outline:none}
+.ask-row textarea:focus{border-color:#9b91ff;box-shadow:0 0 0 3px #9b91ff18}
+.primary{background:var(--grad);border:0;color:#11111a;font-weight:850;border-radius:15px;padding:0 28px;min-width:180px;align-self:start;height:58px;box-shadow:0 8px 24px #a48fff24}
+.primary:hover{filter:brightness(1.07);transform:translateY(-1px)}.primary:disabled{opacity:.5;cursor:not-allowed;transform:none}
+.answer-box{margin:30px 0 58px;border:1px solid #30303e;border-radius:21px;background:linear-gradient(145deg,#14141e,#11111a);padding:25px 28px;min-height:170px;box-shadow:0 14px 45px #0003}
+.answer-top{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;padding-bottom:15px;border-bottom:1px solid #292936}
+.answer-brand{display:flex;gap:10px;align-items:center}
+.mini-logo{width:29px;height:29px;border-radius:8px;background:var(--grad);display:flex;align-items:center;justify-content:center;color:#10101a;font-weight:900;font-size:14px}
+.answer-brand strong{font-size:15px}.answer-meta{font-size:11px;color:var(--muted)}
+.answer-actions{display:flex;gap:8px;flex-wrap:wrap}
+.small-btn{background:#1c1c28;border:1px solid #383849;color:#d5d1ee;border-radius:9px;padding:8px 11px;font-size:12px}
+.small-btn:hover{border-color:#a69cff;color:#fff}.small-btn:disabled{opacity:.45;cursor:not-allowed}
+.answer-body{padding:19px 0 4px;white-space:pre-wrap;font-size:16px;line-height:1.8}
+.answer-placeholder{color:#ff938a;font-size:18px;padding:8px 0}
+.translation{display:none;margin:16px 0 2px;background:#1a1a27;border:1px solid #3b3b4d;border-radius:13px;padding:14px 16px;color:#d7d4e7;font-size:14px;line-height:1.7;white-space:pre-wrap}
+.translation.visible{display:block}
+.translation-label{display:block;color:var(--lav);font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.12em;margin-bottom:5px}
+.answer-foot{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;color:#8d8b9f;font-size:11px;margin-top:18px}
+.tag{border:1px solid #414052;border-radius:99px;padding:4px 9px;color:#bcb6e8}
+.thinking{display:flex;align-items:center;gap:10px;color:#c3bfff}
+.spinner{width:15px;height:15px;border:2px solid #55516f;border-top-color:#b3aaff;border-radius:50%;animation:spin .7s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.bottom-note{border-top:1px solid #242431;padding:20px 0 30px;display:flex;justify-content:space-between;gap:12px;color:#777587;font-size:11px}
+.bottom-note b{color:#aba6d9}.hidden{display:none!important}.error{color:var(--bad)}
+
+/* Phone Simulator Modal */
+.phone-modal{position:fixed;inset:0;background:#000000b0;backdrop-filter:blur(8px);z-index:9999;display:none;align-items:center;justify-content:center;padding:16px}
+.phone-modal.active{display:flex}
+.phone-box{background:#13131e;border:1px solid #383852;border-radius:22px;width:100%;max-width:980px;height:88vh;display:flex;flex-direction:column;box-shadow:0 24px 70px #000000dd;overflow:hidden}
+.phone-header{display:flex;align-items:center;justify-content:space-between;padding:16px 22px;border-bottom:1px solid #262638;background:#171724}
+.phone-header-title{display:flex;align-items:center;gap:10px;font-weight:800;font-size:16px;color:#fff}
+.phone-close{background:transparent;border:0;color:var(--muted);font-size:22px;padding:4px 8px;border-radius:8px;line-height:1}
+.phone-close:hover{color:#fff;background:#242436}
+.phone-body{display:grid;grid-template-columns:360px 1fr;gap:0;overflow:hidden;flex:1}
+@media(max-width:840px){.phone-body{grid-template-columns:1fr;overflow-y:auto}}
+.phone-dialer{padding:18px;background:#141420;border-right:1px solid #262638;display:flex;flex-direction:column;gap:12px;overflow-y:auto}
+.call-status-card{background:#1b1b2a;border:1px solid #323249;border-radius:14px;padding:12px 14px}
+.caller-id{font-size:13px;font-weight:750;color:#f4f2fc;display:flex;align-items:center;justify-content:space-between}
+.call-state{font-size:12px;color:var(--blue);margin-top:3px;font-weight:600}
+.call-meta-row{display:flex;justify-content:space-between;font-size:11px;color:var(--muted);margin-top:6px;border-top:1px solid #262638;padding-top:6px}
+.sim-section-label{font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-bottom:6px}
+.keypad-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.key-btn{background:#202030;border:1px solid #363650;color:#f3f1ff;padding:10px 6px;border-radius:10px;font-size:12px;text-align:center;font-weight:650;transition:.12s ease}
+.key-btn:hover{background:#2a2a40;border-color:#8e85ff}
+.key-btn.active{background:linear-gradient(135deg,#6366f1,#8b5cf6);color:#fff;border-color:transparent}
+.mic-btn-main{width:100%;background:linear-gradient(115deg,#0ea5e9,#6366f1);color:#fff;border:0;border-radius:12px;padding:11px;font-weight:750;font-size:13.5px;display:flex;align-items:center;justify-content:center;gap:8px;box-shadow:0 4px 16px #0ea5e933;transition:.15s ease}
+.mic-btn-main:hover{filter:brightness(1.1)}
+.mic-btn-main.listening{background:linear-gradient(115deg,#ef4444,#dc2626);animation:pulse-red 1.2s infinite}
+@keyframes pulse-red{0%,100%{box-shadow:0 0 0 0 #ef444466}50%{box-shadow:0 0 0 12px #ef444400}}
+.sim-input-row{display:flex;gap:6px}
+.sim-input-row input{flex:1;background:#1a1a28;border:1px solid #323249;border-radius:10px;padding:8px 10px;color:#fff;font-size:12px;outline:none}
+.sim-send-btn{background:#252538;border:1px solid #444360;color:#e3e0ff;border-radius:10px;padding:0 12px;font-size:12px;font-weight:650}
+.prompt-chips{display:flex;flex-direction:column;gap:6px}
+.chip-btn{background:#181826;border:1px solid #2d2d42;color:#d5d1ee;padding:7px 10px;border-radius:8px;font-size:11px;text-align:left;line-height:1.35;transition:.12s ease}
+.chip-btn:hover{border-color:#7f77ff;color:#fff;background:#202034}
+.control-cmds-row{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
+.cmd-btn{background:#1f1f2f;border:1px solid #363650;color:#c9c5e8;padding:8px 4px;border-radius:8px;font-size:11px;font-weight:650;text-align:center}
+.cmd-btn:hover{background:#2c2c42;border-color:#a299ff;color:#fff}
+.hangup-btn{background:#dc262624;border:1px solid #dc262666;color:#fca5a5;padding:10px;border-radius:10px;font-size:13px;font-weight:750;text-align:center}
+.hangup-btn:hover{background:#dc2626;color:#fff}
+.phone-transcript-pane{display:flex;flex-direction:column;background:#101019;height:100%;overflow:hidden}
+.transcript-top{padding:12px 18px;border-bottom:1px solid #232334;display:flex;justify-content:space-between;align-items:center;background:#141420}
+.transcript-title{font-size:13px;font-weight:750;color:var(--lav);display:flex;align-items:center;gap:8px}
+.audio-waves{display:inline-flex;align-items:center;gap:3px;height:14px}
+.audio-bar{width:3px;height:100%;background:var(--ok);border-radius:2px;animation:wave .8s ease-in-out infinite alternate}
+.audio-bar:nth-child(2){animation-delay:.2s}
+.audio-bar:nth-child(3){animation-delay:.4s}
+@keyframes wave{0%{height:20%}100%{height:100%}}
+.transcript-scroll{flex:1;overflow-y:auto;padding:18px;display:flex;flex-direction:column;gap:12px}
+.t-bubble{padding:11px 14px;border-radius:14px;max-width:85%;line-height:1.55;font-size:13.5px;white-space:pre-wrap}
+.t-ivr{background:#1c1c2c;border:1px solid #32324a;color:#e8e5fa;align-self:flex-start}
+.t-ivr strong{color:var(--blue);display:block;font-size:11px;margin-bottom:3px;text-transform:uppercase}
+.t-caller{background:linear-gradient(135deg,#312e81,#3730a3);border:1px solid #4f46e5;color:#fff;align-self:flex-end}
+.t-caller strong{color:#c7d2fe;display:block;font-size:11px;margin-bottom:3px;text-transform:uppercase}
+.t-escalation{background:#7c2d1233;border:1px solid #ea580c88;color:#fed7aa;border-radius:10px;padding:9px 12px;font-size:12px;align-self:stretch}
+@media(max-width:800px){.shell{width:calc(100% - 32px)}.question-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.topright{display:none}.ask-row{grid-template-columns:1fr}.primary{width:100%;height:54px}.toolbar{align-items:flex-start}.voice-status{text-align:left;max-width:none}.answer-box{padding:20px 18px}}
+@media(max-width:520px){.question-grid{grid-template-columns:1fr}.question-card{min-height:70px}.toolbar-left{width:100%;justify-content:space-between}.toolbar-left select{flex:1}.hero h1{font-size:30px}.bottom-note{display:block}.bottom-note span{display:block;margin:5px 0}}
+
+/* Payslip Explainer & Anomaly Engine (Step 2) */
+.payslip-section{margin:36px 0 28px;background:linear-gradient(145deg,#151522,#101019);border:1px solid #2e2c44;border-radius:20px;padding:26px 28px;box-shadow:0 12px 36px #00000060}
+.payslip-header{display:flex;align-items:flex-start;justify-content:space-between;gap:20px;flex-wrap:wrap;margin-bottom:20px;padding-bottom:18px;border-bottom:1px solid #242436}
+.payslip-header-info{flex:1;min-width:300px}
+.payslip-header-info h2{font-size:22px;margin:6px 0 8px;color:#fff}
+.payslip-header-info p{margin:0;color:var(--muted);font-size:13.5px;max-width:760px;line-height:1.55}
+.payslip-header-actions{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.action-pill-btn{background:#222234;color:#e2e0f5;border:1px solid #3c3b54;padding:8px 14px;border-radius:10px;font-size:12.5px;font-weight:700;transition:.15s ease}
+.action-pill-btn:hover{background:#2c2c44;border-color:#7f77ff;color:#fff}
+.action-pill-btn.subtle{background:transparent;border-color:#333346;color:var(--muted)}
+.action-pill-btn.subtle:hover{color:#fff;background:#1e1e2c}
+
+.payslip-tabs{display:flex;gap:10px;margin-bottom:18px;border-bottom:1px solid #222232;padding-bottom:8px}
+.tab-btn{background:transparent;color:var(--muted);border:0;padding:8px 14px;border-radius:8px;font-size:13.5px;font-weight:700;transition:.15s ease}
+.tab-btn.active{background:#232338;color:var(--lav);border-bottom:2px solid var(--lav)}
+.payslip-tab-content{display:none}
+.payslip-tab-content.active{display:block}
+
+.form-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px;margin-bottom:18px}
+.form-group{display:flex;flex-direction:column;gap:5px}
+.form-group label{font-size:12.5px;font-weight:750;color:#d5d3e8}
+.form-group .required{color:var(--bad)}
+.form-group input, .form-group select{background:#181824;color:#fff;border:1px solid #353549;border-radius:10px;padding:9px 12px;font-size:14px;outline:none}
+.form-group input:focus, .form-group select:focus{border-color:#7c75ff;box-shadow:0 0 0 3px #7c75ff28}
+.form-group .field-hint{font-size:11px;color:var(--muted);line-height:1.35}
+.form-group.highlight-box{background:#ffd16e10;border:1px dashed #ffd16e44;padding:10px 12px;border-radius:12px}
+.form-group.highlight-box label{color:#ffd16e}
+
+.upload-dropzone{border:2px dashed #3f3e58;border-radius:14px;padding:26px;text-align:center;background:#141420;margin-bottom:16px}
+.upload-icon{font-size:32px;margin-bottom:8px}
+.upload-dropzone h3{margin:0 0 6px;font-size:16px;color:#fff}
+.upload-dropzone p{margin:0 auto 14px;color:var(--muted);font-size:12.5px;max-width:520px}
+.upload-dropzone input[type=file]{margin-bottom:12px;font-size:13px;color:var(--muted)}
+.upload-status{margin-top:10px;font-size:12px;color:var(--lav)}
+
+.payslip-actions-bar{display:flex;justify-content:flex-end;gap:10px;margin-top:14px;padding-top:14px;border-top:1px solid #222232}
+
+/* Results Display */
+.payslip-results{margin-top:24px;padding-top:20px;border-top:1px solid #2a2a3e}
+.payslip-results.hidden{display:none}
+.summary-cards-row{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:20px}
+.sum-card{background:#181826;border:1px solid #2c2b3e;border-radius:14px;padding:16px;text-align:center}
+.sum-label{font-size:11.5px;font-weight:750;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-bottom:4px}
+.sum-value{font-size:24px;font-weight:850;color:#fff}
+.sum-value.ok{color:var(--ok)}
+.sum-value.bad{color:var(--bad)}
+
+.anomalies-container{margin-bottom:20px}
+.anomaly-card{background:#2a1b18;border:1px solid #e0533c88;border-radius:14px;padding:16px 18px;margin-bottom:12px}
+.anomaly-card.anomaly-ok{background:#11221c;border:1px solid #34d39966}
+.anomaly-top{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:6px}
+.anomaly-badge{font-size:11px;font-weight:800;padding:3px 8px;border-radius:6px;text-transform:uppercase;background:#e0533c22;color:#ff8d83;border:1px solid #e0533c66}
+.anomaly-ok .anomaly-badge{background:#10b98122;color:#6ee7b7;border-color:#10b98166}
+.anomaly-title{font-size:15px;font-weight:800;color:#fff}
+.anomaly-rule{font-size:11.5px;color:#fca5a5;margin-bottom:6px;font-weight:650}
+.anomaly-msg-indic{font-size:14px;color:#fff;line-height:1.5;margin-bottom:4px;font-weight:600}
+.anomaly-msg-en{font-size:12.5px;color:var(--muted);line-height:1.45}
+
+.info-notes-container{margin-bottom:18px}
+.info-note-card{background:#111b2d;border:1px solid #38bdf866;border-left:4px solid #38bdf8;border-radius:12px;padding:14px 18px;margin-bottom:12px}
+.info-note-top{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:6px}
+.info-note-badge{font-size:11px;font-weight:800;padding:3px 8px;border-radius:6px;text-transform:uppercase;background:#0284c722;color:#38bdf8;border:1px solid #0284c766}
+.info-note-title{font-size:14.5px;font-weight:750;color:#fff}
+.info-note-rule{font-size:11.5px;color:#7dd3fc;margin-bottom:6px;font-weight:600}
+.info-note-msg-indic{font-size:13.5px;color:#e0f2fe;line-height:1.5;margin-bottom:4px;font-weight:600}
+.info-note-msg-en{font-size:12px;color:#94a3b8;line-height:1.4}
+
+.breakdown-section{margin-bottom:20px}
+.breakdown-section h3{font-size:16px;margin:0 0 12px;color:var(--lav)}
+.breakdown-table{display:flex;flex-direction:column;gap:8px}
+.breakdown-row{background:#161622;border:1px solid #272738;border-radius:12px;padding:12px 16px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.breakdown-row-left{flex:1}
+.breakdown-name{font-size:14px;font-weight:750;color:#fff;margin-bottom:2px}
+.breakdown-desc-indic{font-size:13px;color:#d0ceea;line-height:1.4}
+.breakdown-desc-en{font-size:11.5px;color:var(--muted);line-height:1.35;margin-top:2px}
+.breakdown-amount{font-size:16px;font-weight:850;color:#fff;white-space:nowrap}
+.breakdown-amount.deduction{color:var(--bad)}
+.breakdown-amount.earning{color:var(--ok)}
+.breakdown-amount.contrib{color:#93c5fd}
+
+.ticket-draft-card{background:linear-gradient(135deg,#1c1828,#171320);border:1px solid #7c3aed66;border-radius:16px;padding:20px;margin-top:20px}
+.ticket-draft-card.hidden{display:none}
+.ticket-draft-header{margin-bottom:12px}
+.draft-badge{display:inline-block;font-size:10.5px;font-weight:800;background:#7c3aed33;color:#c4b5fd;border:1px solid #7c3aed88;padding:2px 7px;border-radius:5px;letter-spacing:.08em;margin-bottom:5px}
+.ticket-draft-header h4{margin:0 0 4px;font-size:16px;color:#fff}
+.ticket-draft-header p{margin:0;font-size:12.5px;color:var(--muted)}
+.ticket-draft-body{font-size:13px}
+.ticket-field{margin-bottom:6px;color:#d5d3e8}
+.ticket-field strong{color:#fff}
+.ticket-field pre{background:#111119;border:1px solid #27273a;border-radius:8px;padding:10px 12px;color:#c7d2fe;font-size:12px;white-space:pre-wrap;font-family:inherit;margin:6px 0 12px}
+.consent-checkbox-row{display:flex;align-items:center;gap:10px;margin:12px 0 16px;padding:10px 12px;background:#201830;border:1px solid #582e96;border-radius:10px;cursor:pointer}
+.consent-checkbox-row input{width:18px;height:18px;accent-color:#a855f7}
+.consent-checkbox-row span{font-size:13px;color:#f3e8ff}
+
+@media(max-width:768px){
+  .summary-cards-row{grid-template-columns:1fr}
+  .payslip-header{flex-direction:column}
+}
+
+</style>
+</head>
+<body>
+<div class="shell">
+<header class="topbar">
+  <div class="brand">
+    <div class="logo">🤝</div>
+    <div class="brand-name">SAATHI <span>AI</span></div>
+  </div>
+  <div class="topright">
+    <span class="badge-mock">MOCK DEMO MODE</span>
+    <i class="live-dot"></i>
+    <span>Multilingual Benefits Helpline</span>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="eyebrow">Your workplace benefits, made understandable</div>
+  <h1>Real answers about PF & ESIC.<br><span>In your language.</span></h1>
+  <p>Warehouse & factory workers face unexplained PF salary deductions and confusing rules. Saathi speaks Kannada, Hindi, and Tamil, explains your rights at a slow, clear pace, and raises an HR ticket when something looks wrong.</p>
+</section>
+
+<!-- Phone Channel Simulator Banner -->
+<div class="call-banner">
+  <div class="call-banner-info">
+    <div class="call-badge"><i></i> PHONE HELPLINE CHANNEL (STEP 1)</div>
+    <div class="call-title">Simulate a Helpline Call · 1800-SAATHI-PF (DEMO NUMBER ONLY)</div>
+    <div class="call-desc">Demo the phone call experience without real telephony bills: press-1/2/3 language menu, slow-paced TTS with pauses, live mic recognition in Kannada/Hindi/Tamil, and "repeat", "slower", "talk to human" commands.</div>
+  </div>
+  <div class="call-banner-actions">
+    <button class="call-btn-primary" id="openPhoneBtn">📞 Open Phone Call Simulator</button>
+    <button class="call-btn-scenario" id="demoLakshmiBtn">👤 1-Click Demo: Lakshmi's Call (Kannada)</button>
+  </div>
+</div>
+
+<div class="toolbar">
+  <div class="toolbar-left">
+    <label for="language">Response language</label>
+    <select id="language">
+      <option value="kn" selected>ಕನ್ನಡ · Kannada</option>
+      <option value="hi">हिंदी · Hindi</option>
+      <option value="ta">தமிழ் · Tamil</option>
+    </select>
+    <label class="check"><input type="checkbox" id="autoVoice" checked> Speak answer automatically</label>
+    <label class="check"><input type="checkbox" id="showEnglish" checked> English translation</label>
+  </div>
+  <div class="voice-status" id="voiceStatus">Voice: <strong>checking browser voices…</strong></div>
+</div>
+
+<div class="section-head">
+  <h2>Choose a common question</h2>
+  <small>Tap a card to query Saathi AI via API</small>
+</div>
+<div class="question-grid" id="questionGrid"></div>
+
+<div class="divider">or ask your own question (in Kannada, Hindi, Tamil or English)</div>
+
+<label class="ask-label" for="questionInput">Type your question</label>
+<div class="ask-row">
+  <textarea id="questionInput" placeholder="e.g. Why is PF deducted from my salary every month? / ನನ್ನ ಸಂಬಳದಲ್ಲಿ PF ಯಾಕೆ ಕಟ್ ಮಾಡುತ್ತಾರೆ?" aria-label="Type your question"></textarea>
+  <button class="primary" id="askButton">Ask Saathi AI</button>
+</div>
+
+<section class="answer-box" id="answerBox" aria-live="polite">
+  <div class="answer-top">
+    <div class="answer-brand">
+      <div class="mini-logo">S</div>
+      <div>
+        <strong>Saathi AI</strong>
+        <div class="answer-meta" id="answerMeta">Ready · 710 canonical FAQ records loaded via API</div>
+      </div>
+    </div>
+    <div class="answer-actions">
+      <button class="small-btn" id="translateButton" disabled>Show English</button>
+      <button class="small-btn" id="speakButton" disabled>▶ Play voice</button>
+      <button class="small-btn" id="stopButton" disabled>■ Stop</button>
+      <button class="small-btn" id="ticketButton" disabled>＋ Request HR Ticket</button>
+      <button class="small-btn" id="clearButton">↺ Clear</button>
+    </div>
+  </div>
+  <div class="answer-body" id="answerBody">
+    <div class="answer-placeholder">Choose a question above or type your own to get started.</div>
+  </div>
+  <div class="translation" id="translationBox">
+    <span class="translation-label">English translation</span>
+    <span id="translationText"></span>
+  </div>
+  <div class="answer-foot">
+    <span id="sourceLabel">Knowledge base: canonical Saathi AI FAQ · 710 records (MOCK)</span>
+    <span class="tag" id="confidenceTag">Ready</span>
+  </div>
+</section>
+
+
+<!-- =====================================================================
+     PAYSLIP EXPLAINER & STATUTORY ANOMALY CHECKER (STEP 2)
+     ===================================================================== -->
+<section class="payslip-section" id="payslipSection">
+  <div class="payslip-header">
+    <div class="payslip-header-info">
+      <div class="eyebrow">STEP 2 · PAYSLIP EXPLAINER & STATUTORY ANOMALY ENGINE</div>
+      <h2>Understand Your Payslip & Check for Anomalies</h2>
+      <p>Warehouse and factory workers can audit their monthly deductions against statutory EPFO (EPF Scheme 1952) and ESIC (ESI Act 1948) rules. If your payslip shows deductions that never reach your passbook, Saathi AI flags the issue neutrally and helps raise an HR ticket with your consent.</p>
+    </div>
+    <div class="payslip-header-actions">
+      <button class="action-pill-btn" id="prefillLakshmiBtn">👤 Pre-fill Lakshmi's MOCK Payslip</button>
+      <button class="action-pill-btn" id="prefillCeilingBtn">⚖️ High Wage Ceiling Demo</button>
+      <button class="action-pill-btn subtle" id="resetPayslipBtn">↺ Reset</button>
+    </div>
+  </div>
+
+  <div class="payslip-tabs">
+    <button class="tab-btn active" id="tabManual">✍️ Manual Field Entry (Default & Recommended)</button>
+    <button class="tab-btn" id="tabUpload">📷 Upload Payslip Photo / PDF (In-Memory OCR)</button>
+  </div>
+
+  <!-- Tab 1: Manual Field Entry (Default) -->
+  <div class="payslip-tab-content active" id="panelManual">
+    <div class="form-grid">
+      <div class="form-group">
+        <label for="psWorkerName">Worker / Employee Name (Optional)</label>
+        <input type="text" id="psWorkerName" value="Lakshmi (Packer)" placeholder="e.g. Lakshmi">
+      </div>
+      <div class="form-group">
+        <label for="psLanguage">Explanation Language</label>
+        <select id="psLanguage">
+          <option value="kn" selected>ಕನ್ನಡ · Kannada</option>
+          <option value="hi">हिंदी · Hindi</option>
+          <option value="ta">தமிழ் · Tamil</option>
+          <option value="en">English</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="psBasic">Basic Wage (₹) <span class="required">*</span></label>
+        <input type="number" id="psBasic" step="0.01" placeholder="e.g. 11500" value="11500">
+        <small class="field-hint">Base pay on which 12% PF is computed.</small>
+      </div>
+      <div class="form-group">
+        <label for="psGross">Gross Salary (₹) <span class="required">*</span></label>
+        <input type="number" id="psGross" step="0.01" placeholder="e.g. 14200" value="14200">
+        <small class="field-hint">Total monthly earnings before deductions.</small>
+      </div>
+      <div class="form-group">
+        <label for="psEmployeePf">Employee PF Deducted (₹) <span class="required">*</span></label>
+        <input type="number" id="psEmployeePf" step="0.01" placeholder="e.g. 1380" value="1380">
+        <small class="field-hint">Statutory 12% of basic wage (or ₹1,800 ceiling).</small>
+      </div>
+      <div class="form-group">
+        <label for="psEmployerPf">Employer PF Contribution (₹)</label>
+        <input type="number" id="psEmployerPf" step="0.01" placeholder="e.g. 1380" value="1380">
+        <small class="field-hint">Company match: 3.67% EPF + 8.33% EPS pension.</small>
+      </div>
+      <div class="form-group">
+        <label for="psEmployeeEsic">Employee ESIC Deducted (₹)</label>
+        <input type="number" id="psEmployeeEsic" step="0.01" placeholder="e.g. 106.50" value="106.50">
+        <small class="field-hint">Statutory 0.75% of gross if gross ≤ ₹21,000.</small>
+      </div>
+      <div class="form-group">
+        <label for="psEmployerEsic">Employer ESIC Share (₹)</label>
+        <input type="number" id="psEmployerEsic" step="0.01" placeholder="e.g. 461.50" value="461.50">
+        <small class="field-hint">Company medical share: 3.25% of gross.</small>
+      </div>
+      <div class="form-group highlight-box">
+        <label for="psPassbookCredit">EPFO Passbook Deposit Credit (₹)</label>
+        <input type="number" id="psPassbookCredit" step="0.01" placeholder="Enter amount from EPFO passbook (e.g. 0)" value="0">
+        <small class="field-hint"><strong>Audit Check:</strong> Check your EPFO Passbook / UMANG. Enter what was deposited. (0 if missing!)</small>
+      </div>
+      <div class="form-group">
+        <label for="psWageMonth">Wage Month (YYYY-MM)</label>
+        <input type="month" id="psWageMonth" value="2026-08">
+        <small class="field-hint">Remittance due by 15th of next month + 3 grace days.</small>
+      </div>
+      <div class="form-group">
+        <label for="psAsOfDate">Verification Date (As of Date)</label>
+        <input type="date" id="psAsOfDate" value="2026-10-01">
+        <small class="field-hint">Date you checked; evaluated against EPFO statutory due date.</small>
+      </div>
+      <div class="form-group">
+        <label for="psPrevPf">Previous Month PF (₹)</label>
+        <input type="number" id="psPrevPf" step="0.01" placeholder="e.g. 1380" value="1380">
+        <small class="field-hint">Used for informational note if month-to-month deduction shifts >15%.</small>
+      </div>
+      <div class="form-group" style="grid-column: 1 / -1;">
+        <label class="checkbox-row" style="display:flex;align-items:center;gap:10px;cursor:pointer;color:#e2e8f0;font-weight:600;">
+          <input type="checkbox" id="psEsicCoveredStart" style="width:18px;height:18px;cursor:pointer;">
+          <span>Covered under ESIC at start of current contribution period (Regulation 4 continuous coverage)</span>
+        </label>
+        <small class="field-hint">Under ESI Regulation 4 / Section 2(9), an employee covered at start of period remains covered until period ends even if gross exceeds ₹21,000.</small>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tab 2: Upload Document (In-Memory PDF Parser / Optional OCR) -->
+  <div class="payslip-tab-content" id="panelUpload">
+    <div class="upload-dropzone">
+      <div class="upload-icon">📄</div>
+      <h3>Upload Payslip (Digital PDF or Image)</h3>
+      <p>Digital PDFs are parsed directly in-memory using <code>pypdf</code>. If an image is uploaded and local OCR (Tesseract) is not installed, Saathi AI provides installation guidance and prompts for manual field entry. Document is <strong>NEVER saved or stored</strong> on our server.</p>
+      <input type="file" id="payslipFileInput" accept=".pdf,.png,.jpg,.jpeg">
+      <div>
+        <button class="action-pill-btn" id="runOcrBtn">Extract Fields via In-Memory Parser</button>
+      </div>
+      <div id="uploadStatusMsg" class="upload-status"></div>
+    </div>
+  </div>
+
+  <div class="payslip-actions-bar">
+    <button class="primary" id="analyzePayslipBtn">🔍 Analyze & Explain My Payslip</button>
+  </div>
+
+  <!-- Payslip Analysis Results -->
+  <div class="payslip-results hidden" id="payslipResults">
+    <!-- Net pay summary banner -->
+    <div class="summary-cards-row">
+      <div class="sum-card">
+        <div class="sum-label">Net Take-Home Pay</div>
+        <div class="sum-value ok" id="resTakeHome">₹0.00</div>
+      </div>
+      <div class="sum-card">
+        <div class="sum-label">Total Deductions</div>
+        <div class="sum-value bad" id="resDeductions">₹0.00</div>
+      </div>
+      <div class="sum-card">
+        <div class="sum-label">Employer Contributions (Extra)</div>
+        <div class="sum-value" id="resEmployerContrib">₹0.00</div>
+      </div>
+    </div>
+
+    <!-- Informational Notes (Pending due date grace period, month-to-month shift, etc.) -->
+    <div class="info-notes-container" id="infoNotesContainer"></div>
+
+    <!-- Anomalies Banner (if any) -->
+    <div class="anomalies-container" id="anomaliesContainer"></div>
+
+    <!-- Line-by-Line Breakdown -->
+    <div class="breakdown-section">
+      <h3>Line-by-Line Plain Language Explanation</h3>
+      <div class="breakdown-table" id="breakdownTable"></div>
+    </div>
+
+    <!-- Ticket Draft Modal / Consent Card (if anomalies found) -->
+    <div class="ticket-draft-card hidden" id="ticketDraftCard">
+      <div class="ticket-draft-header">
+        <div class="draft-badge">ACTION RECOMMENDED</div>
+        <h4>Draft HR Ticket with Worker Consent</h4>
+        <p>A possible issue was detected between your payslip and statutory rules. Saathi AI will not contact HR without your explicit permission.</p>
+      </div>
+      <div class="ticket-draft-body">
+        <div class="ticket-field"><strong>Issue Title:</strong> <span id="draftTicketTitle"></span></div>
+        <div class="ticket-field"><strong>Category:</strong> <span id="draftTicketCategory"></span></div>
+        <div class="ticket-field"><strong>Priority:</strong> <span id="draftTicketPriority"></span></div>
+        <div class="ticket-field"><strong>Suggested Description:</strong> <pre id="draftTicketDesc"></pre></div>
+        
+        <label class="consent-checkbox-row">
+          <input type="checkbox" id="draftConsentCheck">
+          <span><b>I authorize Saathi AI to generate an HR ticket on my behalf</b> to resolve this payslip discrepancy.</span>
+        </label>
+        <button class="primary" id="submitDraftTicketBtn" disabled>📨 Submit Ticket to HR</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="bottom-note">
+  <span>© 2026 <b>Saathi AI</b> · TLM Course University Project · <span class="badge-mock">MOCK DEMO</span></span>
+  <span>Local Offline Architecture · Browser Voice Playback · Not legal or financial advice</span>
+</footer>
+</div><!-- /shell -->
+
+<!-- Phone Call Simulator Modal -->
+<div class="phone-modal" id="phoneModal" role="dialog" aria-modal="true" aria-label="Phone Call Simulator">
+  <div class="phone-box">
+    <div class="phone-header">
+      <div class="phone-header-title">
+        <span>📞 Saathi Workplace Helpline Simulator</span>
+        <span class="badge-mock">MOCK IVR</span>
+      </div>
+      <button class="phone-close" id="closePhoneBtn" aria-label="Close Call Simulator">✕</button>
+    </div>
+    <div class="phone-body">
+      <!-- Dialer / Left Side -->
+      <div class="phone-dialer">
+        <div class="call-status-card">
+          <div class="caller-id">
+            <span>👤 Lakshmi (Packer)</span>
+            <span class="badge-mock" id="simCallBadge">ACTIVE CALL</span>
+          </div>
+          <div class="call-state" id="simCallState">Dialing 1800-SAATHI-PF (DEMO NUMBER ONLY)…</div>
+          <div class="call-meta-row">
+            <span>Lang: <b id="simLangLabel" style="color:var(--text)">Not selected</b></span>
+            <span>Pace: <b id="simPaceLabel" style="color:var(--text)">0.80x (Slow)</b></span>
+          </div>
+        </div>
+
+        <div>
+          <div class="sim-section-label">1. Language Menu (Keypad)</div>
+          <div class="keypad-grid">
+            <button class="key-btn" data-digit="1">1<br><small>हिंदी</small></button>
+            <button class="key-btn" data-digit="2">2<br><small>ಕನ್ನಡ</small></button>
+            <button class="key-btn" data-digit="3">3<br><small>தமிழ்</small></button>
+          </div>
+        </div>
+
+        <div>
+          <div class="sim-section-label">2. Speak to Saathi (Microphone or Text)</div>
+          <button class="mic-btn-main" id="simMicBtn">
+            <span>🎙️</span> <span id="simMicText">Start Speaking (Mic)</span>
+          </button>
+          <div class="sim-input-row" style="margin-top:8px">
+            <input type="text" id="simTextInput" placeholder="Or type what caller speaks…">
+            <button class="sim-send-btn" id="simSendTextBtn">Speak</button>
+          </div>
+        </div>
+
+        <div>
+          <div class="sim-section-label">Quick Spoken Phrases (Lakshmi)</div>
+          <div class="prompt-chips">
+            <button class="chip-btn" data-speak="ನನ್ನ ಸಂಬಳದಲ್ಲಿ PF ಯಾಕೆ ಕಟ್ ಮಾಡುತ್ತಾರೆ?">💬 "ನನ್ನ ಸಂಬಳದಲ್ಲಿ PF ಯಾಕೆ ಕಟ್ ಮಾಡುತ್ತಾರೆ?"</button>
+            <button class="chip-btn" data-speak="ನನ್ನ PF ಬ್ಯಾಲೆನ್ಸ್ ಹೇಗೆ ನೋಡುವುದು?">💬 "ನನ್ನ PF ಬ್ಯಾಲೆನ್ಸ್ ಹೇಗೆ ನೋಡುವುದು?"</button>
+            <button class="chip-btn" data-speak="ನನ್ನ ಸಂಬಳ ₹14,200, PF ₹1,380 ಕಟ್ ಆಗಿದೆ, ಆದರೆ ಪಾಸ್‌ಬುಕ್‌ನಲ್ಲಿ ಜಮಾ ಆಗಿಲ್ಲ. ಇದು ಏಕೆ?">💬 "ಸಂಬಳ ₹14,200, PF ₹1,380 ಕಟ್ ಆಗಿದೆ ಆದರೆ ಪಾಸ್‌ಬುಕ್‌ನಲ್ಲಿ ₹0 ಇದೆ"</button>
+          </div>
+        </div>
+
+        <div>
+          <div class="sim-section-label">3. Voice Control Commands</div>
+          <div class="control-cmds-row">
+            <button class="cmd-btn" data-cmd="ದಯವಿಟ್ಟು ಮತ್ತೆ ಹೇಳಿ">🔁 Repeat<br><small>ಮತ್ತೆ ಹೇಳಿ</small></button>
+            <button class="cmd-btn" data-cmd="ನಿಧಾನವಾಗಿ ಮಾತನಾಡಿ">⏳ Slower<br><small>ನಿಧಾನವಾಗಿ</small></button>
+            <button class="cmd-btn" data-cmd="ಮಾನವ ಅಧಿಕಾರಿಯೊಂದಿಗೆ ಮಾತನಾಡಬೇಕು">👤 Human<br><small>ಮೇಲ್ವಿಚಾರಕ</small></button>
+          </div>
+        </div>
+
+        <button class="hangup-btn" id="simHangupBtn">🔴 End Call (ಸ್ಥಗಿತಗೊಳಿಸಿ)</button>
+      </div>
+
+      <!-- Transcript & Audio / Right Side -->
+      <div class="phone-transcript-pane">
+        <div class="transcript-top">
+          <div class="transcript-title">
+            <span>Live Audio Transcript</span>
+            <span class="audio-waves hidden" id="simAudioWave">
+              <span class="audio-bar"></span><span class="audio-bar"></span><span class="audio-bar"></span>
+            </span>
+          </div>
+          <button class="small-btn" id="simClearTranscriptBtn">Clear</button>
+        </div>
+        <div class="transcript-scroll" id="simTranscript">
+          <!-- Dynamic call turns appear here -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+(()=>{
+'use strict';
+const $ = id => document.getElementById(id);
+const LANG_VOICES = {en: 'en-IN', hi: 'hi-IN', kn: 'kn-IN', ta: 'ta-IN'};
+
+const defaultFeatured = [
+  "Why is PF deducted from my salary every month?",
+  "How can I check my PF balance?",
+  "My payslip shows PF deduction but no passbook credit. What should I do?",
+  "I changed jobs. How do I transfer my old PF account?",
+  "Can I withdraw my full PF amount whenever I want?",
+  "My PF claim was rejected. What should I do next?",
+  "What is ESIC and what does it cover?",
+  "Can my spouse and children receive ESIC benefits?",
+  "How do I complain about a PF issue to EPFO?",
+  "What should my family do to claim PF benefits if I die?"
+];
+
+let voiceList = [];
+function setVoiceStatus(msg) {
+  $('voiceStatus').innerHTML = 'Voice: <strong>' + msg + '</strong>';
+}
+
+function refreshVoices() {
+  if (!('speechSynthesis' in window)) {
+    setVoiceStatus('not supported in this browser');
+    return;
+  }
+  voiceList = speechSynthesis.getVoices() || [];
+  const langCode = $('language').value;
+  const targetCode = (LANG_VOICES[langCode] || 'kn-IN').toLowerCase();
+  const found = voiceList.filter(v => v.lang.toLowerCase() === targetCode || v.lang.toLowerCase().startsWith(targetCode.slice(0, 2)));
+  setVoiceStatus(found.length ? ('available · ' + found[0].name) : ('browser voice ready for ' + targetCode));
+}
+
+if ('speechSynthesis' in window) {
+  refreshVoices();
+  speechSynthesis.onvoiceschanged = refreshVoices;
+}
+
+let currentAnswer = '';
+let currentEnglish = '';
+let currentLang = 'kn';
+let currentFaqId = '';
+let currentCategory = '';
+let lastQuestion = '';
+
+function speak(text, language, rate = 0.82) {
+  if (!('speechSynthesis' in window)) {
+    setVoiceStatus('not supported · text answer ready');
+    return;
+  }
+  const code = LANG_VOICES[language] || 'kn-IN';
+  const voices = speechSynthesis.getVoices() || [];
+  const voice = voices.find(v => v.lang.toLowerCase() === code.toLowerCase()) ||
+                voices.find(v => v.lang.toLowerCase().startsWith(code.slice(0, 2)));
+  speechSynthesis.cancel();
+  
+  // Clean text and simulate pauses for low-literacy clarity
+  const parts = text.split(/([.!?।]+)/).filter(Boolean);
+  let queue = [];
+  for (let i = 0; i < parts.length; i += 2) {
+    queue.push((parts[i] + (parts[i+1] || '')).trim());
+  }
+  if (!queue.length) queue = [text];
+
+  queue.forEach((chunk, idx) => {
+    if (!chunk) return;
+    const u = new SpeechSynthesisUtterance(chunk);
+    u.lang = code;
+    u.rate = rate;
+    u.pitch = 1.0;
+    if (voice) u.voice = voice;
+    if (idx === 0) u.onstart = () => setVoiceStatus('speaking (' + code + ')');
+    if (idx === queue.length - 1) {
+      u.onend = () => setVoiceStatus('ready');
+      u.onerror = () => setVoiceStatus('ready');
+    }
+    speechSynthesis.speak(u);
+  });
+}
+
+function showTranslation() {
+  const box = $('translationBox');
+  const on = $('showEnglish').checked && !!currentEnglish;
+  box.classList.toggle('visible', on);
+  $('translateButton').textContent = on ? 'Hide English' : 'Show English';
+  $('translateButton').disabled = !currentEnglish;
+}
+
+function setBusy() {
+  $('answerBody').innerHTML = '<div class="thinking"><i class="spinner"></i><span>Saathi AI is retrieving verified guidance from API…</span></div>';
+  $('answerMeta').textContent = 'Connecting to backend retrieval pipeline…';
+  $('confidenceTag').textContent = 'Searching…';
+  $('askButton').disabled = true;
+}
+
+async function askQuestion(query, autoSpeak = true) {
+  const q = String(query || '').trim();
+  if (!q) {
+    $('answerBody').innerHTML = '<div class="answer-placeholder error">Please enter a question.</div>';
+    return;
+  }
+  setBusy();
+  lastQuestion = q;
+  currentLang = $('language').value;
+
+  try {
+    const res = await fetch('/api/ask', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({
+        question: q,
+        language: currentLang,
+        include_english: $('showEnglish').checked
+      })
+    });
+
+    if (!res.ok) {
+      const err = await res.json().catch(() => ({}));
+      throw new Error(err.detail || ('HTTP error ' + res.status));
+    }
+
+    const data = await res.json();
+    $('askButton').disabled = false;
+
+    currentAnswer = data.answer || 'No response returned.';
+    currentEnglish = data.english_translation || '';
+    currentFaqId = data.faq_id || '';
+    currentCategory = data.category || 'General';
+
+    $('answerBody').textContent = currentAnswer;
+    $('translationText').textContent = currentEnglish;
+    showTranslation();
+
+    let metaHtml = (currentFaqId ? currentFaqId + ' · ' : '') + currentCategory + ' · Mode: ' + (data.answer_mode || 'retrieved_faq');
+    if (data.mcp_used && data.mcp_tool_calls && data.mcp_tool_calls.length) {
+      const toolSummaries = data.mcp_tool_calls.map(tc => `<code style="background:#24243a;padding:1px 5px;border-radius:4px;color:#a5b4fc;">${tc.tool}</code>`).join(' ');
+      metaHtml += `<div style="margin-top:6px;font-size:12px;color:#c7d2fe;">🛠️ <strong>MCP Tools Dispatched:</strong> ${toolSummaries}</div>`;
+    }
+    $('answerMeta').innerHTML = metaHtml;
+    const scorePct = Math.round((data.retrieval_score || 0) * 100);
+    $('sourceLabel').textContent = 'Evidence: ' + (data.sources && data.sources[0] ? data.sources[0].name : '710 Canonical FAQ') + ' · Relevance ' + scorePct + '%';
+    
+    $('confidenceTag').textContent = data.understood ? ('Match ' + scorePct + '%') : 'Out of scope / Unclear';
+    $('confidenceTag').style.color = data.understood ? 'var(--ok)' : 'var(--gold)';
+
+    $('speakButton').disabled = false;
+    $('stopButton').disabled = false;
+    $('ticketButton').disabled = !data.ticket_suggested;
+
+    if (autoSpeak && $('autoVoice').checked) {
+      speak(currentAnswer, currentLang);
+    }
+  } catch (err) {
+    $('askButton').disabled = false;
+    $('answerBody').innerHTML = '<div class="answer-placeholder error">Server connection error: ' + err.message + '</div>';
+    $('answerMeta').textContent = 'Backend unreachable';
+    $('confidenceTag').textContent = 'Error';
+    $('confidenceTag').style.color = 'var(--bad)';
+  }
+}
+
+async function loadFeaturedCards() {
+  const grid = $('questionGrid');
+  grid.innerHTML = '';
+  let questions = defaultFeatured;
+  try {
+    const res = await fetch('/api/featured');
+    if (res.ok) {
+      const data = await res.json();
+      if (data.questions && data.questions.length) questions = data.questions;
+    }
+  } catch (e) {}
+
+  questions.forEach(q => {
+    const b = document.createElement('button');
+    b.className = 'question-card';
+    b.type = 'button';
+    b.textContent = q;
+    b.addEventListener('click', () => {
+      document.querySelectorAll('.question-card').forEach(x => x.classList.remove('active'));
+      b.classList.add('active');
+      $('questionInput').value = q;
+      askQuestion(q, true);
+    });
+    grid.appendChild(b);
+  });
+}
+
+$('askButton').addEventListener('click', () => {
+  document.querySelectorAll('.question-card').forEach(x => x.classList.remove('active'));
+  askQuestion($('questionInput').value, true);
+});
+
+$('questionInput').addEventListener('keydown', e => {
+  if ((e.ctrlKey || e.metaKey) && e.key === 'Enter') {
+    $('askButton').click();
+  }
+});
+
+$('translateButton').addEventListener('click', () => {
+  $('showEnglish').checked = !$('translationBox').classList.contains('visible');
+  showTranslation();
+});
+
+$('showEnglish').addEventListener('change', showTranslation);
+
+$('language').addEventListener('change', () => {
+  refreshVoices();
+  if (lastQuestion) {
+    askQuestion(lastQuestion, $('autoVoice').checked);
+  }
+});
+
+$('speakButton').addEventListener('click', () => {
+  if (currentAnswer) speak(currentAnswer, currentLang);
+});
+
+$('stopButton').addEventListener('click', () => {
+  if ('speechSynthesis' in window) speechSynthesis.cancel();
+  setVoiceStatus('stopped');
+});
+
+$('clearButton').addEventListener('click', () => {
+  if ('speechSynthesis' in window) speechSynthesis.cancel();
+  currentAnswer = '';
+  currentEnglish = '';
+  currentFaqId = '';
+  lastQuestion = '';
+  $('questionInput').value = '';
+  $('answerBody').innerHTML = '<div class="answer-placeholder">Choose a question above or type your own to get started.</div>';
+  $('answerMeta').textContent = 'Ready · 710 canonical FAQ records loaded via API';
+  $('sourceLabel').textContent = 'Knowledge base: canonical Saathi AI FAQ · 710 records (MOCK)';
+  $('confidenceTag').textContent = 'Ready';
+  $('confidenceTag').style.color = '';
+  $('translationText').textContent = '';
+  $('translationBox').classList.remove('visible');
+  $('ticketButton').disabled = true;
+  $('speakButton').disabled = true;
+  $('stopButton').disabled = true;
+  $('translateButton').disabled = true;
+  document.querySelectorAll('.question-card').forEach(x => x.classList.remove('active'));
+  setVoiceStatus('ready');
+});
+
+$('ticketButton').addEventListener('click', async () => {
+  const confirmed = confirm('Do you give explicit consent to create an HR ticket for this issue?');
+  if (!confirmed) return;
+
+  try {
+    const res = await fetch('/api/tickets', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({
+        consent: true,
+        question: lastQuestion,
+        title: currentCategory + ' Discrepancy (MOCK)',
+        description: 'Employee queried: "' + lastQuestion + '". FAQ: ' + currentFaqId,
+        category: currentCategory || 'PF / EPFO',
+        faqId: currentFaqId,
+        language: currentLang,
+        source: 'employee-web-portal'
+      })
+    });
+    const d = await res.json();
+    alert('Ticket created successfully (MOCK).\nTicket ID: ' + (d.ticket ? d.ticket.id : 'SAT-NEW') + '\nStatus: Open');
+  } catch (err) {
+    alert('Failed to submit ticket: ' + err.message);
+  }
+});
+
+/* =====================================================================
+   PHONE CALL SIMULATOR (STEP 1)
+   ===================================================================== */
+let simCallId = null;
+let simLang = 'kn';
+let simRate = 0.80;
+let isCallActive = false;
+
+function addSimBubble(role, text) {
+  const scroll = $('simTranscript');
+  const d = document.createElement('div');
+  d.className = 't-bubble ' + (role === 'caller' ? 't-caller' : 't-ivr');
+  d.innerHTML = '<strong>' + (role === 'caller' ? '👩 Lakshmi (Caller)' : '🤖 Saathi (Helpline)') + '</strong>' + text;
+  scroll.appendChild(d);
+  scroll.scrollTop = scroll.scrollHeight;
+}
+
+function addEscalationNotice(text) {
+  const scroll = $('simTranscript');
+  const d = document.createElement('div');
+  d.className = 't-escalation';
+  d.innerHTML = '⚠️ <strong>Human Escalation:</strong> ' + text;
+  scroll.appendChild(d);
+  scroll.scrollTop = scroll.scrollHeight;
+}
+
+function speakSimTurn(text, langCode, rate = simRate) {
+  if (!('speechSynthesis' in window)) return;
+  speechSynthesis.cancel();
+  const code = LANG_VOICES[langCode] || 'kn-IN';
+  const voices = speechSynthesis.getVoices() || [];
+  const voice = voices.find(v => v.lang.toLowerCase() === code.toLowerCase()) ||
+                voices.find(v => v.lang.toLowerCase().startsWith(code.slice(0, 2)));
+
+  // Break on punctuation to insert calm conversational pauses
+  const parts = text.split(/([।?!.]+)/).filter(Boolean);
+  let queue = [];
+  for (let i = 0; i < parts.length; i += 2) {
+    queue.push((parts[i] + (parts[i+1] || '')).trim());
+  }
+  if (!queue.length) queue = [text];
+
+  $('simAudioWave').classList.remove('hidden');
+
+  queue.forEach((chunk, idx) => {
+    if (!chunk) return;
+    const u = new SpeechSynthesisUtterance(chunk);
+    u.lang = code;
+    u.rate = rate;
+    u.pitch = 0.98;
+    if (voice) u.voice = voice;
+    if (idx === queue.length - 1) {
+      u.onend = () => $('simAudioWave').classList.add('hidden');
+      u.onerror = () => $('simAudioWave').classList.add('hidden');
+    }
+    speechSynthesis.speak(u);
+  });
+}
+
+async function startSimCall() {
+  simCallId = 'CALL-SIM-' + Math.random().toString(36).substring(2, 8).toUpperCase();
+  isCallActive = true;
+  $('simCallBadge').textContent = 'CONNECTED';
+  $('simCallState').textContent = 'Connected · Welcome IVR Menu';
+  $('simLangLabel').textContent = 'Selecting…';
+  $('simTranscript').innerHTML = '';
+  $('phoneModal').classList.add('active');
+
+  try {
+    const res = await fetch('/api/telephony/simulate', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({action: 'start', call_id: simCallId})
+    });
+    const d = await res.json();
+    const welcome = d.response.message;
+    addSimBubble('ivr', welcome);
+    speakSimTurn(welcome, 'en', 0.85);
+  } catch (err) {
+    addSimBubble('ivr', 'Error connecting to call service: ' + err.message);
+  }
+}
+
+async function sendSimAction(action, inputVal = '') {
+  if (!simCallId) await startSimCall();
+
+  if (action === 'speech' || action === 'command') {
+    addSimBubble('caller', inputVal);
+  }
+
+  try {
+    const res = await fetch('/api/telephony/simulate', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({
+        action: action,
+        call_id: simCallId,
+        input: inputVal
+      })
+    });
+
+    const d = await res.json();
+    const sess = d.session;
+    const resp = d.response;
+
+    simLang = sess.language;
+    simRate = sess.speech_rate;
+    $('simLangLabel').textContent = simLang === 'kn' ? 'Kannada (ಕನ್ನಡ)' : simLang === 'hi' ? 'Hindi (हिंदी)' : 'Tamil (தமிழ்)';
+    $('simPaceLabel').textContent = simRate.toFixed(2) + 'x (' + (simRate <= 0.70 ? 'Very Slow' : 'Slow') + ')';
+
+    if (sess.human_escalated) {
+      $('simCallState').textContent = 'HUMAN ESCALATED · Pending Consent';
+      addEscalationNotice('Employee requested human assistance. Ticket routing consent prompt triggered.');
+    } else if (sess.state === 'CONVERSATION') {
+      $('simCallState').textContent = 'Talking with Saathi (' + simLang.toUpperCase() + ')';
+    }
+
+    addSimBubble('ivr', resp.message);
+    speakSimTurn(resp.message, simLang, simRate);
+
+    if (resp.hangup) {
+      isCallActive = false;
+      $('simCallBadge').textContent = 'CALL ENDED';
+      $('simCallState').textContent = 'Disconnected';
+    }
+  } catch (err) {
+    addSimBubble('ivr', 'Transmission error: ' + err.message);
+  }
+}
+
+// Microphone Web Speech API Integration
+const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+let recognition = null;
+if (SpeechRecognition) {
+  recognition = new SpeechRecognition();
+  recognition.continuous = false;
+  recognition.interimResults = false;
+
+  recognition.onstart = () => {
+    $('simMicBtn').classList.add('listening');
+    $('simMicText').textContent = 'Listening in ' + (simLang === 'kn' ? 'Kannada' : simLang === 'hi' ? 'Hindi' : 'Tamil') + '…';
+  };
+
+  recognition.onresult = (e) => {
+    const text = e.results[0][0].transcript;
+    $('simMicBtn').classList.remove('listening');
+    $('simMicText').textContent = 'Start Speaking (Mic)';
+    sendSimAction('speech', text);
+  };
+
+  recognition.onerror = () => {
+    $('simMicBtn').classList.remove('listening');
+    $('simMicText').textContent = 'Start Speaking (Mic)';
+  };
+
+  recognition.onend = () => {
+    $('simMicBtn').classList.remove('listening');
+    $('simMicText').textContent = 'Start Speaking (Mic)';
+  };
+}
+
+$('simMicBtn').addEventListener('click', () => {
+  if (!recognition) {
+    alert('Web Speech API is not supported in this browser. Please click the quick phrases below or type your speech turn.');
+    return;
+  }
+  recognition.lang = LANG_VOICES[simLang] || 'kn-IN';
+  try {
+    recognition.start();
+  } catch (e) {
+    recognition.stop();
+  }
+});
+
+// Keypad digit clicks
+document.querySelectorAll('.key-btn').forEach(b => {
+  b.addEventListener('click', () => {
+    document.querySelectorAll('.key-btn').forEach(k => k.classList.remove('active'));
+    b.classList.add('active');
+    sendSimAction('digit', b.getAttribute('data-digit'));
+  });
+});
+
+// Quick spoken phrases
+document.querySelectorAll('.chip-btn').forEach(b => {
+  b.addEventListener('click', () => {
+    sendSimAction('speech', b.getAttribute('data-speak'));
+  });
+});
+
+// Control command buttons
+document.querySelectorAll('.cmd-btn').forEach(b => {
+  b.addEventListener('click', () => {
+    sendSimAction('command', b.getAttribute('data-cmd'));
+  });
+});
+
+$('simSendTextBtn').addEventListener('click', () => {
+  const val = $('simTextInput').value.trim();
+  if (val) {
+    sendSimAction('speech', val);
+    $('simTextInput').value = '';
+  }
+});
+
+$('simTextInput').addEventListener('keydown', e => {
+  if (e.key === 'Enter') $('simSendTextBtn').click();
+});
+
+$('simHangupBtn').addEventListener('click', () => {
+  if ('speechSynthesis' in window) speechSynthesis.cancel();
+  $('simAudioWave').classList.add('hidden');
+  sendSimAction('hangup');
+});
+
+$('simClearTranscriptBtn').addEventListener('click', () => {
+  $('simTranscript').innerHTML = '';
+});
+
+$('openPhoneBtn').addEventListener('click', () => {
+  startSimCall();
+});
+
+$('closePhoneBtn').addEventListener('click', () => {
+  if ('speechSynthesis' in window) speechSynthesis.cancel();
+  $('phoneModal').classList.remove('active');
+});
+
+// 1-Click Lakshmi Scenario Demo
+$('demoLakshmiBtn').addEventListener('click', async () => {
+  await startSimCall();
+  // Step 1: Select Kannada (2)
+  setTimeout(async () => {
+    document.querySelectorAll('.key-btn').forEach(k => k.classList.remove('active'));
+    const k2 = document.querySelector('.key-btn[data-digit="2"]');
+    if (k2) k2.classList.add('active');
+    await sendSimAction('digit', '2');
+
+    // Step 2: Lakshmi asks why PF is cut and shares distrust of supervisor
+    setTimeout(async () => {
+      await sendSimAction('speech', 'ನನ್ನ ಸಂಬಳದಲ್ಲಿ PF ಯಾಕೆ ಕಟ್ ಮಾಡುತ್ತಾರೆ? ಮೇಲ್ವಿಚಾರಕರು ಸರಿಯಾಗಿ ಹೇಳುತ್ತಿಲ್ಲ.');
+    }, 2800);
+  }, 1800);
+});
+
+
+/* =====================================================================
+   PAYSLIP EXPLAINER & STATUTORY ANOMALY ENGINE (STEP 2)
+   ===================================================================== */
+let lastPayslipAnalysis = null;
+
+// Tab Switching
+$('tabManual').addEventListener('click', () => {
+  $('tabManual').classList.add('active');
+  $('tabUpload').classList.remove('active');
+  $('panelManual').classList.add('active');
+  $('panelUpload').classList.remove('active');
+});
+
+$('tabUpload').addEventListener('click', () => {
+  $('tabUpload').classList.add('active');
+  $('tabManual').classList.remove('active');
+  $('panelUpload').classList.add('active');
+  $('panelManual').classList.remove('active');
+});
+
+// Pre-fill Lakshmi's MOCK Payslip
+$('prefillLakshmiBtn').addEventListener('click', () => {
+  $('psWorkerName').value = 'Lakshmi (Warehouse Packer)';
+  $('psLanguage').value = 'kn';
+  $('psBasic').value = '11500';
+  $('psGross').value = '14200';
+  $('psEmployeePf').value = '1380';
+  $('psEmployerPf').value = '1380';
+  $('psEmployeeEsic').value = '106.50';
+  $('psEmployerEsic').value = '461.50';
+  $('psPassbookCredit').value = '0'; // Discrepancy!
+  $('psWageMonth').value = '2026-08';
+  $('psAsOfDate').value = '2026-10-01'; // Due date has passed
+  $('psEsicCoveredStart').checked = false;
+  $('psPrevPf').value = '1380';
+  $('tabManual').click();
+  $('analyzePayslipBtn').click();
+});
+
+// Pre-fill High Wage Statutory Ceiling Demo
+$('prefillCeilingBtn').addEventListener('click', () => {
+  $('psWorkerName').value = 'Rajesh (Senior Operator)';
+  $('psLanguage').value = 'hi';
+  $('psBasic').value = '25000';
+  $('psGross').value = '28000';
+  $('psEmployeePf').value = '1800'; // Statutory ceiling on Rs 15,000
+  $('psEmployerPf').value = '1800';
+  $('psEmployeeEsic').value = '0'; // Gross > 21,000 ceiling -> exempt unless continuous coverage
+  $('psEmployerEsic').value = '0';
+  $('psPassbookCredit').value = '1800';
+  $('psWageMonth').value = '2026-08';
+  $('psAsOfDate').value = '2026-10-01';
+  $('psEsicCoveredStart').checked = false;
+  $('psPrevPf').value = '1800';
+  $('tabManual').click();
+  $('analyzePayslipBtn').click();
+});
+
+// Reset Form
+$('resetPayslipBtn').addEventListener('click', () => {
+  $('psWorkerName').value = '';
+  $('psBasic').value = '';
+  $('psGross').value = '';
+  $('psEmployeePf').value = '';
+  $('psEmployerPf').value = '';
+  $('psEmployeeEsic').value = '';
+  $('psEmployerEsic').value = '';
+  $('psPassbookCredit').value = '';
+  $('psWageMonth').value = '2026-08';
+  $('psAsOfDate').value = '2026-10-01';
+  $('psEsicCoveredStart').checked = false;
+  $('psPrevPf').value = '';
+  $('payslipResults').classList.add('hidden');
+  $('ticketDraftCard').classList.add('hidden');
+});
+
+// Optional In-Memory OCR Extraction
+$('runOcrBtn').addEventListener('click', async () => {
+  const fileInput = $('payslipFileInput');
+  if (!fileInput.files || !fileInput.files[0]) {
+    alert('Please select a PDF or image file first.');
+    return;
+  }
+  const file = fileInput.files[0];
+  const formData = new FormData();
+  formData.append('file', file);
+  formData.append('language', $('psLanguage').value);
+
+  $('uploadStatusMsg').textContent = 'Processing in-memory (no storage)…';
+  try {
+    const res = await fetch('/api/payslip/upload-ocr', {
+      method: 'POST',
+      body: formData
+    });
+    const data = await res.json();
+    if (data.status === 'success') {
+      const f = data.extracted_fields || {};
+      if (f.basic_wage) $('psBasic').value = f.basic_wage;
+      if (f.gross_salary) $('psGross').value = f.gross_salary;
+      if (f.employee_pf_deducted) $('psEmployeePf').value = f.employee_pf_deducted;
+      if (f.employer_pf_contribution) $('psEmployerPf').value = f.employer_pf_contribution;
+      if (f.employee_esic_deducted) $('psEmployeeEsic').value = f.employee_esic_deducted;
+      if (f.employer_esic_contribution) $('psEmployerEsic').value = f.employer_esic_contribution;
+      
+      $('uploadStatusMsg').textContent = 'Values extracted! Please review manual fields and confirm.';
+      $('tabManual').click();
+    } else {
+      $('uploadStatusMsg').textContent = 'OCR completed with default fallbacks.';
+    }
+  } catch (err) {
+    $('uploadStatusMsg').textContent = 'OCR request error: ' + err.message;
+  }
+});
+
+// Analyze Payslip Action
+$('analyzePayslipBtn').addEventListener('click', async () => {
+  const basic = parseFloat($('psBasic').value);
+  const gross = parseFloat($('psGross').value);
+  const pf = parseFloat($('psEmployeePf').value);
+
+  if (isNaN(basic) || isNaN(gross) || isNaN(pf)) {
+    alert('Please provide valid Basic Wage, Gross Salary, and Employee PF Deducted.');
+    return;
+  }
+
+  const payload = {
+    worker_name: $('psWorkerName').value || 'Employee',
+    language: $('psLanguage').value || 'kn',
+    basic_wage: basic,
+    gross_salary: gross,
+    employee_pf_deducted: pf,
+    employer_pf_contribution: parseFloat($('psEmployerPf').value) || 0,
+    employee_esic_deducted: parseFloat($('psEmployeeEsic').value) || 0,
+    employer_esic_contribution: parseFloat($('psEmployerEsic').value) || 0,
+    passbook_deposit_credit: $('psPassbookCredit').value !== '' ? parseFloat($('psPassbookCredit').value) : null,
+    wage_month: $('psWageMonth').value || '2026-08',
+    as_of_date: $('psAsOfDate').value || new Date().toISOString().slice(0, 10),
+    was_covered_at_start_of_period: $('psEsicCoveredStart').checked,
+    previous_month_pf: $('psPrevPf').value !== '' ? parseFloat($('psPrevPf').value) : null
+  };
+
+  try {
+    const res = await fetch('/api/payslip/explain', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify(payload)
+    });
+    const d = await res.json();
+    if (!res.ok || d.take_home_pay === undefined || d.breakdown === undefined) {
+      throw new Error('Server replied HTTP ' + res.status + ': ' + JSON.stringify(d).slice(0, 600));
+    }
+    lastPayslipAnalysis = d;
+    renderPayslipAnalysis(d);
+  } catch (err) {
+    alert('Failed to analyze payslip: ' + err.message);
+  }
+});
+
+function renderPayslipAnalysis(d) {
+  $('payslipResults').classList.remove('hidden');
+
+  // Summary Metrics
+  const takeHome = (d.take_home_pay !== undefined ? d.take_home_pay : (d.net_take_home || 0));
+  const deductions = (d.total_deductions !== undefined ? d.total_deductions : 0);
+  const employer = (d.employer_contributions !== undefined ? d.employer_contributions : 0);
+  $('resTakeHome').textContent = '₹' + takeHome.toLocaleString('en-IN', {minimumFractionDigits:2, maximumFractionDigits:2});
+  $('resDeductions').textContent = '₹' + deductions.toLocaleString('en-IN', {minimumFractionDigits:2, maximumFractionDigits:2});
+  $('resEmployerContrib').textContent = '₹' + employer.toLocaleString('en-IN', {minimumFractionDigits:2, maximumFractionDigits:2});
+
+  // Informational Notes Box
+  const infoBox = $('infoNotesContainer');
+  infoBox.innerHTML = '';
+  if (d.informational_notes && d.informational_notes.length > 0) {
+    d.informational_notes.forEach(n => {
+      const card = document.createElement('div');
+      card.className = 'info-note-card';
+      card.innerHTML = `
+        <div class="info-note-top">
+          <span class="info-note-title">ℹ️ ${n.title}</span>
+          <span class="info-note-badge">Informational</span>
+        </div>
+        <div class="info-note-rule">Rule Citation: ${n.rule_citation}</div>
+        <div class="info-note-msg-indic">${n.message_indic}</div>
+        <div class="info-note-msg-en">${n.message}</div>
+      `;
+      infoBox.appendChild(card);
+    });
+  }
+
+  // Anomalies Box
+  const anomBox = $('anomaliesContainer');
+  anomBox.innerHTML = '';
+  if (d.has_anomalies && d.anomalies.length > 0) {
+    d.anomalies.forEach(a => {
+      const card = document.createElement('div');
+      card.className = 'anomaly-card';
+      card.innerHTML = `
+        <div class="anomaly-top">
+          <span class="anomaly-title">⚠️ ${a.title}</span>
+          <span class="anomaly-badge">${a.severity} Priority</span>
+        </div>
+        <div class="anomaly-rule">Rule Citation: ${a.rule_citation}</div>
+        <div class="anomaly-msg-indic">${a.message_indic}</div>
+        <div class="anomaly-msg-en">${a.message}</div>
+      `;
+      anomBox.appendChild(card);
+    });
+  } else {
+    const card = document.createElement('div');
+    card.className = 'anomaly-card anomaly-ok';
+    card.innerHTML = `
+      <div class="anomaly-top">
+        <span class="anomaly-title">✅ All Statutory Checks Passed</span>
+        <span class="anomaly-badge">Compliant</span>
+      </div>
+      <div class="anomaly-rule">Rule Citation: EPF Scheme 1952 & ESI Act 1948</div>
+      <div class="anomaly-msg-indic">ಎಲ್ಲಾ ಕಡಿತಗಳು ಶಾಸನಬದ್ಧ ಇಪಿಎಫ್‌ಒ ಮತ್ತು ಇಎಸ್‌ಐ ನಿಯಮಗಳಿಗೆ ಹೊಂದಿಕೆಯಾಗುತ್ತವೆ.</div>
+      <div class="anomaly-msg-en">Employee deductions and employer contributions conform with statutory PF & ESIC rates and wage thresholds.</div>
+    `;
+    anomBox.appendChild(card);
+  }
+
+  // Line-by-Line Breakdown
+  const bTable = $('breakdownTable');
+  bTable.innerHTML = '';
+  d.breakdown.forEach(item => {
+    const row = document.createElement('div');
+    row.className = 'breakdown-row';
+    const amountClass = item.category === 'deduction' ? 'deduction' : (item.category === 'earning' ? 'earning' : 'contrib');
+    const sign = item.category === 'deduction' ? '- ₹' : (item.category === 'earning' ? '₹' : '+ ₹');
+    row.innerHTML = `
+      <div class="breakdown-row-left">
+        <div class="breakdown-name">${item.name}</div>
+        <div class="breakdown-desc-indic">${item.explanation_indic}</div>
+        <div class="breakdown-desc-en">${item.explanation_en}</div>
+      </div>
+      <div class="breakdown-amount ${amountClass}">${sign}${item.amount.toLocaleString('en-IN', {minimumFractionDigits:2, maximumFractionDigits:2})}</div>
+    `;
+    bTable.appendChild(row);
+  });
+
+  // Ticket Draft Box
+  const draftCard = $('ticketDraftCard');
+  if (d.ticket_draft) {
+    draftCard.classList.remove('hidden');
+    $('draftTicketTitle').textContent = d.ticket_draft.title;
+    $('draftTicketCategory').textContent = d.ticket_draft.category;
+    $('draftTicketPriority').textContent = d.ticket_draft.priority;
+    $('draftTicketDesc').textContent = d.ticket_draft.suggested_description;
+    $('draftConsentCheck').checked = false;
+    $('submitDraftTicketBtn').disabled = true;
+  } else {
+    draftCard.classList.add('hidden');
+  }
+
+  // Scroll to results
+  $('payslipResults').scrollIntoView({behavior: 'smooth', block: 'nearest'});
+}
+
+// Consent Checkbox for Ticket Draft
+$('draftConsentCheck').addEventListener('change', (e) => {
+  $('submitDraftTicketBtn').disabled = !e.target.checked;
+});
+
+// Submit Drafted Ticket to HR
+$('submitDraftTicketBtn').addEventListener('click', async () => {
+  if (!$('draftConsentCheck').checked) {
+    alert('Worker consent is required before filing an HR ticket.');
+    return;
+  }
+  if (!lastPayslipAnalysis || !lastPayslipAnalysis.ticket_draft) return;
+
+  const td = lastPayslipAnalysis.ticket_draft;
+  try {
+    const res = await fetch('/api/tickets', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({
+        consent: true,
+        title: td.title,
+        description: td.suggested_description,
+        category: td.category,
+        language: td.language,
+        source: 'payslip-audit-engine'
+      })
+    });
+    const d = await res.json();
+    alert('HR Ticket filed successfully with worker consent!\n\nTicket ID: ' + (d.ticket ? d.ticket.id : 'SAT-NEW') + '\nCategory: ' + td.category + '\nStatus: Open');
+    $('draftConsentCheck').checked = false;
+    $('submitDraftTicketBtn').disabled = true;
+  } catch (err) {
+    alert('Failed to submit HR ticket: ' + err.message);
+  }
+});
+
+loadFeaturedCards();
+refreshVoices();
+})();
+</script>
+</body>
+</html>

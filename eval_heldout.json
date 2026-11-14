@@ -1,0 +1,122 @@
+[
+  {
+    "id": "HOLDOUT-001",
+    "language": "hi",
+    "speaker_persona": "Warehouse Packer",
+    "spoken_query": "मेरी तनख्वाह से जो पैसा कटता है वो मुझे कब वापस मिलेगा?",
+    "expected_faq_id": "",
+    "notes": "Held-out real speaker question. Leave expected_faq_id blank for user evaluation. Do NOT tune rules against this file."
+  },
+  {
+    "id": "HOLDOUT-002",
+    "language": "hi",
+    "speaker_persona": "Assembly Line Worker",
+    "spoken_query": "ईएसआई डिस्पेंसरी जाने के लिए कौन सा पर्चा लगता है?",
+    "expected_faq_id": "",
+    "notes": "Held-out real speaker question. Leave expected_faq_id blank for user evaluation. Do NOT tune rules against this file."
+  },
+  {
+    "id": "HOLDOUT-003",
+    "language": "hi",
+    "speaker_persona": "Forklift Operator",
+    "spoken_query": "कंपनी छोड़ दी है तो पीएफ निकालने के लिए फॉर्म 19 भरना पड़ेगा क्या?",
+    "expected_faq_id": "",
+    "notes": "Held-out real speaker question. Leave expected_faq_id blank for user evaluation. Do NOT tune rules against this file."
+  },
+  {
+    "id": "HOLDOUT-004",
+    "language": "hi",
+    "speaker_persona": "Loading Staff",
+    "spoken_query": "मेरे यूएएन में आधार लिंक नहीं हो पा रहा है एरर आ रहा है",
+    "expected_faq_id": "",
+    "notes": "Held-out real speaker question. Leave expected_faq_id blank for user evaluation. Do NOT tune rules against this file."
+  },
+  {
+    "id": "HOLDOUT-005",
+    "language": "hi",
+    "speaker_persona": "Warehouse Helper",
+    "spoken_query": "पीएफ का पैसा कितने दिन में बैंक खाते में आ जाता है?",
+    "expected_faq_id": "",
+    "notes": "Held-out real speaker question. Leave expected_faq_id blank for user evaluation. Do NOT tune rules against this file."
+  },
+  {
+    "id": "HOLDOUT-006",
+    "language": "kn",
+    "speaker_persona": "Warehouse Packer",
+    "spoken_query": "ನನ್ನ ಸಂಬಳದಿಂದ ಕಟ್ ಆಗಿರುವ ಪಿಎಫ್ ಹಣವನ್ನು ಹೇಗೆ ವಾಪಸ್ ಪಡೆಯುವುದು?",
+    "expected_faq_id": "",
+    "notes": "Held-out real speaker question. Leave expected_faq_id blank for user evaluation. Do NOT tune rules against this file."
+  },
+  {
+    "id": "HOLDOUT-007",
+    "language": "kn",
+    "speaker_persona": "Packaging Worker",
+    "spoken_query": "ಇಎಸ್ಐ ಆಸ್ಪತ್ರೆಯಲ್ಲಿ ಚಿಕಿತ್ಸೆ ಪಡೆಯಲು ಪೆಹಚಾನ್ ಕಾರ್ಡ್ ಕಡ್ಡಾಯವೇ?",
+    "expected_faq_id": "",
+    "notes": "Held-out real speaker question. Leave expected_faq_id blank for user evaluation. Do NOT tune rules against this file."
+  },
+  {
+    "id": "HOLDOUT-008",
+    "language": "kn",
+    "speaker_persona": "Loading Helper",
+    "spoken_query": "ಕೆಲಸ ಬಿಟ್ಟ ಮೇಲೆ ಪಿಎಫ್ ಹಣ ಹಿಂಪಡೆಯಲು ಎಷ್ಟು ತಿಂಗಳು ಕಾಯಬೇಕು?",
+    "expected_faq_id": "",
+    "notes": "Held-out real speaker question. Leave expected_faq_id blank for user evaluation. Do NOT tune rules against this file."
+  },
+  {
+    "id": "HOLDOUT-009",
+    "language": "kn",
+    "speaker_persona": "Inventory Counter",
+    "spoken_query": "ಯುಎಎನ್ ಪೋರ್ಟಲ್‌ನಲ್ಲಿ ಬ್ಯಾಂಕ್ ಖಾತೆ ವಿವರ ತಿದ್ದುಪಡಿ ಮಾಡುವುದು ಹೇಗೆ?",
+    "expected_faq_id": "",
+    "notes": "Held-out real speaker question. Leave expected_faq_id blank for user evaluation. Do NOT tune rules against this file."
+  },
+  {
+    "id": "HOLDOUT-010",
+    "language": "kn",
+    "speaker_persona": "Warehouse Staff",
+    "spoken_query": "ಮೆಸೇಜ್ ಅಥವಾ ಮಿಸ್ಡ್ ಕಾಲ್ ಮೂಲಕ ಪಿಎಫ್ ಬ್ಯಾಲೆನ್ಸ್ ತಿಳಿಯಬಹುದೇ?",
+    "expected_faq_id": "",
+    "notes": "Held-out real speaker question. Leave expected_faq_id blank for user evaluation. Do NOT tune rules against this file."
+  },
+  {
+    "id": "HOLDOUT-011",
+    "language": "ta",
+    "speaker_persona": "Warehouse Packer",
+    "spoken_query": "என் மாத சம்பளத்தில் பிடித்தம் செய்த பிஎஃப் பணத்தை எப்போது எடுக்க முடியும்?",
+    "expected_faq_id": "",
+    "notes": "Held-out real speaker question. Leave expected_faq_id blank for user evaluation. Do NOT tune rules against this file."
+  },
+  {
+    "id": "HOLDOUT-012",
+    "language": "ta",
+    "speaker_persona": "Sorting Associate",
+    "spoken_query": "இஎஸ்ஐ மருத்துவமனையில் சிகிச்சை பெற அடையாள அட்டை அவசியமா?",
+    "expected_faq_id": "",
+    "notes": "Held-out real speaker question. Leave expected_faq_id blank for user evaluation. Do NOT tune rules against this file."
+  },
+  {
+    "id": "HOLDOUT-013",
+    "language": "ta",
+    "speaker_persona": "Warehouse Stacker",
+    "spoken_query": "வேலையை விட்டு நின்ற பிறகு பிஎஃப் திரும்பப் பெற எவ்வளவு காலம் ஆகும்?",
+    "expected_faq_id": "",
+    "notes": "Held-out real speaker question. Leave expected_faq_id blank for user evaluation. Do NOT tune rules against this file."
+  },
+  {
+    "id": "HOLDOUT-014",
+    "language": "ta",
+    "speaker_persona": "Material Handler",
+    "spoken_query": "யுஏஎன் கணக்கில் வங்கி கணக்கு எண் மாற்றுவது எப்படி?",
+    "expected_faq_id": "",
+    "notes": "Held-out real speaker question. Leave expected_faq_id blank for user evaluation. Do NOT tune rules against this file."
+  },
+  {
+    "id": "HOLDOUT-015",
+    "language": "ta",
+    "speaker_persona": "Quality Inspector",
+    "spoken_query": "மிஸ்டு கால் கொடுத்து பிஎஃப் இருப்பு அறிவது எப்படி?",
+    "expected_faq_id": "",
+    "notes": "Held-out real speaker question. Leave expected_faq_id blank for user evaluation. Do NOT tune rules against this file."
+  }
+]
